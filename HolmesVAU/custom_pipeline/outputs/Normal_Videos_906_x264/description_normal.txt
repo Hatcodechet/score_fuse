@@ -1,0 +1,1 @@
+A red car drives from the bottom of the screen to the top of the screen, then a black car drives from the bottom of the screen to the top of the screen, and finally a silver car drives from the bottom of the screen to the top of the screen.

@@ -1,0 +1,1 @@
+Provide a summary of the anomaly events in the video.

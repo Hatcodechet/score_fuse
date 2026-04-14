@@ -1,0 +1,1 @@
+Give a description of the detected anomaly events in this video.

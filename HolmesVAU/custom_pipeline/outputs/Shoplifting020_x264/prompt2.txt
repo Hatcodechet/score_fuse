@@ -1,0 +1,1 @@
+Could you specify the anomaly event in this video, knowing that the assigned anomaly label is 'shoplifting'? Focus on describing the visible abnormal actions and explain briefly how they match the label.
