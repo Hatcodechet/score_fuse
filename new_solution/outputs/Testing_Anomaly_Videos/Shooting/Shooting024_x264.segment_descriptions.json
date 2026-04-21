@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting024_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting024_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2003,
+  "duration_sec": 66.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting024_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 125,
+    "aligned_to_num_frames": 2003,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 399,
+      "start_time_sec": 0.0,
+      "end_time_sec": 13.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        36,
+        73,
+        109,
+        145,
+        181,
+        218,
+        254,
+        290,
+        326,
+        363,
+        399
+      ],
+      "score_stats": {
+        "mean": 0.806353,
+        "max": 0.90467
+      },
+      "description": "A man in black clothes and a woman in blue clothes walked out of the store and walked to the road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 800,
+      "start_time_sec": 13.333333,
+      "end_time_sec": 26.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        400,
+        436,
+        473,
+        509,
+        545,
+        582,
+        618,
+        655,
+        691,
+        727,
+        764,
+        800
+      ],
+      "score_stats": {
+        "mean": 0.917253,
+        "max": 0.952287
+      },
+      "description": "A man in white clothes walked to the right side of the road and walked to the left side of the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 801,
+      "end_frame": 1200,
+      "start_time_sec": 26.7,
+      "end_time_sec": 40.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        801,
+        837,
+        874,
+        910,
+        946,
+        982,
+        1019,
+        1055,
+        1091,
+        1127,
+        1164,
+        1200
+      ],
+      "score_stats": {
+        "mean": 0.957417,
+        "max": 0.96419
+      },
+      "description": "A man in white clothes walked out of the door and walked to the road"
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1201,
+      "end_frame": 1601,
+      "start_time_sec": 40.033333,
+      "end_time_sec": 53.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1201,
+        1237,
+        1274,
+        1310,
+        1346,
+        1383,
+        1419,
+        1456,
+        1492,
+        1528,
+        1565,
+        1601
+      ],
+      "score_stats": {
+        "mean": 0.955392,
+        "max": 0.983613
+      },
+      "description": "A man in a red shirt and black pants walked out of the door and walked to the road."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1602,
+      "end_frame": 2002,
+      "start_time_sec": 53.4,
+      "end_time_sec": 66.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1602,
+        1638,
+        1675,
+        1711,
+        1747,
+        1784,
+        1820,
+        1857,
+        1893,
+        1929,
+        1966,
+        2002
+      ],
+      "score_stats": {
+        "mean": 0.615575,
+        "max": 0.988834
+      },
+      "description": "A person in blue clothes running away from the camera, and a motorcycle is parked on the side of the road."
+    }
+  ]
+}

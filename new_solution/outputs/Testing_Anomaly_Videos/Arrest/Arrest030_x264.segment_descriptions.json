@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arrest/Arrest030_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arrest/Arrest030_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8642,
+  "duration_sec": 288.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arrest/Arrest030_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 540,
+    "aligned_to_num_frames": 8642,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1727,
+      "start_time_sec": 0.0,
+      "end_time_sec": 57.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        157,
+        314,
+        471,
+        628,
+        785,
+        942,
+        1099,
+        1256,
+        1413,
+        1570,
+        1727
+      ],
+      "score_stats": {
+        "mean": 0.890094,
+        "max": 0.999998
+      },
+      "description": "The man in white clothes took out a bag and put it on the floor."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1728,
+      "end_frame": 3455,
+      "start_time_sec": 57.6,
+      "end_time_sec": 115.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1728,
+        1885,
+        2042,
+        2199,
+        2356,
+        2513,
+        2670,
+        2827,
+        2984,
+        3141,
+        3298,
+        3455
+      ],
+      "score_stats": {
+        "mean": 0.998081,
+        "max": 0.999998
+      },
+      "description": "The man in black clothes and the man in white clothes are seen opening the door, and the man in black clothes is seen opening the door again."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3456,
+      "end_frame": 5184,
+      "start_time_sec": 115.2,
+      "end_time_sec": 172.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3456,
+        3613,
+        3770,
+        3927,
+        4084,
+        4241,
+        4399,
+        4556,
+        4713,
+        4870,
+        5027,
+        5184
+      ],
+      "score_stats": {
+        "mean": 0.99473,
+        "max": 0.999037
+      },
+      "description": "A man in a white shirt and black pants entered the room, and then left the room."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 5185,
+      "end_frame": 6912,
+      "start_time_sec": 172.833333,
+      "end_time_sec": 230.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5185,
+        5342,
+        5499,
+        5656,
+        5813,
+        5970,
+        6127,
+        6284,
+        6441,
+        6598,
+        6755,
+        6912
+      ],
+      "score_stats": {
+        "mean": 0.999953,
+        "max": 0.999997
+      },
+      "description": "A man in black clothes and a woman in white clothes entered the room, and the man in black clothes took out a gun and pointed it at the woman in white clothes."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 6913,
+      "end_frame": 8641,
+      "start_time_sec": 230.433333,
+      "end_time_sec": 288.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6913,
+        7070,
+        7227,
+        7384,
+        7541,
+        7698,
+        7856,
+        8013,
+        8170,
+        8327,
+        8484,
+        8641
+      ],
+      "score_stats": {
+        "mean": 0.999893,
+        "max": 0.999998
+      },
+      "description": "A man in black clothes and a woman in black clothes were seen running out of the door."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_056_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_056_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1572,
+  "duration_sec": 52.4,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_056_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 98,
+    "aligned_to_num_frames": 1572,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 96,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        9,
+        17,
+        26,
+        35,
+        44,
+        52,
+        61,
+        70,
+        79,
+        87,
+        96
+      ],
+      "score_stats": {
+        "mean": 0.134058,
+        "max": 0.177532
+      },
+      "description": "The man in blue walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 705,
+      "end_frame": 1251,
+      "start_time_sec": 23.5,
+      "end_time_sec": 41.7,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        705,
+        755,
+        804,
+        854,
+        904,
+        953,
+        1003,
+        1052,
+        1102,
+        1152,
+        1201,
+        1251
+      ],
+      "score_stats": {
+        "mean": 0.142674,
+        "max": 0.163883
+      },
+      "description": "The man in blue walked to the counter and looked at the counter"
+    }
+  ]
+}

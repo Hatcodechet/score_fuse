@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents121_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents121_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1835,
+  "duration_sec": 61.166667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents121_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 114,
+    "aligned_to_num_frames": 1835,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 366,
+      "start_time_sec": 0.0,
+      "end_time_sec": 12.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        33,
+        67,
+        100,
+        133,
+        166,
+        200,
+        233,
+        266,
+        299,
+        333,
+        366
+      ],
+      "score_stats": {
+        "mean": 0.94633,
+        "max": 0.998042
+      },
+      "description": "A black car driving into the scene, followed by a white car. the black car crashes into the red gate, causing debris to scatter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 367,
+      "end_frame": 733,
+      "start_time_sec": 12.233333,
+      "end_time_sec": 24.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        367,
+        400,
+        434,
+        467,
+        500,
+        533,
+        567,
+        600,
+        633,
+        666,
+        700,
+        733
+      ],
+      "score_stats": {
+        "mean": 0.999792,
+        "max": 0.999937
+      },
+      "description": "A black car overturned on the road, with people around it. one person is seen running towards the car, while another person is standing nearby."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 734,
+      "end_frame": 1100,
+      "start_time_sec": 24.466667,
+      "end_time_sec": 36.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        734,
+        767,
+        801,
+        834,
+        867,
+        900,
+        934,
+        967,
+        1000,
+        1033,
+        1067,
+        1100
+      ],
+      "score_stats": {
+        "mean": 0.999756,
+        "max": 0.999857
+      },
+      "description": "A black car with its hood open, surrounded by people who appear to be trying to open the door or assist someone inside. the car is parked on a street with other vehicles and people in the background."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1101,
+      "end_frame": 1467,
+      "start_time_sec": 36.7,
+      "end_time_sec": 48.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1101,
+        1134,
+        1168,
+        1201,
+        1234,
+        1267,
+        1301,
+        1334,
+        1367,
+        1400,
+        1434,
+        1467
+      ],
+      "score_stats": {
+        "mean": 0.999727,
+        "max": 0.999811
+      },
+      "description": "A group of people gathered around a black car that has crashed into a wall. the individuals are engaged in various activities, including standing, walking, and interacting with each other."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1468,
+      "end_frame": 1834,
+      "start_time_sec": 48.933333,
+      "end_time_sec": 61.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1468,
+        1501,
+        1535,
+        1568,
+        1601,
+        1634,
+        1668,
+        1701,
+        1734,
+        1767,
+        1801,
+        1834
+      ],
+      "score_stats": {
+        "mean": 0.999523,
+        "max": 0.999737
+      },
+      "description": "A group of people gathered around a black car that has crashed into a wall. the individuals appear to be concerned and possibly concerned for the well-being of the driver."
+    }
+  ]
+}

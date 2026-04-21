@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion043_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion043_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 7646,
+  "duration_sec": 254.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion043_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 477,
+    "aligned_to_num_frames": 7646,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 4504,
+      "end_frame": 5546,
+      "start_time_sec": 150.133333,
+      "end_time_sec": 184.866667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4504,
+        4599,
+        4693,
+        4788,
+        4883,
+        4978,
+        5072,
+        5167,
+        5262,
+        5357,
+        5451,
+        5546
+      ],
+      "score_stats": {
+        "mean": 0.999153,
+        "max": 0.999823
+      },
+      "description": "A group of people, including children and adults, gathered in an outdoor area with a building and a vehicle in the background. the children are seen running around, while the adults are standing or walking around."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 5626,
+      "end_frame": 6203,
+      "start_time_sec": 187.533333,
+      "end_time_sec": 206.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5626,
+        5678,
+        5731,
+        5783,
+        5836,
+        5888,
+        5941,
+        5993,
+        6046,
+        6098,
+        6151,
+        6203
+      ],
+      "score_stats": {
+        "mean": 0.998349,
+        "max": 0.999011
+      },
+      "description": "A group of people gathered in an outdoor area, with some individuals wearing orange and white clothing. the setting appears to be a street or alleyway with various items and structures visible in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 6924,
+      "end_frame": 7517,
+      "start_time_sec": 230.8,
+      "end_time_sec": 250.566667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        6924,
+        6978,
+        7032,
+        7086,
+        7140,
+        7194,
+        7247,
+        7301,
+        7355,
+        7409,
+        7463,
+        7517
+      ],
+      "score_stats": {
+        "mean": 0.998769,
+        "max": 0.999612
+      },
+      "description": "A group of people gathered in an outdoor area, with some individuals standing and others sitting on the ground. the setting appears to be a street or alleyway with various objects and structures in the background."
+    }
+  ]
+}

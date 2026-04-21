@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion004_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion004_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1902,
+  "duration_sec": 63.4,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion004_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 118,
+    "aligned_to_num_frames": 1902,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 379,
+      "start_time_sec": 0.0,
+      "end_time_sec": 12.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        34,
+        69,
+        103,
+        138,
+        172,
+        207,
+        241,
+        276,
+        310,
+        345,
+        379
+      ],
+      "score_stats": {
+        "mean": 0.993981,
+        "max": 0.998438
+      },
+      "description": "A man in a dark jacket and helmet was seen running out of a house and then running back into the house."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 380,
+      "end_frame": 759,
+      "start_time_sec": 12.666667,
+      "end_time_sec": 25.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        380,
+        414,
+        449,
+        483,
+        518,
+        552,
+        587,
+        621,
+        656,
+        690,
+        725,
+        759
+      ],
+      "score_stats": {
+        "mean": 0.98723,
+        "max": 0.998871
+      },
+      "description": "A man in black clothes and a helmet is seen walking out of the house and then running back into the house."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 760,
+      "end_frame": 1140,
+      "start_time_sec": 25.333333,
+      "end_time_sec": 38.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        760,
+        795,
+        829,
+        864,
+        898,
+        933,
+        967,
+        1002,
+        1036,
+        1071,
+        1105,
+        1140
+      ],
+      "score_stats": {
+        "mean": 0.99978,
+        "max": 0.999882
+      },
+      "description": "A person in a dark-colored jacket and helmet is seen using a long object, possibly a tool or a weapon, to interact with the ground. The person appears to be in a defensive or protective stance, suggesting they may be guarding or protecting something."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1141,
+      "end_frame": 1520,
+      "start_time_sec": 38.033333,
+      "end_time_sec": 50.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1141,
+        1175,
+        1210,
+        1244,
+        1279,
+        1313,
+        1348,
+        1382,
+        1417,
+        1451,
+        1486,
+        1520
+      ],
+      "score_stats": {
+        "mean": 0.999717,
+        "max": 0.999859
+      },
+      "description": "The man in black clothes and helmet walked to the door and opened it."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1521,
+      "end_frame": 1901,
+      "start_time_sec": 50.7,
+      "end_time_sec": 63.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1521,
+        1556,
+        1590,
+        1625,
+        1659,
+        1694,
+        1728,
+        1763,
+        1797,
+        1832,
+        1866,
+        1901
+      ],
+      "score_stats": {
+        "mean": 0.998659,
+        "max": 0.999747
+      },
+      "description": "A person in a dark-colored jacket and helmet is seen running through a doorway, followed by another individual who is also dressed in dark clothing. the first person appears to be carrying a backpack and is seen running towards a wall, while the second person is seen running away from the camera."
+    }
+  ]
+}

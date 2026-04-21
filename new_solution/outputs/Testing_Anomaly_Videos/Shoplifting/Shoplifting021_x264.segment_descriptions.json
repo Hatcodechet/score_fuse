@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting021_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting021_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3551,
+  "duration_sec": 118.366667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting021_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 221,
+    "aligned_to_num_frames": 3551,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 16,
+      "end_frame": 723,
+      "start_time_sec": 0.533333,
+      "end_time_sec": 24.1,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        16,
+        80,
+        145,
+        209,
+        273,
+        337,
+        402,
+        466,
+        530,
+        594,
+        659,
+        723
+      ],
+      "score_stats": {
+        "mean": 0.933882,
+        "max": 0.987735
+      },
+      "description": "The man in purple clothes took the woman's hand and looked at her."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1719,
+      "end_frame": 2104,
+      "start_time_sec": 57.3,
+      "end_time_sec": 70.133333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1719,
+        1754,
+        1789,
+        1824,
+        1859,
+        1894,
+        1929,
+        1964,
+        1999,
+        2034,
+        2069,
+        2104
+      ],
+      "score_stats": {
+        "mean": 0.878236,
+        "max": 0.938254
+      },
+      "description": "The man in purple clothes took the blue bag from the woman in purple clothes and walked to the door."
+    }
+  ]
+}

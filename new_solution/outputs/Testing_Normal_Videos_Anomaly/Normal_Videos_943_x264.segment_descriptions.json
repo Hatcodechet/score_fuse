@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_943_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_943_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1020,
+  "duration_sec": 34.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_943_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 63,
+    "aligned_to_num_frames": 1020,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 501,
+      "end_frame": 809,
+      "start_time_sec": 16.7,
+      "end_time_sec": 26.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        501,
+        529,
+        557,
+        585,
+        613,
+        641,
+        669,
+        697,
+        725,
+        753,
+        781,
+        809
+      ],
+      "score_stats": {
+        "mean": 0.473383,
+        "max": 0.721025
+      },
+      "description": "A man in blue walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

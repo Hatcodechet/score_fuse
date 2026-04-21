@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion020_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion020_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1291,
+  "duration_sec": 43.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion020_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 80,
+    "aligned_to_num_frames": 1291,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 257,
+      "start_time_sec": 0.0,
+      "end_time_sec": 8.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        23,
+        47,
+        70,
+        93,
+        117,
+        140,
+        164,
+        187,
+        210,
+        234,
+        257
+      ],
+      "score_stats": {
+        "mean": 0.983548,
+        "max": 0.999191
+      },
+      "description": "A group of people gathered around a car, with one person holding a gun. the individuals appear to be in a state of panic or urgency, with some running away from the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 258,
+      "end_frame": 515,
+      "start_time_sec": 8.6,
+      "end_time_sec": 17.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        258,
+        281,
+        305,
+        328,
+        351,
+        375,
+        398,
+        422,
+        445,
+        468,
+        492,
+        515
+      ],
+      "score_stats": {
+        "mean": 0.999404,
+        "max": 0.999532
+      },
+      "description": "A man in a white shirt and black pants was seen running towards the black car, and then he suddenly threw a fireball at the car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 516,
+      "end_frame": 773,
+      "start_time_sec": 17.2,
+      "end_time_sec": 25.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        516,
+        539,
+        563,
+        586,
+        609,
+        633,
+        656,
+        680,
+        703,
+        726,
+        750,
+        773
+      ],
+      "score_stats": {
+        "mean": 0.988245,
+        "max": 0.999168
+      },
+      "description": "A man in a white shirt and black pants is seen running towards a black car, which is parked on the side of the road. The man appears to be in a hurry or trying to escape from something. Suddenly, a bright flash of light is emitted from the car, causing the man to stop and look back. The scene then shifts to show the man in the white shirt and black pants standing in front of the car, seemingly observing the situation."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 774,
+      "end_frame": 1031,
+      "start_time_sec": 25.8,
+      "end_time_sec": 34.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        774,
+        797,
+        821,
+        844,
+        867,
+        891,
+        914,
+        938,
+        961,
+        984,
+        1008,
+        1031
+      ],
+      "score_stats": {
+        "mean": 0.974865,
+        "max": 0.98478
+      },
+      "description": "A group of people gathered around a car on a street, with one person in the center appearing to be in distress or injured."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1032,
+      "end_frame": 1290,
+      "start_time_sec": 34.4,
+      "end_time_sec": 43.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1032,
+        1055,
+        1079,
+        1102,
+        1126,
+        1149,
+        1173,
+        1196,
+        1220,
+        1243,
+        1267,
+        1290
+      ],
+      "score_stats": {
+        "mean": 0.885473,
+        "max": 0.953933
+      },
+      "description": "A man in a white shirt and black pants was pushed by two men in black clothes."
+    }
+  ]
+}

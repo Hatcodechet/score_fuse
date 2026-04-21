@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting022_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting022_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4554,
+  "duration_sec": 151.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting022_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 284,
+    "aligned_to_num_frames": 4554,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 2742,
+      "end_frame": 3912,
+      "start_time_sec": 91.4,
+      "end_time_sec": 130.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2742,
+        2848,
+        2955,
+        3061,
+        3167,
+        3274,
+        3380,
+        3487,
+        3593,
+        3699,
+        3806,
+        3912
+      ],
+      "score_stats": {
+        "mean": 0.668009,
+        "max": 0.917399
+      },
+      "description": "A man in a red shirt and blue jeans entered the room, and then left the room."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_887_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_887_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 7630,
+  "duration_sec": 254.333333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_887_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 476,
+    "aligned_to_num_frames": 7630,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 625,
+      "end_frame": 801,
+      "start_time_sec": 20.833333,
+      "end_time_sec": 26.7,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        625,
+        641,
+        657,
+        673,
+        689,
+        705,
+        721,
+        737,
+        753,
+        769,
+        785,
+        801
+      ],
+      "score_stats": {
+        "mean": 0.480273,
+        "max": 0.583366
+      },
+      "description": "The man in black clothes walked to the right of the road and walked to the right of the road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 6748,
+      "end_frame": 7629,
+      "start_time_sec": 224.933333,
+      "end_time_sec": 254.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        6748,
+        6828,
+        6908,
+        6988,
+        7068,
+        7148,
+        7229,
+        7309,
+        7389,
+        7469,
+        7549,
+        7629
+      ],
+      "score_stats": {
+        "mean": 0.881016,
+        "max": 0.977965
+      },
+      "description": "The man in white clothes walked to the top of the building and stood there for a long time."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting049_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting049_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2149,
+  "duration_sec": 71.633333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting049_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 134,
+    "aligned_to_num_frames": 2149,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 428,
+      "start_time_sec": 0.0,
+      "end_time_sec": 14.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        39,
+        78,
+        117,
+        156,
+        195,
+        233,
+        272,
+        311,
+        350,
+        389,
+        428
+      ],
+      "score_stats": {
+        "mean": 0.924849,
+        "max": 0.967997
+      },
+      "description": "The man in white clothes took out a box of products from the counter and put it on the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 429,
+      "end_frame": 858,
+      "start_time_sec": 14.3,
+      "end_time_sec": 28.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        429,
+        468,
+        507,
+        546,
+        585,
+        624,
+        663,
+        702,
+        741,
+        780,
+        819,
+        858
+      ],
+      "score_stats": {
+        "mean": 0.946538,
+        "max": 0.994577
+      },
+      "description": "The man in white walked to the counter and took out a box of products."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 859,
+      "end_frame": 1288,
+      "start_time_sec": 28.633333,
+      "end_time_sec": 42.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        859,
+        898,
+        937,
+        976,
+        1015,
+        1054,
+        1093,
+        1132,
+        1171,
+        1210,
+        1249,
+        1288
+      ],
+      "score_stats": {
+        "mean": 0.957438,
+        "max": 0.984759
+      },
+      "description": "The man in the blue shirt took out a white paper from the counter and looked at it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1289,
+      "end_frame": 1718,
+      "start_time_sec": 42.966667,
+      "end_time_sec": 57.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1289,
+        1328,
+        1367,
+        1406,
+        1445,
+        1484,
+        1523,
+        1562,
+        1601,
+        1640,
+        1679,
+        1718
+      ],
+      "score_stats": {
+        "mean": 0.934013,
+        "max": 0.955281
+      },
+      "description": "The man in the blue shirt walked to the counter and took out a phone from the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1719,
+      "end_frame": 2148,
+      "start_time_sec": 57.3,
+      "end_time_sec": 71.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1719,
+        1758,
+        1797,
+        1836,
+        1875,
+        1914,
+        1953,
+        1992,
+        2031,
+        2070,
+        2109,
+        2148
+      ],
+      "score_stats": {
+        "mean": 0.666182,
+        "max": 0.941405
+      },
+      "description": "The man in the blue shirt walked to the counter and took out a mobile phone from the counter."
+    }
+  ]
+}

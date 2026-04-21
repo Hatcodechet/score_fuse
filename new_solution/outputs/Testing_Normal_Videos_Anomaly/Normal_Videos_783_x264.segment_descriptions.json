@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_783_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_783_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 9590,
+  "duration_sec": 319.666667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_783_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 599,
+    "aligned_to_num_frames": 9590,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1917,
+      "start_time_sec": 0.0,
+      "end_time_sec": 63.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        174,
+        349,
+        523,
+        697,
+        871,
+        1046,
+        1220,
+        1394,
+        1568,
+        1743,
+        1917
+      ],
+      "score_stats": {
+        "mean": 6e-06,
+        "max": 0.000834
+      },
+      "description": "A group of people in an elevator, with one person sitting on the floor and others standing around. the elevator door is open, and the people are seen entering and exiting the elevator."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1918,
+      "end_frame": 3835,
+      "start_time_sec": 63.933333,
+      "end_time_sec": 127.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1918,
+        2092,
+        2267,
+        2441,
+        2615,
+        2789,
+        2964,
+        3138,
+        3312,
+        3486,
+        3661,
+        3835
+      ],
+      "score_stats": {
+        "mean": 2.8e-05,
+        "max": 7.2e-05
+      },
+      "description": "A group of people standing in front of an elevator door, with one person in an orange shirt and another in a pink shirt. the elevator door is open, and the people are waiting for the elevator to arrive."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3836,
+      "end_frame": 5753,
+      "start_time_sec": 127.866667,
+      "end_time_sec": 191.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3836,
+        4010,
+        4185,
+        4359,
+        4533,
+        4707,
+        4882,
+        5056,
+        5230,
+        5404,
+        5579,
+        5753
+      ],
+      "score_stats": {
+        "mean": 9.9e-05,
+        "max": 0.00141
+      },
+      "description": "A man in a pink shirt and white shorts walked to the elevator and pushed the door. A woman in an orange top and black pants walked to the elevator and pushed the door. A man in a blue shirt and black pants walked to the elevator and pushed the door."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 5754,
+      "end_frame": 7671,
+      "start_time_sec": 191.8,
+      "end_time_sec": 255.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5754,
+        5928,
+        6103,
+        6277,
+        6451,
+        6625,
+        6800,
+        6974,
+        7148,
+        7322,
+        7497,
+        7671
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 1.6e-05
+      },
+      "description": "A group of people standing in front of an elevator, with one person in a pink shirt and another in a blue shirt. the elevator door is open, and the people are waiting for it to close."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 7672,
+      "end_frame": 9589,
+      "start_time_sec": 255.733333,
+      "end_time_sec": 319.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        7672,
+        7846,
+        8021,
+        8195,
+        8369,
+        8543,
+        8718,
+        8892,
+        9066,
+        9240,
+        9415,
+        9589
+      ],
+      "score_stats": {
+        "mean": 0.000206,
+        "max": 0.007788
+      },
+      "description": "A man in a red shirt and black pants walked out of the elevator and walked to the door."
+    }
+  ]
+}

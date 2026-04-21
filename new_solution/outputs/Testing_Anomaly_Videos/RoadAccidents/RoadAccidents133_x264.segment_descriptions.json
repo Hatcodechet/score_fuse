@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents133_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents133_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 673,
+  "duration_sec": 22.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents133_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 42,
+    "aligned_to_num_frames": 673,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 167,
+      "start_time_sec": 0.0,
+      "end_time_sec": 5.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        15,
+        30,
+        46,
+        61,
+        76,
+        91,
+        106,
+        121,
+        137,
+        152,
+        167
+      ],
+      "score_stats": {
+        "mean": 0.420403,
+        "max": 0.701524
+      },
+      "description": "A red car driving down a road with greenery on either side, passing by a white van."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 168,
+      "end_frame": 335,
+      "start_time_sec": 5.6,
+      "end_time_sec": 11.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        168,
+        183,
+        198,
+        214,
+        229,
+        244,
+        259,
+        274,
+        289,
+        305,
+        320,
+        335
+      ],
+      "score_stats": {
+        "mean": 0.958866,
+        "max": 0.999969
+      },
+      "description": "A white van driving on a road with a motorcycle rider in front of it. the van appears to be moving at a steady pace, and the motorcycle rider is seen riding alongside the van."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 336,
+      "end_frame": 503,
+      "start_time_sec": 11.2,
+      "end_time_sec": 16.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        336,
+        351,
+        366,
+        382,
+        397,
+        412,
+        427,
+        442,
+        457,
+        473,
+        488,
+        503
+      ],
+      "score_stats": {
+        "mean": 0.999994,
+        "max": 0.999998
+      },
+      "description": "A motorcycle rider in a yellow helmet and black pants is seen riding on the road, followed by another rider in a black helmet and white helmet. the rider in the yellow helmet is then seen falling to the ground, and the rider in the black helmet appears to be running away from the scene."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 504,
+      "end_frame": 672,
+      "start_time_sec": 16.8,
+      "end_time_sec": 22.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        504,
+        519,
+        535,
+        550,
+        565,
+        580,
+        596,
+        611,
+        626,
+        641,
+        657,
+        672
+      ],
+      "score_stats": {
+        "mean": 0.99988,
+        "max": 0.999994
+      },
+      "description": "A motorcycle rider wearing a yellow helmet and black pants, riding a motorcycle on a road. the rider is seen performing a stunt by leaning into a turn, which is a common maneuver in motorcycle racing."
+    }
+  ]
+}

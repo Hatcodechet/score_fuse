@@ -1,0 +1,168 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Abuse/Abuse028_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Abuse/Abuse028_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1412,
+  "duration_sec": 47.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Abuse/Abuse028_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 88,
+    "aligned_to_num_frames": 1412,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 281,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        26,
+        51,
+        77,
+        102,
+        128,
+        153,
+        179,
+        204,
+        230,
+        255,
+        281
+      ],
+      "score_stats": {
+        "mean": 0.988461,
+        "max": 0.994469
+      },
+      "description": "A man in red clothes and a hat walked to the gate and opened it.",
+      "cleaned_description": "A"
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 282,
+      "end_frame": 563,
+      "start_time_sec": 9.4,
+      "end_time_sec": 18.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        282,
+        308,
+        333,
+        359,
+        384,
+        410,
+        435,
+        461,
+        486,
+        512,
+        537,
+        563
+      ],
+      "score_stats": {
+        "mean": 0.982166,
+        "max": 0.99346
+      },
+      "description": "The man in red clothes walked to the gate and opened it.",
+      "cleaned_description": "The man walked to"
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 564,
+      "end_frame": 846,
+      "start_time_sec": 18.8,
+      "end_time_sec": 28.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        564,
+        590,
+        615,
+        641,
+        667,
+        692,
+        718,
+        743,
+        769,
+        795,
+        820,
+        846
+      ],
+      "score_stats": {
+        "mean": 0.996658,
+        "max": 0.999176
+      },
+      "description": "The man in gray clothes walked to the gate and opened it.",
+      "cleaned_description": "The man walked"
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 847,
+      "end_frame": 1128,
+      "start_time_sec": 28.233333,
+      "end_time_sec": 37.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        847,
+        873,
+        898,
+        924,
+        949,
+        975,
+        1000,
+        1026,
+        1051,
+        1077,
+        1102,
+        1128
+      ],
+      "score_stats": {
+        "mean": 0.978853,
+        "max": 0.999261
+      },
+      "description": "The man in blue clothes walked to the gate and opened it.",
+      "cleaned_description": "The man walked to"
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1129,
+      "end_frame": 1411,
+      "start_time_sec": 37.633333,
+      "end_time_sec": 47.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1129,
+        1155,
+        1180,
+        1206,
+        1232,
+        1257,
+        1283,
+        1308,
+        1334,
+        1360,
+        1385,
+        1411
+      ],
+      "score_stats": {
+        "mean": 0.792054,
+        "max": 0.898788
+      },
+      "description": "The man in white clothes walked to the gate and opened it.",
+      "cleaned_description": "The man walked to"
+    }
+  ],
+  "cleaned_descriptions": [
+    "A",
+    "The man walked to",
+    "The man walked",
+    "The man walked to",
+    "The man walked to"
+  ]
+}

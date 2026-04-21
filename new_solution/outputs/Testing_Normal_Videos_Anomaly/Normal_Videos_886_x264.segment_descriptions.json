@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_886_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_886_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2747,
+  "duration_sec": 91.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_886_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 171,
+    "aligned_to_num_frames": 2747,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 548,
+      "start_time_sec": 0.0,
+      "end_time_sec": 18.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        50,
+        100,
+        149,
+        199,
+        249,
+        299,
+        349,
+        399,
+        448,
+        498,
+        548
+      ],
+      "score_stats": {
+        "mean": 1.5e-05,
+        "max": 0.000626
+      },
+      "description": "The man in white clothes walked to the table and put the box on the table."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 549,
+      "end_frame": 1097,
+      "start_time_sec": 18.3,
+      "end_time_sec": 36.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        549,
+        599,
+        649,
+        698,
+        748,
+        798,
+        848,
+        898,
+        948,
+        997,
+        1047,
+        1097
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "The man in white clothes walked to the table and put the black bag on the table."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1098,
+      "end_frame": 1647,
+      "start_time_sec": 36.6,
+      "end_time_sec": 54.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1098,
+        1148,
+        1198,
+        1248,
+        1298,
+        1348,
+        1397,
+        1447,
+        1497,
+        1547,
+        1597,
+        1647
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "The man in white clothes and the man in black clothes are both looking at the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1648,
+      "end_frame": 2196,
+      "start_time_sec": 54.933333,
+      "end_time_sec": 73.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1648,
+        1698,
+        1748,
+        1797,
+        1847,
+        1897,
+        1947,
+        1997,
+        2047,
+        2096,
+        2146,
+        2196
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "The man in the yellow shirt walked to the table and opened the drawer."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2197,
+      "end_frame": 2746,
+      "start_time_sec": 73.233333,
+      "end_time_sec": 91.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2197,
+        2247,
+        2297,
+        2347,
+        2397,
+        2447,
+        2496,
+        2546,
+        2596,
+        2646,
+        2696,
+        2746
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 3e-06
+      },
+      "description": "The man in the white shirt and blue hat is holding a black bag and a black box, and the man in the brown shirt is holding a black box."
+    }
+  ]
+}

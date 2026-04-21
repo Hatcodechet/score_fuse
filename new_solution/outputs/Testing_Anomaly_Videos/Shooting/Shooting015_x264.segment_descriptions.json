@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting015_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting015_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1713,
+  "duration_sec": 57.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting015_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 107,
+    "aligned_to_num_frames": 1713,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 341,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        31,
+        62,
+        93,
+        124,
+        155,
+        186,
+        217,
+        248,
+        279,
+        310,
+        341
+      ],
+      "score_stats": {
+        "mean": 0.991062,
+        "max": 0.999803
+      },
+      "description": "A man in a black shirt and white pants enters the store, followed by a man in a gray shirt and white pants. the man in the black shirt is then seen pushing the man in the gray shirt out of the store."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 342,
+      "end_frame": 684,
+      "start_time_sec": 11.4,
+      "end_time_sec": 22.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        342,
+        373,
+        404,
+        435,
+        466,
+        497,
+        529,
+        560,
+        591,
+        622,
+        653,
+        684
+      ],
+      "score_stats": {
+        "mean": 0.81415,
+        "max": 0.958593
+      },
+      "description": "A person in white walked from the bottom of the video to the top of the video."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 685,
+      "end_frame": 1026,
+      "start_time_sec": 22.833333,
+      "end_time_sec": 34.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        685,
+        716,
+        747,
+        778,
+        809,
+        840,
+        871,
+        902,
+        933,
+        964,
+        995,
+        1026
+      ],
+      "score_stats": {
+        "mean": 0.958645,
+        "max": 0.989594
+      },
+      "description": "A white police car with flashing lights drove past the man on the sidewalk."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1027,
+      "end_frame": 1369,
+      "start_time_sec": 34.233333,
+      "end_time_sec": 45.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1027,
+        1058,
+        1089,
+        1120,
+        1151,
+        1182,
+        1214,
+        1245,
+        1276,
+        1307,
+        1338,
+        1369
+      ],
+      "score_stats": {
+        "mean": 0.939822,
+        "max": 0.994864
+      },
+      "description": "The man in black clothes walked to the right side of the road and walked to the left side of the road."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1370,
+      "end_frame": 1712,
+      "start_time_sec": 45.666667,
+      "end_time_sec": 57.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1370,
+        1401,
+        1432,
+        1463,
+        1494,
+        1525,
+        1557,
+        1588,
+        1619,
+        1650,
+        1681,
+        1712
+      ],
+      "score_stats": {
+        "mean": 0.996246,
+        "max": 0.998719
+      },
+      "description": "The man in black clothes walked to the right side of the road and walked to the left side of the road."
+    }
+  ]
+}

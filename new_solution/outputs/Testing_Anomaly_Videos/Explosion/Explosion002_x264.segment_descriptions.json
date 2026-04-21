@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion002_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion002_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4013,
+  "duration_sec": 133.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion002_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 250,
+    "aligned_to_num_frames": 4013,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 801,
+      "start_time_sec": 0.0,
+      "end_time_sec": 26.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        73,
+        146,
+        218,
+        291,
+        364,
+        437,
+        510,
+        583,
+        655,
+        728,
+        801
+      ],
+      "score_stats": {
+        "mean": 0.483707,
+        "max": 0.964784
+      },
+      "description": "A purple screen displaying white text that reads \"the fuel stop, a cell phone and static electricity.\" the scene transitions to a nighttime scene at a gas station where a man in blue is seen walking towards the pump."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 802,
+      "end_frame": 1604,
+      "start_time_sec": 26.733333,
+      "end_time_sec": 53.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        802,
+        875,
+        948,
+        1021,
+        1094,
+        1167,
+        1239,
+        1312,
+        1385,
+        1458,
+        1531,
+        1604
+      ],
+      "score_stats": {
+        "mean": 0.942239,
+        "max": 0.988537
+      },
+      "description": "A man in blue walked to the gas station, and a man in black walked to the gas station."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1605,
+      "end_frame": 2406,
+      "start_time_sec": 53.5,
+      "end_time_sec": 80.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1605,
+        1678,
+        1751,
+        1823,
+        1896,
+        1969,
+        2042,
+        2115,
+        2188,
+        2260,
+        2333,
+        2406
+      ],
+      "score_stats": {
+        "mean": 0.91613,
+        "max": 0.989804
+      },
+      "description": "A man in blue walked out of the video and walked to the right side of the video."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2407,
+      "end_frame": 3209,
+      "start_time_sec": 80.233333,
+      "end_time_sec": 106.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2407,
+        2480,
+        2553,
+        2626,
+        2699,
+        2772,
+        2844,
+        2917,
+        2990,
+        3063,
+        3136,
+        3209
+      ],
+      "score_stats": {
+        "mean": 0.921852,
+        "max": 0.985793
+      },
+      "description": "A man in a red shirt walked to the gas station and opened the door of the car."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3210,
+      "end_frame": 4012,
+      "start_time_sec": 107.0,
+      "end_time_sec": 133.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3210,
+        3283,
+        3356,
+        3429,
+        3502,
+        3575,
+        3647,
+        3720,
+        3793,
+        3866,
+        3939,
+        4012
+      ],
+      "score_stats": {
+        "mean": 0.929928,
+        "max": 0.967398
+      },
+      "description": "A man in red walked to the gas station, and the man in blue walked to the gas station."
+    }
+  ]
+}

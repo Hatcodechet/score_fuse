@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting004_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting004_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 6673,
+  "duration_sec": 222.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting004_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 417,
+    "aligned_to_num_frames": 6673,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1333,
+      "start_time_sec": 0.0,
+      "end_time_sec": 44.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        121,
+        242,
+        364,
+        485,
+        606,
+        727,
+        848,
+        969,
+        1091,
+        1212,
+        1333
+      ],
+      "score_stats": {
+        "mean": 0.843798,
+        "max": 0.991157
+      },
+      "description": "The man in white clothes is talking to the man in green clothes, and the man in green clothes is holding a white paper."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1334,
+      "end_frame": 2668,
+      "start_time_sec": 44.466667,
+      "end_time_sec": 88.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1334,
+        1455,
+        1577,
+        1698,
+        1819,
+        1940,
+        2062,
+        2183,
+        2304,
+        2425,
+        2547,
+        2668
+      ],
+      "score_stats": {
+        "mean": 0.997145,
+        "max": 0.999565
+      },
+      "description": "The man in white clothes took out a small box from the drawer and put it on the table."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2669,
+      "end_frame": 4002,
+      "start_time_sec": 88.966667,
+      "end_time_sec": 133.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2669,
+        2790,
+        2911,
+        3033,
+        3154,
+        3275,
+        3396,
+        3517,
+        3638,
+        3760,
+        3881,
+        4002
+      ],
+      "score_stats": {
+        "mean": 0.997877,
+        "max": 0.999555
+      },
+      "description": "The man in white clothes took the money from the man in black clothes and put it in his pocket."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4003,
+      "end_frame": 5337,
+      "start_time_sec": 133.433333,
+      "end_time_sec": 177.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4003,
+        4124,
+        4246,
+        4367,
+        4488,
+        4609,
+        4731,
+        4852,
+        4973,
+        5094,
+        5216,
+        5337
+      ],
+      "score_stats": {
+        "mean": 0.986945,
+        "max": 0.999482
+      },
+      "description": "The man in white clothes took the money from the man in black clothes and put it in his pocket."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 5338,
+      "end_frame": 6672,
+      "start_time_sec": 177.933333,
+      "end_time_sec": 222.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5338,
+        5459,
+        5581,
+        5702,
+        5823,
+        5944,
+        6066,
+        6187,
+        6308,
+        6429,
+        6551,
+        6672
+      ],
+      "score_stats": {
+        "mean": 0.988078,
+        "max": 0.997698
+      },
+      "description": "The man in white clothes took out a small box from the drawer and put it on the table."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting034_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting034_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 11937,
+  "duration_sec": 397.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting034_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 746,
+    "aligned_to_num_frames": 11937,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1552,
+      "end_frame": 2112,
+      "start_time_sec": 51.733333,
+      "end_time_sec": 70.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1552,
+        1603,
+        1654,
+        1705,
+        1756,
+        1807,
+        1857,
+        1908,
+        1959,
+        2010,
+        2061,
+        2112
+      ],
+      "score_stats": {
+        "mean": 0.971542,
+        "max": 0.992333
+      },
+      "description": "The man in white walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2240,
+      "end_frame": 2608,
+      "start_time_sec": 74.666667,
+      "end_time_sec": 86.933333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2240,
+        2273,
+        2307,
+        2340,
+        2374,
+        2407,
+        2441,
+        2474,
+        2508,
+        2541,
+        2575,
+        2608
+      ],
+      "score_stats": {
+        "mean": 0.965162,
+        "max": 0.989983
+      },
+      "description": "The man in the yellow shirt and the woman in the purple shirt walked out of the store."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2688,
+      "end_frame": 3344,
+      "start_time_sec": 89.6,
+      "end_time_sec": 111.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2688,
+        2748,
+        2807,
+        2867,
+        2927,
+        2986,
+        3046,
+        3105,
+        3165,
+        3225,
+        3284,
+        3344
+      ],
+      "score_stats": {
+        "mean": 0.976989,
+        "max": 0.992817
+      },
+      "description": "The man in the yellow shirt and the woman in the floral dress walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 7600,
+      "end_frame": 8192,
+      "start_time_sec": 253.333333,
+      "end_time_sec": 273.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        7600,
+        7654,
+        7708,
+        7761,
+        7815,
+        7869,
+        7923,
+        7977,
+        8031,
+        8084,
+        8138,
+        8192
+      ],
+      "score_stats": {
+        "mean": 0.965448,
+        "max": 0.980592
+      },
+      "description": "The man in the yellow shirt walked to the counter and talked to the woman in the blue dress."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 8208,
+      "end_frame": 8672,
+      "start_time_sec": 273.6,
+      "end_time_sec": 289.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8208,
+        8250,
+        8292,
+        8335,
+        8377,
+        8419,
+        8461,
+        8503,
+        8545,
+        8588,
+        8630,
+        8672
+      ],
+      "score_stats": {
+        "mean": 0.962995,
+        "max": 0.976977
+      },
+      "description": "The man in the white shirt and the woman in the black top walked out of the store and left."
+    }
+  ]
+}

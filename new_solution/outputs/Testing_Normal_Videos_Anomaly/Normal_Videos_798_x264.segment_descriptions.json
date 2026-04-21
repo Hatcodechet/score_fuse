@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_798_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_798_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 6001,
+  "duration_sec": 200.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_798_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 375,
+    "aligned_to_num_frames": 6001,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1199,
+      "start_time_sec": 0.0,
+      "end_time_sec": 39.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        109,
+        218,
+        327,
+        436,
+        545,
+        654,
+        763,
+        872,
+        981,
+        1090,
+        1199
+      ],
+      "score_stats": {
+        "mean": 9.3e-05,
+        "max": 0.004775
+      },
+      "description": "A black car drives down the road, passing by a red brick building with a sign that reads \"unanswerable.\""
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1200,
+      "end_frame": 2399,
+      "start_time_sec": 40.0,
+      "end_time_sec": 79.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1200,
+        1309,
+        1418,
+        1527,
+        1636,
+        1745,
+        1854,
+        1963,
+        2072,
+        2181,
+        2290,
+        2399
+      ],
+      "score_stats": {
+        "mean": 3.3e-05,
+        "max": 6.8e-05
+      },
+      "description": "A black car drives down the road, passing by a brick building with an american flag on it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2400,
+      "end_frame": 3599,
+      "start_time_sec": 80.0,
+      "end_time_sec": 119.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2400,
+        2509,
+        2618,
+        2727,
+        2836,
+        2945,
+        3054,
+        3163,
+        3272,
+        3381,
+        3490,
+        3599
+      ],
+      "score_stats": {
+        "mean": 0.000112,
+        "max": 0.000182
+      },
+      "description": "A view of a street lined with buildings, parked cars, and a few people walking. the sky is partly cloudy, and the timestamp indicates it is 13:05:46."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3600,
+      "end_frame": 4799,
+      "start_time_sec": 120.0,
+      "end_time_sec": 159.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3600,
+        3709,
+        3818,
+        3927,
+        4036,
+        4145,
+        4254,
+        4363,
+        4472,
+        4581,
+        4690,
+        4799
+      ],
+      "score_stats": {
+        "mean": 0.000557,
+        "max": 0.01078
+      },
+      "description": "A black car drives down the street, passing by a red brick building with a sign that reads \"bakery.\" the sky is partly cloudy, and there are several other vehicles visible in the distance."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4800,
+      "end_frame": 6000,
+      "start_time_sec": 160.0,
+      "end_time_sec": 200.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4800,
+        4909,
+        5018,
+        5127,
+        5236,
+        5345,
+        5455,
+        5564,
+        5673,
+        5782,
+        5891,
+        6000
+      ],
+      "score_stats": {
+        "mean": 0.000109,
+        "max": 0.001193
+      },
+      "description": "A black car drives down the road, passing by a red brick building with a blue sign. the sky is partly cloudy, and there are several other vehicles visible on the road."
+    }
+  ]
+}

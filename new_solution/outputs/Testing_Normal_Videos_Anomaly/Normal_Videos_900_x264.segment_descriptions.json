@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_900_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_900_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1455,
+  "duration_sec": 48.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_900_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 90,
+    "aligned_to_num_frames": 1455,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 565,
+      "end_frame": 743,
+      "start_time_sec": 18.833333,
+      "end_time_sec": 24.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        565,
+        581,
+        597,
+        614,
+        630,
+        646,
+        662,
+        678,
+        694,
+        711,
+        727,
+        743
+      ],
+      "score_stats": {
+        "mean": 0.227003,
+        "max": 0.248404
+      },
+      "description": "A man in blue clothes walked to the black car and opened the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 856,
+      "end_frame": 1212,
+      "start_time_sec": 28.533333,
+      "end_time_sec": 40.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        856,
+        888,
+        921,
+        953,
+        985,
+        1018,
+        1050,
+        1083,
+        1115,
+        1147,
+        1180,
+        1212
+      ],
+      "score_stats": {
+        "mean": 0.303138,
+        "max": 0.420167
+      },
+      "description": "A black car with a license plate number \"b8b9b1\" is parked on the side of the road, and a person wearing a white shirt and black pants is standing next to it. the person is holding an umbrella and appears to be interacting with the car."
+    }
+  ]
+}

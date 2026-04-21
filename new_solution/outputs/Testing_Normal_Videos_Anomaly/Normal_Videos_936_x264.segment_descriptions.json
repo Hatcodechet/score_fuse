@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_936_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_936_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1150,
+  "duration_sec": 38.333333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_936_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 71,
+    "aligned_to_num_frames": 1150,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 485,
+      "end_frame": 858,
+      "start_time_sec": 16.166667,
+      "end_time_sec": 28.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        485,
+        519,
+        553,
+        587,
+        621,
+        655,
+        688,
+        722,
+        756,
+        790,
+        824,
+        858
+      ],
+      "score_stats": {
+        "mean": 0.159751,
+        "max": 0.21667
+      },
+      "description": "A group of people walking on a sidewalk, with some individuals wearing orange shirts. the scene is bustling with activity, with people moving in different directions."
+    }
+  ]
+}

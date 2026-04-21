@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting019_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting019_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2756,
+  "duration_sec": 91.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting019_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 172,
+    "aligned_to_num_frames": 2756,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 550,
+      "start_time_sec": 0.0,
+      "end_time_sec": 18.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550
+      ],
+      "score_stats": {
+        "mean": 0.937457,
+        "max": 0.970043
+      },
+      "description": "A man in a blue shirt and black pants walked to the car and opened the trunk."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 551,
+      "end_frame": 1101,
+      "start_time_sec": 18.366667,
+      "end_time_sec": 36.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        551,
+        601,
+        651,
+        701,
+        751,
+        801,
+        851,
+        901,
+        951,
+        1001,
+        1051,
+        1101
+      ],
+      "score_stats": {
+        "mean": 0.94739,
+        "max": 0.971816
+      },
+      "description": "The man in blue clothes walked to the car and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1102,
+      "end_frame": 1652,
+      "start_time_sec": 36.733333,
+      "end_time_sec": 55.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1102,
+        1152,
+        1202,
+        1252,
+        1302,
+        1352,
+        1402,
+        1452,
+        1502,
+        1552,
+        1602,
+        1652
+      ],
+      "score_stats": {
+        "mean": 0.996213,
+        "max": 0.999184
+      },
+      "description": "A man in white clothes and a helmet is seen crouching on the ground, seemingly inspecting or examining something on the ground."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1653,
+      "end_frame": 2203,
+      "start_time_sec": 55.1,
+      "end_time_sec": 73.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1653,
+        1703,
+        1753,
+        1803,
+        1853,
+        1903,
+        1953,
+        2003,
+        2053,
+        2103,
+        2153,
+        2203
+      ],
+      "score_stats": {
+        "mean": 0.993705,
+        "max": 0.997899
+      },
+      "description": "The man in white clothes walked to the car and opened the trunk."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2204,
+      "end_frame": 2755,
+      "start_time_sec": 73.466667,
+      "end_time_sec": 91.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2204,
+        2254,
+        2304,
+        2354,
+        2404,
+        2454,
+        2505,
+        2555,
+        2605,
+        2655,
+        2705,
+        2755
+      ],
+      "score_stats": {
+        "mean": 0.991623,
+        "max": 0.99434
+      },
+      "description": "The man in blue clothes walked to the car and opened the door."
+    }
+  ]
+}

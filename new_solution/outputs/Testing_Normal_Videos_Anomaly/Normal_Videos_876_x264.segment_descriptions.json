@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_876_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_876_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 351,
+  "duration_sec": 11.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_876_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 21,
+    "aligned_to_num_frames": 351,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 83,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        8,
+        15,
+        23,
+        30,
+        38,
+        45,
+        53,
+        60,
+        68,
+        75,
+        83
+      ],
+      "score_stats": {
+        "mean": 0.002253,
+        "max": 0.008316
+      },
+      "description": "A man in black clothes and a woman in blue clothes are talking to each other."
+    }
+  ]
+}

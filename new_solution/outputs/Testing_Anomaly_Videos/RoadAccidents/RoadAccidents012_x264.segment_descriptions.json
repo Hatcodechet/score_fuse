@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents012_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents012_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 468,
+  "duration_sec": 15.6,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents012_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 29,
+    "aligned_to_num_frames": 468,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 322,
+      "end_frame": 467,
+      "start_time_sec": 10.733333,
+      "end_time_sec": 15.566667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        322,
+        335,
+        348,
+        362,
+        375,
+        388,
+        401,
+        414,
+        427,
+        441,
+        454,
+        467
+      ],
+      "score_stats": {
+        "mean": 0.511311,
+        "max": 0.640741
+      },
+      "description": "A white car driving on a road with other vehicles and pedestrians in the background."
+    }
+  ]
+}

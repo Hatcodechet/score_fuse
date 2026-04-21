@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Vandalism/Vandalism017_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Vandalism/Vandalism017_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1011,
+  "duration_sec": 33.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Vandalism/Vandalism017_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 63,
+    "aligned_to_num_frames": 1011,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 201,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        18,
+        37,
+        55,
+        73,
+        91,
+        110,
+        128,
+        146,
+        164,
+        183,
+        201
+      ],
+      "score_stats": {
+        "mean": 0.997377,
+        "max": 0.999805
+      },
+      "description": "A man in a patterned outfit walked out of the door and walked to the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 202,
+      "end_frame": 403,
+      "start_time_sec": 6.733333,
+      "end_time_sec": 13.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        202,
+        220,
+        239,
+        257,
+        275,
+        293,
+        312,
+        330,
+        348,
+        366,
+        385,
+        403
+      ],
+      "score_stats": {
+        "mean": 0.999929,
+        "max": 0.999961
+      },
+      "description": "A man in a patterned outfit walked out of the door and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 404,
+      "end_frame": 605,
+      "start_time_sec": 13.466667,
+      "end_time_sec": 20.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        404,
+        422,
+        441,
+        459,
+        477,
+        495,
+        514,
+        532,
+        550,
+        568,
+        587,
+        605
+      ],
+      "score_stats": {
+        "mean": 0.999906,
+        "max": 0.999956
+      },
+      "description": "A man in a brown jacket and patterned pants walked out of the store and walked to the door."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 606,
+      "end_frame": 807,
+      "start_time_sec": 20.2,
+      "end_time_sec": 26.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        606,
+        624,
+        643,
+        661,
+        679,
+        697,
+        716,
+        734,
+        752,
+        770,
+        789,
+        807
+      ],
+      "score_stats": {
+        "mean": 0.999879,
+        "max": 0.999953
+      },
+      "description": "The man in the brown jacket and black pants walked out of the door and walked to the right side of the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 808,
+      "end_frame": 1010,
+      "start_time_sec": 26.933333,
+      "end_time_sec": 33.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        808,
+        826,
+        845,
+        863,
+        881,
+        900,
+        918,
+        937,
+        955,
+        973,
+        992,
+        1010
+      ],
+      "score_stats": {
+        "mean": 0.999289,
+        "max": 0.999955
+      },
+      "description": "A man in a brown jacket and black pants entered the store through the glass door, and then he suddenly grabbed a gun and fired it at the door."
+    }
+  ]
+}

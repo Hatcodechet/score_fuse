@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion035_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion035_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2865,
+  "duration_sec": 95.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion035_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 179,
+    "aligned_to_num_frames": 2865,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 572,
+      "start_time_sec": 0.0,
+      "end_time_sec": 19.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        52,
+        104,
+        156,
+        208,
+        260,
+        312,
+        364,
+        416,
+        468,
+        520,
+        572
+      ],
+      "score_stats": {
+        "mean": 0.799818,
+        "max": 0.996797
+      },
+      "description": "The man in black clothes walked out of the room and walked to the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 573,
+      "end_frame": 1145,
+      "start_time_sec": 19.1,
+      "end_time_sec": 38.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        573,
+        625,
+        677,
+        729,
+        781,
+        833,
+        885,
+        937,
+        989,
+        1041,
+        1093,
+        1145
+      ],
+      "score_stats": {
+        "mean": 0.998383,
+        "max": 0.999312
+      },
+      "description": "The man in white clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1146,
+      "end_frame": 1718,
+      "start_time_sec": 38.2,
+      "end_time_sec": 57.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1146,
+        1198,
+        1250,
+        1302,
+        1354,
+        1406,
+        1458,
+        1510,
+        1562,
+        1614,
+        1666,
+        1718
+      ],
+      "score_stats": {
+        "mean": 0.935398,
+        "max": 0.999577
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1719,
+      "end_frame": 2291,
+      "start_time_sec": 57.3,
+      "end_time_sec": 76.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1719,
+        1771,
+        1823,
+        1875,
+        1927,
+        1979,
+        2031,
+        2083,
+        2135,
+        2187,
+        2239,
+        2291
+      ],
+      "score_stats": {
+        "mean": 0.96321,
+        "max": 0.998129
+      },
+      "description": "A man in a white shirt and dark pants enters a room, approaches a table, and then leaves the room."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2292,
+      "end_frame": 2864,
+      "start_time_sec": 76.4,
+      "end_time_sec": 95.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2292,
+        2344,
+        2396,
+        2448,
+        2500,
+        2552,
+        2604,
+        2656,
+        2708,
+        2760,
+        2812,
+        2864
+      ],
+      "score_stats": {
+        "mean": 0.993822,
+        "max": 0.999215
+      },
+      "description": "The man in white clothes and the man in black clothes are engaged in a conversation, and the man in black clothes is holding a gun."
+    }
+  ]
+}

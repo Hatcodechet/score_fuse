@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_246_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_246_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4993,
+  "duration_sec": 166.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_246_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 312,
+    "aligned_to_num_frames": 4993,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 2992,
+      "end_frame": 3232,
+      "start_time_sec": 99.733333,
+      "end_time_sec": 107.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2992,
+        3014,
+        3036,
+        3057,
+        3079,
+        3101,
+        3123,
+        3145,
+        3167,
+        3188,
+        3210,
+        3232
+      ],
+      "score_stats": {
+        "mean": 0.112396,
+        "max": 0.203496
+      },
+      "description": "The man in red clothes walked to the right side of the screen and walked to the right side of the screen."
+    }
+  ]
+}

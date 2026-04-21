@@ -1,0 +1,81 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arrest/Arrest007_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arrest/Arrest007_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3144,
+  "duration_sec": 104.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arrest/Arrest007_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 196,
+    "aligned_to_num_frames": 3144,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1588,
+      "end_frame": 2085,
+      "start_time_sec": 52.933333,
+      "end_time_sec": 69.5,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1588,
+        1633,
+        1678,
+        1724,
+        1769,
+        1814,
+        1859,
+        1904,
+        1949,
+        1995,
+        2040,
+        2085
+      ],
+      "score_stats": {
+        "mean": 0.964382,
+        "max": 0.997546
+      },
+      "description": "The man in black clothes and the man in black clothes are standing in the doorway, and the man in black clothes is holding a gun.",
+      "cleaned_description": "Two"
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2438,
+      "end_frame": 2919,
+      "start_time_sec": 81.266667,
+      "end_time_sec": 97.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2438,
+        2482,
+        2525,
+        2569,
+        2613,
+        2657,
+        2700,
+        2744,
+        2788,
+        2832,
+        2875,
+        2919
+      ],
+      "score_stats": {
+        "mean": 0.960909,
+        "max": 0.99918
+      },
+      "description": "A man in white clothes and a woman in black clothes walked out of the house and walked to the road.",
+      "cleaned_description": "A man and"
+    }
+  ],
+  "cleaned_descriptions": [
+    "Two",
+    "A man and"
+  ]
+}

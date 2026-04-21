@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary017_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary017_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2113,
+  "duration_sec": 70.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary017_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 132,
+    "aligned_to_num_frames": 2113,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 368,
+      "end_frame": 480,
+      "start_time_sec": 12.266667,
+      "end_time_sec": 16.0,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        368,
+        378,
+        388,
+        399,
+        409,
+        419,
+        429,
+        439,
+        449,
+        460,
+        470,
+        480
+      ],
+      "score_stats": {
+        "mean": 0.821138,
+        "max": 0.828664
+      },
+      "description": "The man in white clothes walked to the table and sat down."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 704,
+      "end_frame": 1088,
+      "start_time_sec": 23.466667,
+      "end_time_sec": 36.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        704,
+        739,
+        774,
+        809,
+        844,
+        879,
+        913,
+        948,
+        983,
+        1018,
+        1053,
+        1088
+      ],
+      "score_stats": {
+        "mean": 0.896614,
+        "max": 0.993418
+      },
+      "description": "A man in a white shirt and dark pants enters the room, approaches the counter, and then leaves the room."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1216,
+      "end_frame": 1328,
+      "start_time_sec": 40.533333,
+      "end_time_sec": 44.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1216,
+        1226,
+        1236,
+        1247,
+        1257,
+        1267,
+        1277,
+        1287,
+        1297,
+        1308,
+        1318,
+        1328
+      ],
+      "score_stats": {
+        "mean": 0.818749,
+        "max": 0.834675
+      },
+      "description": "The man in the white shirt walked to the table and sat down on the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1856,
+      "end_frame": 2112,
+      "start_time_sec": 61.866667,
+      "end_time_sec": 70.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1856,
+        1879,
+        1903,
+        1926,
+        1949,
+        1972,
+        1996,
+        2019,
+        2042,
+        2065,
+        2089,
+        2112
+      ],
+      "score_stats": {
+        "mean": 0.881633,
+        "max": 0.987463
+      },
+      "description": "The man in white clothes walked to the table and sat down on the table."
+    }
+  ]
+}

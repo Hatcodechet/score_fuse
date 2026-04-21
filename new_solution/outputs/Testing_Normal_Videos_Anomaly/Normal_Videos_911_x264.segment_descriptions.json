@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_911_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_911_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 776,
+  "duration_sec": 25.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_911_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 48,
+    "aligned_to_num_frames": 776,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 96,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        9,
+        17,
+        26,
+        35,
+        44,
+        52,
+        61,
+        70,
+        79,
+        87,
+        96
+      ],
+      "score_stats": {
+        "mean": 0.064698,
+        "max": 0.133316
+      },
+      "description": "A silver car is driving on a road with a pedestrian crossing sign and a red traffic light."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 662,
+      "end_frame": 775,
+      "start_time_sec": 22.066667,
+      "end_time_sec": 25.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        662,
+        672,
+        683,
+        693,
+        703,
+        713,
+        724,
+        734,
+        744,
+        754,
+        765,
+        775
+      ],
+      "score_stats": {
+        "mean": 0.070103,
+        "max": 0.10675
+      },
+      "description": "A car drives down the road, passing by a building with a blue sign that reads \"2nd street.\""
+    }
+  ]
+}

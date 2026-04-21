@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting017_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting017_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 457,
+  "duration_sec": 15.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting017_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 28,
+    "aligned_to_num_frames": 457,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 113,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        10,
+        21,
+        31,
+        41,
+        51,
+        62,
+        72,
+        82,
+        92,
+        103,
+        113
+      ],
+      "score_stats": {
+        "mean": 0.865952,
+        "max": 0.923812
+      },
+      "description": "The man in blue clothes walked to the counter and looked at the computer screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 114,
+      "end_frame": 227,
+      "start_time_sec": 3.8,
+      "end_time_sec": 7.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        114,
+        124,
+        135,
+        145,
+        155,
+        165,
+        176,
+        186,
+        196,
+        206,
+        217,
+        227
+      ],
+      "score_stats": {
+        "mean": 0.939006,
+        "max": 0.950911
+      },
+      "description": "The man in the blue shirt walked to the counter and looked at the computer screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 228,
+      "end_frame": 341,
+      "start_time_sec": 7.6,
+      "end_time_sec": 11.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        228,
+        238,
+        249,
+        259,
+        269,
+        279,
+        290,
+        300,
+        310,
+        320,
+        331,
+        341
+      ],
+      "score_stats": {
+        "mean": 0.965991,
+        "max": 0.978463
+      },
+      "description": "The woman in pink walked to the counter and looked at the computer screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 342,
+      "end_frame": 456,
+      "start_time_sec": 11.4,
+      "end_time_sec": 15.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        342,
+        352,
+        363,
+        373,
+        383,
+        394,
+        404,
+        415,
+        425,
+        435,
+        446,
+        456
+      ],
+      "score_stats": {
+        "mean": 0.978519,
+        "max": 0.985138
+      },
+      "description": "The man in brown walked to the counter and looked at the computer screen."
+    }
+  ]
+}

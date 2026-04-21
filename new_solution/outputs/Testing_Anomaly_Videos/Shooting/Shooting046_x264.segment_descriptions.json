@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting046_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting046_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5088,
+  "duration_sec": 169.6,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting046_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 318,
+    "aligned_to_num_frames": 5088,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1016,
+      "start_time_sec": 0.0,
+      "end_time_sec": 33.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        92,
+        185,
+        277,
+        369,
+        462,
+        554,
+        647,
+        739,
+        831,
+        924,
+        1016
+      ],
+      "score_stats": {
+        "mean": 0.891066,
+        "max": 0.998538
+      },
+      "description": "The man in the blue and white striped shirt and the man in the black shirt walked out of the door and walked to the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1017,
+      "end_frame": 2034,
+      "start_time_sec": 33.9,
+      "end_time_sec": 67.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1017,
+        1109,
+        1202,
+        1294,
+        1387,
+        1479,
+        1572,
+        1664,
+        1757,
+        1849,
+        1942,
+        2034
+      ],
+      "score_stats": {
+        "mean": 0.99823,
+        "max": 0.999433
+      },
+      "description": "The man in the blue and white striped shirt walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2035,
+      "end_frame": 3051,
+      "start_time_sec": 67.833333,
+      "end_time_sec": 101.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2035,
+        2127,
+        2220,
+        2312,
+        2404,
+        2497,
+        2589,
+        2682,
+        2774,
+        2866,
+        2959,
+        3051
+      ],
+      "score_stats": {
+        "mean": 0.999109,
+        "max": 0.999744
+      },
+      "description": "The man in the striped shirt and the man in the black shirt are seen entering the machine, and the man in the black shirt is seen holding a gun."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3052,
+      "end_frame": 4069,
+      "start_time_sec": 101.733333,
+      "end_time_sec": 135.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3052,
+        3144,
+        3237,
+        3329,
+        3422,
+        3514,
+        3607,
+        3699,
+        3792,
+        3884,
+        3977,
+        4069
+      ],
+      "score_stats": {
+        "mean": 0.998227,
+        "max": 0.999212
+      },
+      "description": "The man in the black shirt and the man in the blue and white striped shirt are both looking at the screen of the machine, and the man in the black shirt is holding a small object in his hand."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4070,
+      "end_frame": 5087,
+      "start_time_sec": 135.666667,
+      "end_time_sec": 169.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4070,
+        4162,
+        4255,
+        4347,
+        4440,
+        4532,
+        4625,
+        4717,
+        4810,
+        4902,
+        4995,
+        5087
+      ],
+      "score_stats": {
+        "mean": 0.95048,
+        "max": 0.998125
+      },
+      "description": "A man in a black shirt and helmet entered the door, and the man in the blue shirt and black helmet left the door."
+    }
+  ]
+}

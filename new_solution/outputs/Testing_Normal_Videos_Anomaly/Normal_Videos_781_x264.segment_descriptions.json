@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_781_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_781_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3975,
+  "duration_sec": 132.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_781_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 248,
+    "aligned_to_num_frames": 3975,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 794,
+      "start_time_sec": 0.0,
+      "end_time_sec": 26.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        72,
+        144,
+        217,
+        289,
+        361,
+        433,
+        505,
+        577,
+        650,
+        722,
+        794
+      ],
+      "score_stats": {
+        "mean": 2e-06,
+        "max": 0.000129
+      },
+      "description": "A group of people standing on a tiled platform, with some individuals using wheelchairs. there is a blue vehicle parked on the side of the road, and a motorcycle is visible in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 795,
+      "end_frame": 1589,
+      "start_time_sec": 26.5,
+      "end_time_sec": 52.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        795,
+        867,
+        939,
+        1012,
+        1084,
+        1156,
+        1228,
+        1300,
+        1372,
+        1445,
+        1517,
+        1589
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A man in black clothes and a woman in red clothes are talking to each other."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1590,
+      "end_frame": 2384,
+      "start_time_sec": 53.0,
+      "end_time_sec": 79.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1590,
+        1662,
+        1734,
+        1807,
+        1879,
+        1951,
+        2023,
+        2095,
+        2167,
+        2240,
+        2312,
+        2384
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A man in a red shirt and a woman in a red coat are standing on the sidewalk, talking to each other."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2385,
+      "end_frame": 3179,
+      "start_time_sec": 79.5,
+      "end_time_sec": 105.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2385,
+        2457,
+        2529,
+        2602,
+        2674,
+        2746,
+        2818,
+        2890,
+        2962,
+        3035,
+        3107,
+        3179
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A man in a blue jacket and a woman in a red coat are standing on the sidewalk, talking to each other."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3180,
+      "end_frame": 3974,
+      "start_time_sec": 106.0,
+      "end_time_sec": 132.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3180,
+        3252,
+        3324,
+        3397,
+        3469,
+        3541,
+        3613,
+        3685,
+        3757,
+        3830,
+        3902,
+        3974
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 9e-05
+      },
+      "description": "A man in a blue shirt and a woman in a red dress are standing on the sidewalk, talking to each other. A man in a black shirt is holding a briefcase and walking towards them."
+    }
+  ]
+}

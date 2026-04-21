@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting001_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting001_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4344,
+  "duration_sec": 144.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting001_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 271,
+    "aligned_to_num_frames": 4344,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 867,
+      "start_time_sec": 0.0,
+      "end_time_sec": 28.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        79,
+        158,
+        236,
+        315,
+        394,
+        473,
+        552,
+        631,
+        709,
+        788,
+        867
+      ],
+      "score_stats": {
+        "mean": 0.93891,
+        "max": 0.999028
+      },
+      "description": "The man in orange walked to the shelf and took out a box of products."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 868,
+      "end_frame": 1736,
+      "start_time_sec": 28.933333,
+      "end_time_sec": 57.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        868,
+        947,
+        1026,
+        1105,
+        1184,
+        1263,
+        1341,
+        1420,
+        1499,
+        1578,
+        1657,
+        1736
+      ],
+      "score_stats": {
+        "mean": 0.991598,
+        "max": 0.998052
+      },
+      "description": "The man in orange clothes walked to the shelf and took out a box of products."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1737,
+      "end_frame": 2605,
+      "start_time_sec": 57.9,
+      "end_time_sec": 86.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1737,
+        1816,
+        1895,
+        1974,
+        2053,
+        2132,
+        2210,
+        2289,
+        2368,
+        2447,
+        2526,
+        2605
+      ],
+      "score_stats": {
+        "mean": 0.95901,
+        "max": 0.994879
+      },
+      "description": "The man in white walked to the shelf and took out a box of products."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2606,
+      "end_frame": 3474,
+      "start_time_sec": 86.866667,
+      "end_time_sec": 115.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2606,
+        2685,
+        2764,
+        2843,
+        2922,
+        3001,
+        3079,
+        3158,
+        3237,
+        3316,
+        3395,
+        3474
+      ],
+      "score_stats": {
+        "mean": 0.934454,
+        "max": 0.993477
+      },
+      "description": "The man in red walked to the right side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3475,
+      "end_frame": 4343,
+      "start_time_sec": 115.833333,
+      "end_time_sec": 144.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3475,
+        3554,
+        3633,
+        3712,
+        3791,
+        3870,
+        3948,
+        4027,
+        4106,
+        4185,
+        4264,
+        4343
+      ],
+      "score_stats": {
+        "mean": 0.967288,
+        "max": 0.994337
+      },
+      "description": "A woman in black walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import sys
+import inspect
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,8 @@ import numpy as np
 
 
 DEFAULT_CHECKPOINT_PATH = Path("/workspace/model_ucf.pth")
+DEFAULT_FEATURE_ROOT = Path("/workspace/UCFClipFeatures")
+DEFAULT_SCORER_SOURCE_ROOT = Path("/workspace/VadCLIP/src")
 
 
 @dataclass
@@ -230,20 +233,101 @@ class AnomalyScoreService:
             index.setdefault(stem, feature_path)
         return index
 
+    def _discover_feature_root(self) -> Path:
+        if self.feature_root and self.feature_root.exists():
+            return self.feature_root
+
+        candidate_roots = [
+            DEFAULT_FEATURE_ROOT,
+            Path("/workspace/VHung/data/UCFClipFeatures"),
+        ]
+        for candidate in candidate_roots:
+            if candidate.exists():
+                self.feature_root = candidate
+                self._feature_index = self._build_feature_index(candidate)
+                return candidate
+
+        workspace_root = Path("/workspace")
+        for candidate in sorted(workspace_root.rglob("UCFClipFeatures")):
+            if candidate.is_dir():
+                self.feature_root = candidate
+                self._feature_index = self._build_feature_index(candidate)
+                return candidate
+
+        raise FileNotFoundError(
+            "Could not discover the precomputed UCF feature directory automatically. "
+            "Pass --feature-root pointing to the folder that contains files like `Abuse020_x264__0.npy`."
+        )
+
     def _discover_scorer_source_root(self) -> Path:
-        if self.scorer_source_root:
+        if (
+            self.scorer_source_root
+            and self.scorer_source_root.exists()
+            and (self.scorer_source_root / "model.py").exists()
+            and (self.scorer_source_root / "utils" / "tools.py").exists()
+            and (
+                (self.scorer_source_root / "option.py").exists()
+                or (self.scorer_source_root / "ucf_option.py").exists()
+            )
+        ):
             return self.scorer_source_root
 
-        # TODO: Point this at the original anomaly-scoring project root if it exists.
+        candidate_roots = [
+            DEFAULT_SCORER_SOURCE_ROOT,
+            Path("/workspace/VHung/src"),
+        ]
+        for candidate in candidate_roots:
+            if (
+                candidate.exists()
+                and (candidate / "model.py").exists()
+                and (candidate / "utils" / "tools.py").exists()
+                and ((candidate / "option.py").exists() or (candidate / "ucf_option.py").exists())
+            ):
+                self.scorer_source_root = candidate
+                return candidate
+
         workspace_root = Path("/workspace")
-        for option_path in workspace_root.rglob("option.py"):
-            candidate_root = option_path.parent
-            if (candidate_root / "model.py").exists():
-                return candidate_root
+        for option_name in ("option.py", "ucf_option.py"):
+            for option_path in workspace_root.rglob(option_name):
+                candidate_root = option_path.parent
+                if (candidate_root / "model.py").exists() and (candidate_root / "utils" / "tools.py").exists():
+                    self.scorer_source_root = candidate_root
+                    return candidate_root
         raise FileNotFoundError(
             "Could not discover scorer source root automatically. "
-            "Pass --scorer-source-root pointing to the project that defines option.py, model.py, and utils/tools.py."
+            "Pass --scorer-source-root pointing to the project that defines model.py and utils/tools.py "
+            "plus either option.py or ucf_option.py."
         )
+
+    def _load_option_module(self, scorer_source_root: Path):
+        import importlib
+
+        for module_name in ("option", "ucf_option"):
+            try:
+                return importlib.import_module(module_name)
+            except ModuleNotFoundError:
+                continue
+        raise ModuleNotFoundError(
+            f"Neither option.py nor ucf_option.py could be imported from {scorer_source_root}"
+        )
+
+    def _instantiate_clipvad(self, clipvad_cls, args, device):
+        init_kwargs = {
+            "num_class": args.classes_num,
+            "embed_dim": args.embed_dim,
+            "visual_length": args.visual_length,
+            "visual_width": args.visual_width,
+            "visual_head": args.visual_head,
+            "visual_layers": args.visual_layers,
+            "attn_window": args.attn_window,
+            "prompt_prefix": args.prompt_prefix,
+            "prompt_postfix": args.prompt_postfix,
+            "device": device,
+        }
+        signature = inspect.signature(clipvad_cls.__init__)
+        if "use_tgm" in signature.parameters:
+            init_kwargs["use_tgm"] = False
+        return clipvad_cls(**init_kwargs)
 
     def _load_checkpoint_scorer(self) -> tuple[object, Any, Any]:
         if self._scorer_bundle is not None:
@@ -256,24 +340,13 @@ class AnomalyScoreService:
 
         import torch
         from model import CLIPVAD
-        import option
+
+        option = self._load_option_module(scorer_source_root)
 
         device = _resolve_device(self.scorer_device)
         args = option.parser.parse_args([])
 
-        model = CLIPVAD(
-            args.classes_num,
-            args.embed_dim,
-            args.visual_length,
-            args.visual_width,
-            args.visual_head,
-            args.visual_layers,
-            args.attn_window,
-            args.prompt_prefix,
-            args.prompt_postfix,
-            device,
-            use_tgm=False,
-        )
+        model = self._instantiate_clipvad(CLIPVAD, args, device)
         checkpoint = torch.load(self.checkpoint_path, map_location=device, weights_only=False)
         model.load_state_dict(_extract_state_dict(checkpoint), strict=False)
         model = model.to(device)
@@ -282,16 +355,12 @@ class AnomalyScoreService:
         return self._scorer_bundle
 
     def _infer_scores_with_checkpoint(self, video_path: Path) -> ScoreResult:
-        if not self.feature_root:
-            raise FileNotFoundError(
-                "The checkpoint-based scorer expects precomputed video features. "
-                "Pass --feature-root with `.npy` features matching each video stem."
-            )
+        feature_root = self._discover_feature_root()
 
         feature_path = self._feature_index.get(video_path.stem)
         if feature_path is None or not feature_path.exists():
             raise FileNotFoundError(
-                f"Feature file not found for {video_path.stem} under {self.feature_root}. "
+                f"Feature file not found for {video_path.stem} under {feature_root}. "
                 "TODO: plug in the original project's raw-video feature extractor if you want "
                 "to score videos directly from mp4 files."
             )
@@ -305,6 +374,7 @@ class AnomalyScoreService:
             metadata={
                 "checkpoint_path": str(self.checkpoint_path),
                 "feature_path": str(feature_path),
+                "feature_root": str(feature_root),
             },
         )
 

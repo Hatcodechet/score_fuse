@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Vandalism/Vandalism036_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Vandalism/Vandalism036_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1443,
+  "duration_sec": 48.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Vandalism/Vandalism036_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 90,
+    "aligned_to_num_frames": 1443,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 287,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        26,
+        52,
+        78,
+        104,
+        130,
+        157,
+        183,
+        209,
+        235,
+        261,
+        287
+      ],
+      "score_stats": {
+        "mean": 0.996644,
+        "max": 0.999598
+      },
+      "description": "A man in a brown shirt walked out of the store and walked to the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 288,
+      "end_frame": 576,
+      "start_time_sec": 9.6,
+      "end_time_sec": 19.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        288,
+        314,
+        340,
+        367,
+        393,
+        419,
+        445,
+        471,
+        497,
+        524,
+        550,
+        576
+      ],
+      "score_stats": {
+        "mean": 0.999816,
+        "max": 0.999939
+      },
+      "description": "The man in black clothes walked to the counter and took out a bag of snacks from the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 577,
+      "end_frame": 864,
+      "start_time_sec": 19.233333,
+      "end_time_sec": 28.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        577,
+        603,
+        629,
+        655,
+        681,
+        707,
+        734,
+        760,
+        786,
+        812,
+        838,
+        864
+      ],
+      "score_stats": {
+        "mean": 0.999819,
+        "max": 0.99992
+      },
+      "description": "A man in a white shirt and black pants entered the store, and the woman in a white shirt and black pants left the store."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 865,
+      "end_frame": 1153,
+      "start_time_sec": 28.833333,
+      "end_time_sec": 38.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        865,
+        891,
+        917,
+        944,
+        970,
+        996,
+        1022,
+        1048,
+        1074,
+        1101,
+        1127,
+        1153
+      ],
+      "score_stats": {
+        "mean": 0.999849,
+        "max": 0.999904
+      },
+      "description": "A woman in a red and white striped shirt walked out of the store and walked to the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1154,
+      "end_frame": 1442,
+      "start_time_sec": 38.466667,
+      "end_time_sec": 48.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1154,
+        1180,
+        1206,
+        1233,
+        1259,
+        1285,
+        1311,
+        1337,
+        1363,
+        1390,
+        1416,
+        1442
+      ],
+      "score_stats": {
+        "mean": 0.999412,
+        "max": 0.99978
+      },
+      "description": "A man in black clothes walked out of the store and walked to the counter."
+    }
+  ]
+}

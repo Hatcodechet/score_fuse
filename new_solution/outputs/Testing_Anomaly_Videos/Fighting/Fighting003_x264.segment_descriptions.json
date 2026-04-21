@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Fighting/Fighting003_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Fighting/Fighting003_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3102,
+  "duration_sec": 103.4,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Fighting/Fighting003_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 193,
+    "aligned_to_num_frames": 3102,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 619,
+      "start_time_sec": 0.0,
+      "end_time_sec": 20.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        56,
+        113,
+        169,
+        225,
+        281,
+        338,
+        394,
+        450,
+        506,
+        563,
+        619
+      ],
+      "score_stats": {
+        "mean": 0.979899,
+        "max": 0.998042
+      },
+      "description": "A man in a red vest walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 620,
+      "end_frame": 1239,
+      "start_time_sec": 20.666667,
+      "end_time_sec": 41.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        620,
+        676,
+        733,
+        789,
+        845,
+        901,
+        958,
+        1014,
+        1070,
+        1126,
+        1183,
+        1239
+      ],
+      "score_stats": {
+        "mean": 0.998514,
+        "max": 0.998962
+      },
+      "description": "A group of people walking through a subway station, with some individuals carrying backpacks and others carrying items. the floor is covered with colorful tiles, and there are signs and advertisements visible on the walls."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1240,
+      "end_frame": 1860,
+      "start_time_sec": 41.333333,
+      "end_time_sec": 62.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1240,
+        1296,
+        1353,
+        1409,
+        1465,
+        1522,
+        1578,
+        1635,
+        1691,
+        1747,
+        1804,
+        1860
+      ],
+      "score_stats": {
+        "mean": 0.996498,
+        "max": 0.999815
+      },
+      "description": "A group of people gathered in a subway station, with some individuals standing and others sitting on the floor. the floor is covered with colorful patterns, and there are signs and posters visible in the background."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1861,
+      "end_frame": 2480,
+      "start_time_sec": 62.033333,
+      "end_time_sec": 82.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1861,
+        1917,
+        1974,
+        2030,
+        2086,
+        2142,
+        2199,
+        2255,
+        2311,
+        2367,
+        2424,
+        2480
+      ],
+      "score_stats": {
+        "mean": 0.999118,
+        "max": 0.999821
+      },
+      "description": "A group of people gathered around a screen displaying a map, with some individuals moving around and others standing still."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2481,
+      "end_frame": 3101,
+      "start_time_sec": 82.7,
+      "end_time_sec": 103.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2481,
+        2537,
+        2594,
+        2650,
+        2706,
+        2763,
+        2819,
+        2876,
+        2932,
+        2988,
+        3045,
+        3101
+      ],
+      "score_stats": {
+        "mean": 0.995704,
+        "max": 0.997893
+      },
+      "description": "A group of people walking through a subway station, with one person in a red shirt and another in a black top walking towards the camera."
+    }
+  ]
+}

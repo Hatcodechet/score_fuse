@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary018_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary018_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1125,
+  "duration_sec": 37.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary018_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 70,
+    "aligned_to_num_frames": 1125,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 224,
+      "start_time_sec": 0.0,
+      "end_time_sec": 7.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        20,
+        41,
+        61,
+        81,
+        102,
+        122,
+        143,
+        163,
+        183,
+        204,
+        224
+      ],
+      "score_stats": {
+        "mean": 0.683955,
+        "max": 0.965613
+      },
+      "description": "A person in white clothes walked out of the house and walked to the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 225,
+      "end_frame": 449,
+      "start_time_sec": 7.5,
+      "end_time_sec": 14.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        225,
+        245,
+        266,
+        286,
+        306,
+        327,
+        347,
+        368,
+        388,
+        408,
+        429,
+        449
+      ],
+      "score_stats": {
+        "mean": 0.991961,
+        "max": 0.997474
+      },
+      "description": "The man in white clothes walked to the bottom of the stairs and then walked to the right side of the stairs."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 450,
+      "end_frame": 674,
+      "start_time_sec": 15.0,
+      "end_time_sec": 22.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        450,
+        470,
+        491,
+        511,
+        531,
+        552,
+        572,
+        593,
+        613,
+        633,
+        654,
+        674
+      ],
+      "score_stats": {
+        "mean": 0.998139,
+        "max": 0.998621
+      },
+      "description": "The man in white clothes and black helmet walked to the bottom of the stairs and then walked to the right side of the stairs."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 675,
+      "end_frame": 899,
+      "start_time_sec": 22.5,
+      "end_time_sec": 29.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        675,
+        695,
+        716,
+        736,
+        756,
+        777,
+        797,
+        818,
+        838,
+        858,
+        879,
+        899
+      ],
+      "score_stats": {
+        "mean": 0.994658,
+        "max": 0.99701
+      },
+      "description": "The man in white clothes walked to the bottom of the stairs and walked to the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 900,
+      "end_frame": 1124,
+      "start_time_sec": 30.0,
+      "end_time_sec": 37.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        900,
+        920,
+        941,
+        961,
+        981,
+        1002,
+        1022,
+        1043,
+        1063,
+        1083,
+        1104,
+        1124
+      ],
+      "score_stats": {
+        "mean": 0.975524,
+        "max": 0.993433
+      },
+      "description": "The man in white clothes and black pants walked to the door and opened it."
+    }
+  ]
+}

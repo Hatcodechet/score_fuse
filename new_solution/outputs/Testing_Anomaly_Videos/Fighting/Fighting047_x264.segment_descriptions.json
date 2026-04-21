@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Fighting/Fighting047_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Fighting/Fighting047_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4459,
+  "duration_sec": 148.633333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Fighting/Fighting047_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 278,
+    "aligned_to_num_frames": 4459,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 890,
+      "start_time_sec": 0.0,
+      "end_time_sec": 29.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        81,
+        162,
+        243,
+        324,
+        405,
+        485,
+        566,
+        647,
+        728,
+        809,
+        890
+      ],
+      "score_stats": {
+        "mean": 0.384639,
+        "max": 0.926092
+      },
+      "description": "A man in a white shirt and black pants is seen running towards the camera, followed by another man in a blue shirt and black pants. The man in the white shirt then throws a black object at the man in the blue shirt, who responds by throwing a black object back. The man in the white shirt then throws a black object at the man in the blue shirt, who throws a black object back."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 891,
+      "end_frame": 1782,
+      "start_time_sec": 29.7,
+      "end_time_sec": 59.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        891,
+        972,
+        1053,
+        1134,
+        1215,
+        1296,
+        1377,
+        1458,
+        1539,
+        1620,
+        1701,
+        1782
+      ],
+      "score_stats": {
+        "mean": 0.981448,
+        "max": 0.999865
+      },
+      "description": "A group of people in a garage, with one person being restrained by others. the individuals appear to be engaged in a physical altercation, with one person being pushed and pulled by others."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1783,
+      "end_frame": 2674,
+      "start_time_sec": 59.433333,
+      "end_time_sec": 89.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1783,
+        1864,
+        1945,
+        2026,
+        2107,
+        2188,
+        2269,
+        2350,
+        2431,
+        2512,
+        2593,
+        2674
+      ],
+      "score_stats": {
+        "mean": 0.671816,
+        "max": 0.998226
+      },
+      "description": "A group of people in a garage, with one person in a gray shirt and another in a black shirt being pushed by others. the environment is cluttered with various items, including a red and white banner, and the floor is covered in spilled liquids."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2675,
+      "end_frame": 3566,
+      "start_time_sec": 89.166667,
+      "end_time_sec": 118.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2675,
+        2756,
+        2837,
+        2918,
+        2999,
+        3080,
+        3161,
+        3242,
+        3323,
+        3404,
+        3485,
+        3566
+      ],
+      "score_stats": {
+        "mean": 0.919778,
+        "max": 0.996973
+      },
+      "description": "A group of people in a garage, with one person in a black shirt and another in a white shirt standing apart from the group. the garage has various tools and equipment scattered around, and there is a large puddle of oil on the floor."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3567,
+      "end_frame": 4458,
+      "start_time_sec": 118.9,
+      "end_time_sec": 148.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3567,
+        3648,
+        3729,
+        3810,
+        3891,
+        3972,
+        4053,
+        4134,
+        4215,
+        4296,
+        4377,
+        4458
+      ],
+      "score_stats": {
+        "mean": 0.769257,
+        "max": 0.993216
+      },
+      "description": "A group of people in a garage, with one person in a white shirt and another in a blue shirt standing apart from the group. the garage is cluttered with various items, including a red and white banner, and there is a large puddle of orange liquid on the floor."
+    }
+  ]
+}

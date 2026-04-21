@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arrest/Arrest039_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arrest/Arrest039_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 15835,
+  "duration_sec": 527.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arrest/Arrest039_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 989,
+    "aligned_to_num_frames": 15835,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 8469,
+      "end_frame": 8886,
+      "start_time_sec": 282.3,
+      "end_time_sec": 296.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8469,
+        8507,
+        8545,
+        8583,
+        8621,
+        8659,
+        8696,
+        8734,
+        8772,
+        8810,
+        8848,
+        8886
+      ],
+      "score_stats": {
+        "mean": 0.783686,
+        "max": 0.935577
+      },
+      "description": "A man in black clothes and a police uniform crouching on the floor, followed by another man in black clothes and a police uniform running towards the camera."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 9254,
+      "end_frame": 10087,
+      "start_time_sec": 308.466667,
+      "end_time_sec": 336.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        9254,
+        9330,
+        9405,
+        9481,
+        9557,
+        9633,
+        9708,
+        9784,
+        9860,
+        9936,
+        10011,
+        10087
+      ],
+      "score_stats": {
+        "mean": 0.855128,
+        "max": 0.947361
+      },
+      "description": "A man in black clothes and a hat is seen crouching on the floor, while another man in a gray shirt and black pants approaches him."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 11047,
+      "end_frame": 11479,
+      "start_time_sec": 368.233333,
+      "end_time_sec": 382.633333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        11047,
+        11086,
+        11126,
+        11165,
+        11204,
+        11243,
+        11283,
+        11322,
+        11361,
+        11400,
+        11440,
+        11479
+      ],
+      "score_stats": {
+        "mean": 0.714575,
+        "max": 0.821603
+      },
+      "description": "A group of people in a room, with one person on the floor and another standing over them. the individuals appear to be engaged in a conversation or discussion."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 12136,
+      "end_frame": 13689,
+      "start_time_sec": 404.533333,
+      "end_time_sec": 456.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        12136,
+        12277,
+        12418,
+        12560,
+        12701,
+        12842,
+        12983,
+        13124,
+        13265,
+        13407,
+        13548,
+        13689
+      ],
+      "score_stats": {
+        "mean": 0.897927,
+        "max": 0.987049
+      },
+      "description": "A man in a red shirt and black pants is seen running across the room, followed by a man in a gray shirt and black pants. The man in the red shirt is then seen holding a gun and pointing it at the man in the gray shirt. The man in the gray shirt appears to be in distress and is being restrained by the other two men."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 13897,
+      "end_frame": 15114,
+      "start_time_sec": 463.233333,
+      "end_time_sec": 503.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        13897,
+        14008,
+        14118,
+        14229,
+        14340,
+        14450,
+        14561,
+        14671,
+        14782,
+        14893,
+        15003,
+        15114
+      ],
+      "score_stats": {
+        "mean": 0.925699,
+        "max": 0.997466
+      },
+      "description": "A man in a black shirt and khaki pants is seen walking towards the camera, followed by another man in a black shirt and khaki pants. The man in the black shirt then turns around and walks away from the camera."
+    }
+  ]
+}

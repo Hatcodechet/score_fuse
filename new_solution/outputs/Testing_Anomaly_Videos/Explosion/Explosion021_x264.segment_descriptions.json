@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion021_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion021_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 782,
+  "duration_sec": 26.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion021_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 48,
+    "aligned_to_num_frames": 782,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 194,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        18,
+        35,
+        53,
+        71,
+        88,
+        106,
+        123,
+        141,
+        159,
+        176,
+        194
+      ],
+      "score_stats": {
+        "mean": 0.808577,
+        "max": 0.999667
+      },
+      "description": "A black screen with a green rectangle displaying the letters \"rt\" in white. the scene transitions to a gas station at night, where a car is seen driving away from the camera. the car's headlights illuminate the road ahead, and the gas station is visible in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 195,
+      "end_frame": 390,
+      "start_time_sec": 6.5,
+      "end_time_sec": 13.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        195,
+        213,
+        230,
+        248,
+        266,
+        284,
+        301,
+        319,
+        337,
+        355,
+        372,
+        390
+      ],
+      "score_stats": {
+        "mean": 0.999926,
+        "max": 0.999963
+      },
+      "description": "A chaotic scene with debris scattered on the ground, including metal sheets and other materials. there is a sense of destruction and disorder."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 391,
+      "end_frame": 585,
+      "start_time_sec": 13.033333,
+      "end_time_sec": 19.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        391,
+        409,
+        426,
+        444,
+        462,
+        479,
+        497,
+        514,
+        532,
+        550,
+        567,
+        585
+      ],
+      "score_stats": {
+        "mean": 0.999981,
+        "max": 0.999991
+      },
+      "description": "A chaotic scene with debris scattered on the ground, a fire burning in the background, and a person running away from the source of the fire."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 586,
+      "end_frame": 781,
+      "start_time_sec": 19.533333,
+      "end_time_sec": 26.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        586,
+        604,
+        621,
+        639,
+        657,
+        675,
+        692,
+        710,
+        728,
+        746,
+        763,
+        781
+      ],
+      "score_stats": {
+        "mean": 0.998139,
+        "max": 0.999991
+      },
+      "description": "A chaotic scene with debris and smoke, possibly from a fire or explosion. the camera angle is low, and the environment appears to be in disarray."
+    }
+  ]
+}

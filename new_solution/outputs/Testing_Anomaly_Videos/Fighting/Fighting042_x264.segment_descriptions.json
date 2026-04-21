@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Fighting/Fighting042_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Fighting/Fighting042_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2237,
+  "duration_sec": 74.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Fighting/Fighting042_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 139,
+    "aligned_to_num_frames": 2237,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 446,
+      "start_time_sec": 0.0,
+      "end_time_sec": 14.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        41,
+        81,
+        122,
+        162,
+        203,
+        243,
+        284,
+        324,
+        365,
+        405,
+        446
+      ],
+      "score_stats": {
+        "mean": 0.953707,
+        "max": 0.996651
+      },
+      "description": "The man in black clothes walked out of the door and walked to the door on the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 447,
+      "end_frame": 893,
+      "start_time_sec": 14.9,
+      "end_time_sec": 29.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        447,
+        488,
+        528,
+        569,
+        609,
+        650,
+        690,
+        731,
+        771,
+        812,
+        852,
+        893
+      ],
+      "score_stats": {
+        "mean": 0.998042,
+        "max": 0.999694
+      },
+      "description": "The man in black clothes entered the door and stood in front of the door, then turned around and walked out of the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 894,
+      "end_frame": 1341,
+      "start_time_sec": 29.8,
+      "end_time_sec": 44.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        894,
+        935,
+        975,
+        1016,
+        1057,
+        1097,
+        1138,
+        1178,
+        1219,
+        1260,
+        1300,
+        1341
+      ],
+      "score_stats": {
+        "mean": 0.997716,
+        "max": 0.999335
+      },
+      "description": "A man in black clothes and a man in black clothes are seen standing in front of a glass door. the man in black clothes appears to be holding something in his hand, possibly a gun. the man in black clothes then walks towards the man in black clothes, and the man in black clothes appears to be in a defensive stance."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1342,
+      "end_frame": 1788,
+      "start_time_sec": 44.733333,
+      "end_time_sec": 59.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1342,
+        1383,
+        1423,
+        1464,
+        1504,
+        1545,
+        1585,
+        1626,
+        1666,
+        1707,
+        1747,
+        1788
+      ],
+      "score_stats": {
+        "mean": 0.973319,
+        "max": 0.992689
+      },
+      "description": "The man in black clothes walked out of the door and walked to the door on the right side of the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1789,
+      "end_frame": 2236,
+      "start_time_sec": 59.633333,
+      "end_time_sec": 74.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1789,
+        1830,
+        1870,
+        1911,
+        1952,
+        1992,
+        2033,
+        2073,
+        2114,
+        2155,
+        2195,
+        2236
+      ],
+      "score_stats": {
+        "mean": 0.98599,
+        "max": 0.994577
+      },
+      "description": "The man in black clothes walked out of the door and walked to the door on the right side of the screen."
+    }
+  ]
+}

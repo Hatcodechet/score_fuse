@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_251_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_251_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 405,
+  "duration_sec": 13.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_251_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 25,
+    "aligned_to_num_frames": 405,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 324,
+      "end_frame": 404,
+      "start_time_sec": 10.8,
+      "end_time_sec": 13.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        324,
+        331,
+        339,
+        346,
+        353,
+        360,
+        368,
+        375,
+        382,
+        389,
+        397,
+        404
+      ],
+      "score_stats": {
+        "mean": 0.02893,
+        "max": 0.12762
+      },
+      "description": "A man in a white shirt and khaki shorts walked out of the camera's view and walked to the right side of the road."
+    }
+  ]
+}

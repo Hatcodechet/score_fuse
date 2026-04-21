@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_925_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_925_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 7726,
+  "duration_sec": 257.533333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_925_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 482,
+    "aligned_to_num_frames": 7726,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 2949,
+      "end_frame": 3077,
+      "start_time_sec": 98.3,
+      "end_time_sec": 102.566667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2949,
+        2961,
+        2972,
+        2984,
+        2996,
+        3007,
+        3019,
+        3030,
+        3042,
+        3054,
+        3065,
+        3077
+      ],
+      "score_stats": {
+        "mean": 0.959406,
+        "max": 0.962842
+      },
+      "description": "The video shows a series of black and white images of a parking lot at night, with cars parked in rows and trees in the background. The timestamp on the video indicates that it is 2013-06-29 at 21:37:59."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 4664,
+      "end_frame": 4824,
+      "start_time_sec": 155.466667,
+      "end_time_sec": 160.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4664,
+        4679,
+        4693,
+        4708,
+        4722,
+        4737,
+        4751,
+        4766,
+        4780,
+        4795,
+        4809,
+        4824
+      ],
+      "score_stats": {
+        "mean": 0.959362,
+        "max": 0.965263
+      },
+      "description": "A series of black and white images showing a parking lot with multiple cars, some of which are parked and others are moving. the timestamp on the video indicates it is 2013-06-29 at 21:39:07. the camera then pans to show a residential area with houses and trees, and then returns to the parking lot."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 5177,
+      "end_frame": 5850,
+      "start_time_sec": 172.566667,
+      "end_time_sec": 195.0,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5177,
+        5238,
+        5299,
+        5361,
+        5422,
+        5483,
+        5544,
+        5605,
+        5666,
+        5728,
+        5789,
+        5850
+      ],
+      "score_stats": {
+        "mean": 0.978207,
+        "max": 0.991544
+      },
+      "description": "A nighttime scene with a street illuminated by streetlights and buildings in the background. the camera moves to the right, revealing a parking lot filled with cars. a person wearing a white shirt and black pants is seen walking towards the camera."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 6075,
+      "end_frame": 7437,
+      "start_time_sec": 202.5,
+      "end_time_sec": 247.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        6075,
+        6199,
+        6323,
+        6446,
+        6570,
+        6694,
+        6818,
+        6942,
+        7066,
+        7189,
+        7313,
+        7437
+      ],
+      "score_stats": {
+        "mean": 0.988012,
+        "max": 0.996107
+      },
+      "description": "The man in black clothes walked to the car and opened the trunk."
+    }
+  ]
+}

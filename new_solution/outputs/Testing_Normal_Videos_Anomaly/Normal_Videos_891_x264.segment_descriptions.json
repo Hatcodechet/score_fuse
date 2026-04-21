@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_891_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_891_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1800,
+  "duration_sec": 60.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_891_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 112,
+    "aligned_to_num_frames": 1800,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 359,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "score_stats": {
+        "mean": 4e-06,
+        "max": 0.000123
+      },
+      "description": "A woman in a black dress is sitting at a table, talking on the phone, while a man in a blue shirt walks by."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 360,
+      "end_frame": 719,
+      "start_time_sec": 12.0,
+      "end_time_sec": 23.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        360,
+        393,
+        425,
+        458,
+        491,
+        523,
+        556,
+        588,
+        621,
+        654,
+        686,
+        719
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A woman in a black dress is sitting at a table with a laptop, and a man in a blue shirt is standing next to her. The man is holding a brown paper bag and appears to be looking at the laptop screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 720,
+      "end_frame": 1079,
+      "start_time_sec": 24.0,
+      "end_time_sec": 35.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        720,
+        753,
+        785,
+        818,
+        851,
+        883,
+        916,
+        948,
+        981,
+        1014,
+        1046,
+        1079
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A woman in a black dress is sitting at a table with a laptop, and a man in a blue shirt is standing next to her."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1080,
+      "end_frame": 1439,
+      "start_time_sec": 36.0,
+      "end_time_sec": 47.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1080,
+        1113,
+        1145,
+        1178,
+        1211,
+        1243,
+        1276,
+        1308,
+        1341,
+        1374,
+        1406,
+        1439
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A woman in a black dress is sitting at a table with a laptop, and a man in a white shirt is standing next to her."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1440,
+      "end_frame": 1799,
+      "start_time_sec": 48.0,
+      "end_time_sec": 59.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1440,
+        1473,
+        1505,
+        1538,
+        1571,
+        1603,
+        1636,
+        1668,
+        1701,
+        1734,
+        1766,
+        1799
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 2.8e-05
+      },
+      "description": "A woman in a black dress is sitting at a table with a laptop, and a man in a white shirt is standing next to her. The woman is looking at the laptop screen, while the man is talking to her."
+    }
+  ]
+}

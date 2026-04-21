@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arrest/Arrest001_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arrest/Arrest001_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2374,
+  "duration_sec": 79.133333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arrest/Arrest001_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 148,
+    "aligned_to_num_frames": 2374,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1090,
+      "end_frame": 1700,
+      "start_time_sec": 36.333333,
+      "end_time_sec": 56.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1090,
+        1145,
+        1201,
+        1256,
+        1312,
+        1367,
+        1423,
+        1478,
+        1534,
+        1589,
+        1645,
+        1700
+      ],
+      "score_stats": {
+        "mean": 0.878473,
+        "max": 0.993982
+      },
+      "description": "A man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2245,
+      "end_frame": 2373,
+      "start_time_sec": 74.833333,
+      "end_time_sec": 79.1,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2245,
+        2257,
+        2268,
+        2280,
+        2292,
+        2303,
+        2315,
+        2326,
+        2338,
+        2350,
+        2361,
+        2373
+      ],
+      "score_stats": {
+        "mean": 0.82954,
+        "max": 0.965649
+      },
+      "description": "A man in black clothes walked out of the office and walked to the door."
+    }
+  ]
+}

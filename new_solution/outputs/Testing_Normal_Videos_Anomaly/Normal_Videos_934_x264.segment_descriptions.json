@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_934_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_934_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1765,
+  "duration_sec": 58.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_934_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 110,
+    "aligned_to_num_frames": 1765,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        36,
+        44,
+        51,
+        58,
+        65,
+        73,
+        80
+      ],
+      "score_stats": {
+        "mean": 4.2e-05,
+        "max": 0.000279
+      },
+      "description": "The man in black walked to the right side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1026,
+      "end_frame": 1203,
+      "start_time_sec": 34.2,
+      "end_time_sec": 40.1,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1026,
+        1042,
+        1058,
+        1074,
+        1090,
+        1106,
+        1123,
+        1139,
+        1155,
+        1171,
+        1187,
+        1203
+      ],
+      "score_stats": {
+        "mean": 9.6e-05,
+        "max": 0.000164
+      },
+      "description": "A man in black walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1684,
+      "end_frame": 1764,
+      "start_time_sec": 56.133333,
+      "end_time_sec": 58.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1684,
+        1691,
+        1699,
+        1706,
+        1713,
+        1720,
+        1728,
+        1735,
+        1742,
+        1749,
+        1757,
+        1764
+      ],
+      "score_stats": {
+        "mean": 6.1e-05,
+        "max": 0.000199
+      },
+      "description": "The man in black walked to the right side of the screen and walked to the right side of the screen."
+    }
+  ]
+}

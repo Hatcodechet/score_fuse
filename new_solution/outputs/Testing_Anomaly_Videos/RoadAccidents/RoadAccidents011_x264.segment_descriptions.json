@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents011_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents011_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2159,
+  "duration_sec": 71.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents011_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 134,
+    "aligned_to_num_frames": 2159,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1788,
+      "end_frame": 2158,
+      "start_time_sec": 59.6,
+      "end_time_sec": 71.933333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1788,
+        1822,
+        1855,
+        1889,
+        1923,
+        1956,
+        1990,
+        2023,
+        2057,
+        2091,
+        2124,
+        2158
+      ],
+      "score_stats": {
+        "mean": 0.465489,
+        "max": 0.690086
+      },
+      "description": "A busy street scene with multiple vehicles, including cars and trucks, moving in different directions. there are pedestrians walking on the sidewalks, and some vehicles have their doors open."
+    }
+  ]
+}

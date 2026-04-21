@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Stealing/Stealing019_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Stealing/Stealing019_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4911,
+  "duration_sec": 163.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Stealing/Stealing019_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 306,
+    "aligned_to_num_frames": 4911,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 981,
+      "start_time_sec": 0.0,
+      "end_time_sec": 32.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        89,
+        178,
+        268,
+        357,
+        446,
+        535,
+        624,
+        713,
+        803,
+        892,
+        981
+      ],
+      "score_stats": {
+        "mean": 0.993415,
+        "max": 0.99708
+      },
+      "description": "A white car with a black roof and a person wearing a hat and a dark jacket standing next to it. the car is parked on a street with other vehicles and buildings in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 982,
+      "end_frame": 1963,
+      "start_time_sec": 32.733333,
+      "end_time_sec": 65.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        982,
+        1071,
+        1160,
+        1250,
+        1339,
+        1428,
+        1517,
+        1606,
+        1695,
+        1785,
+        1874,
+        1963
+      ],
+      "score_stats": {
+        "mean": 0.98987,
+        "max": 0.995271
+      },
+      "description": "The man in the white shirt and yellow pants is seen talking on the phone while standing next to a white car with black trim."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1964,
+      "end_frame": 2945,
+      "start_time_sec": 65.466667,
+      "end_time_sec": 98.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1964,
+        2053,
+        2142,
+        2232,
+        2321,
+        2410,
+        2499,
+        2588,
+        2677,
+        2767,
+        2856,
+        2945
+      ],
+      "score_stats": {
+        "mean": 0.990698,
+        "max": 0.99743
+      },
+      "description": "The man in the white shirt and black pants is seen talking on the phone while standing next to the white car."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2946,
+      "end_frame": 3927,
+      "start_time_sec": 98.2,
+      "end_time_sec": 130.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2946,
+        3035,
+        3124,
+        3214,
+        3303,
+        3392,
+        3481,
+        3570,
+        3659,
+        3749,
+        3838,
+        3927
+      ],
+      "score_stats": {
+        "mean": 0.989656,
+        "max": 0.993662
+      },
+      "description": "A white car with a black roof is parked on the side of a road, and a person wearing a white shirt is seen walking towards the car."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3928,
+      "end_frame": 4910,
+      "start_time_sec": 130.933333,
+      "end_time_sec": 163.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3928,
+        4017,
+        4107,
+        4196,
+        4285,
+        4374,
+        4464,
+        4553,
+        4642,
+        4731,
+        4821,
+        4910
+      ],
+      "score_stats": {
+        "mean": 0.90667,
+        "max": 0.997884
+      },
+      "description": "A white car with its hood open, a person in a blue shirt and yellow pants appears to be opening the trunk, and the car is parked on a street with other vehicles and buildings in the background."
+    }
+  ]
+}

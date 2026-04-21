@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_710_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_710_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1797,
+  "duration_sec": 59.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_710_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 112,
+    "aligned_to_num_frames": 1797,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1700,
+      "end_frame": 1796,
+      "start_time_sec": 56.666667,
+      "end_time_sec": 59.866667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1700,
+        1709,
+        1717,
+        1726,
+        1735,
+        1744,
+        1752,
+        1761,
+        1770,
+        1779,
+        1787,
+        1796
+      ],
+      "score_stats": {
+        "mean": 0.008767,
+        "max": 0.035018
+      },
+      "description": "A man in a red shirt and black pants standing next to a woman in a pink and orange shawl, both looking at a black metal gate. the man appears to be speaking or gesturing towards the gate, while the woman seems to be listening or waiting for something."
+    }
+  ]
+}

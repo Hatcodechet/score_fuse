@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion013_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion013_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3317,
+  "duration_sec": 110.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion013_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 207,
+    "aligned_to_num_frames": 3317,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1506,
+      "end_frame": 1714,
+      "start_time_sec": 50.2,
+      "end_time_sec": 57.133333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1506,
+        1525,
+        1544,
+        1563,
+        1582,
+        1601,
+        1619,
+        1638,
+        1657,
+        1676,
+        1695,
+        1714
+      ],
+      "score_stats": {
+        "mean": 0.918089,
+        "max": 0.964484
+      },
+      "description": "A person in a white shirt and red cap is seen working on a vehicle, possibly performing maintenance or repairs."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2547,
+      "end_frame": 3316,
+      "start_time_sec": 84.9,
+      "end_time_sec": 110.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2547,
+        2617,
+        2687,
+        2757,
+        2827,
+        2897,
+        2966,
+        3036,
+        3106,
+        3176,
+        3246,
+        3316
+      ],
+      "score_stats": {
+        "mean": 0.982838,
+        "max": 0.999867
+      },
+      "description": "A person in a white shirt and dark pants working on a vehicle, with a fire extinguisher nearby. the scene is chaotic, with sparks and flames visible, and the person appears to be in a hurry or trying to control the situation."
+    }
+  ]
+}

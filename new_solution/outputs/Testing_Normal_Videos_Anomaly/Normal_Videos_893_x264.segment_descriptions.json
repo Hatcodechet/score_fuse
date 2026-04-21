@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_893_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_893_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 6374,
+  "duration_sec": 212.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_893_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 398,
+    "aligned_to_num_frames": 6374,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1273,
+      "start_time_sec": 0.0,
+      "end_time_sec": 42.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        116,
+        231,
+        347,
+        463,
+        579,
+        694,
+        810,
+        926,
+        1042,
+        1157,
+        1273
+      ],
+      "score_stats": {
+        "mean": 2e-06,
+        "max": 0.000187
+      },
+      "description": "A man in a blue shirt and yellow shorts walked to the bottom of the shelf and looked at the magazines."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1274,
+      "end_frame": 2548,
+      "start_time_sec": 42.466667,
+      "end_time_sec": 84.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1274,
+        1390,
+        1506,
+        1621,
+        1737,
+        1853,
+        1969,
+        2085,
+        2201,
+        2316,
+        2432,
+        2548
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 2e-06
+      },
+      "description": "The man in the blue shirt walked to the bottom of the shelf and looked at the magazine."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2549,
+      "end_frame": 3823,
+      "start_time_sec": 84.966667,
+      "end_time_sec": 127.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2549,
+        2665,
+        2781,
+        2896,
+        3012,
+        3128,
+        3244,
+        3360,
+        3476,
+        3591,
+        3707,
+        3823
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 1e-06
+      },
+      "description": "A man in a blue jacket and black pants entered the store and looked at the magazines on the shelf."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3824,
+      "end_frame": 5098,
+      "start_time_sec": 127.466667,
+      "end_time_sec": 169.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3824,
+        3940,
+        4056,
+        4171,
+        4287,
+        4403,
+        4519,
+        4635,
+        4751,
+        4866,
+        4982,
+        5098
+      ],
+      "score_stats": {
+        "mean": 9e-06,
+        "max": 0.000326
+      },
+      "description": "The man in the white shirt walked to the right side of the shelf and looked at the magazine."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 5099,
+      "end_frame": 6373,
+      "start_time_sec": 169.966667,
+      "end_time_sec": 212.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5099,
+        5215,
+        5331,
+        5446,
+        5562,
+        5678,
+        5794,
+        5910,
+        6026,
+        6141,
+        6257,
+        6373
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 4e-06
+      },
+      "description": "The man in the blue shirt walked to the shelf and looked at the magazine."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents131_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents131_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1524,
+  "duration_sec": 50.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents131_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 95,
+    "aligned_to_num_frames": 1524,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 144,
+      "end_frame": 497,
+      "start_time_sec": 4.8,
+      "end_time_sec": 16.566667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        144,
+        176,
+        208,
+        240,
+        272,
+        304,
+        337,
+        369,
+        401,
+        433,
+        465,
+        497
+      ],
+      "score_stats": {
+        "mean": 0.920028,
+        "max": 0.962869
+      },
+      "description": "A car drives into the intersection and stops."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 721,
+      "end_frame": 946,
+      "start_time_sec": 24.033333,
+      "end_time_sec": 31.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        721,
+        741,
+        762,
+        782,
+        803,
+        823,
+        844,
+        864,
+        885,
+        905,
+        926,
+        946
+      ],
+      "score_stats": {
+        "mean": 0.886568,
+        "max": 0.898317
+      },
+      "description": "A white car drives from the bottom of the screen to the top of the screen"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion036_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion036_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5327,
+  "duration_sec": 177.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion036_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 332,
+    "aligned_to_num_frames": 5327,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1064,
+      "start_time_sec": 0.0,
+      "end_time_sec": 35.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        97,
+        193,
+        290,
+        387,
+        484,
+        580,
+        677,
+        774,
+        871,
+        967,
+        1064
+      ],
+      "score_stats": {
+        "mean": 0.999627,
+        "max": 0.999955
+      },
+      "description": "The man in red clothes walked to the left side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1065,
+      "end_frame": 2129,
+      "start_time_sec": 35.5,
+      "end_time_sec": 70.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1065,
+        1162,
+        1258,
+        1355,
+        1452,
+        1549,
+        1645,
+        1742,
+        1839,
+        1936,
+        2032,
+        2129
+      ],
+      "score_stats": {
+        "mean": 0.999665,
+        "max": 0.999906
+      },
+      "description": "A group of people gathered in an outdoor area, with one person in a red jacket standing out from the rest. the individuals appear to be engaged in a conversation or discussion, with some gesturing with their hands."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2130,
+      "end_frame": 3195,
+      "start_time_sec": 71.0,
+      "end_time_sec": 106.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2130,
+        2227,
+        2324,
+        2420,
+        2517,
+        2614,
+        2711,
+        2808,
+        2905,
+        3001,
+        3098,
+        3195
+      ],
+      "score_stats": {
+        "mean": 0.999877,
+        "max": 0.999997
+      },
+      "description": "A group of people gathered around a child who is lying on the ground. the child appears to be injured or in distress, and the people around them are concerned and trying to help."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3196,
+      "end_frame": 4260,
+      "start_time_sec": 106.533333,
+      "end_time_sec": 142.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3196,
+        3293,
+        3389,
+        3486,
+        3583,
+        3680,
+        3776,
+        3873,
+        3970,
+        4067,
+        4163,
+        4260
+      ],
+      "score_stats": {
+        "mean": 0.997496,
+        "max": 0.999992
+      },
+      "description": "A group of people gathered in an outdoor area, with some individuals wearing dark clothing and others in lighter attire. the ground is littered with debris, and there are several holes in the ground. a person in a white hat is seen walking around the group, and a yellow scooter is parked nearby."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4261,
+      "end_frame": 5326,
+      "start_time_sec": 142.033333,
+      "end_time_sec": 177.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4261,
+        4358,
+        4455,
+        4551,
+        4648,
+        4745,
+        4842,
+        4939,
+        5036,
+        5132,
+        5229,
+        5326
+      ],
+      "score_stats": {
+        "mean": 0.999982,
+        "max": 0.999997
+      },
+      "description": "A man in black clothes and a helmet walked to the right side of the screen, and a man in black clothes and a helmet walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson041_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson041_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3754,
+  "duration_sec": 125.133333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson041_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 234,
+    "aligned_to_num_frames": 3754,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 749,
+      "start_time_sec": 0.0,
+      "end_time_sec": 24.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        68,
+        136,
+        204,
+        272,
+        340,
+        409,
+        477,
+        545,
+        613,
+        681,
+        749
+      ],
+      "score_stats": {
+        "mean": 0.999117,
+        "max": 0.999828
+      },
+      "description": "The man in white clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 750,
+      "end_frame": 1500,
+      "start_time_sec": 25.0,
+      "end_time_sec": 50.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        750,
+        818,
+        886,
+        955,
+        1023,
+        1091,
+        1159,
+        1227,
+        1295,
+        1364,
+        1432,
+        1500
+      ],
+      "score_stats": {
+        "mean": 0.999532,
+        "max": 0.999755
+      },
+      "description": "The man in white clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1501,
+      "end_frame": 2251,
+      "start_time_sec": 50.033333,
+      "end_time_sec": 75.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1501,
+        1569,
+        1637,
+        1706,
+        1774,
+        1842,
+        1910,
+        1978,
+        2046,
+        2115,
+        2183,
+        2251
+      ],
+      "score_stats": {
+        "mean": 0.996189,
+        "max": 0.999986
+      },
+      "description": "The man in white clothes entered the door and walked to the door on the right side of the door."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2252,
+      "end_frame": 3002,
+      "start_time_sec": 75.066667,
+      "end_time_sec": 100.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2252,
+        2320,
+        2388,
+        2457,
+        2525,
+        2593,
+        2661,
+        2729,
+        2797,
+        2866,
+        2934,
+        3002
+      ],
+      "score_stats": {
+        "mean": 0.999977,
+        "max": 0.999995
+      },
+      "description": "The man in white clothes and a hat is seen bending over and picking up a white plastic bag from the floor."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3003,
+      "end_frame": 3753,
+      "start_time_sec": 100.1,
+      "end_time_sec": 125.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3003,
+        3071,
+        3139,
+        3208,
+        3276,
+        3344,
+        3412,
+        3480,
+        3548,
+        3617,
+        3685,
+        3753
+      ],
+      "score_stats": {
+        "mean": 0.99989,
+        "max": 0.999973
+      },
+      "description": "A person in a white shirt and black pants walked out of the door and walked to the right side of the screen."
+    }
+  ]
+}

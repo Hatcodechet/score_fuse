@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion008_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion008_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1748,
+  "duration_sec": 58.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion008_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 109,
+    "aligned_to_num_frames": 1748,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1074,
+      "end_frame": 1539,
+      "start_time_sec": 35.8,
+      "end_time_sec": 51.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1074,
+        1116,
+        1159,
+        1201,
+        1243,
+        1285,
+        1328,
+        1370,
+        1412,
+        1454,
+        1497,
+        1539
+      ],
+      "score_stats": {
+        "mean": 0.998878,
+        "max": 0.999769
+      },
+      "description": "A view of a road with smoke rising in the background, indicating an explosion or fire. the camera moves forward, revealing more of the scene, which includes a roadside with debris and power lines."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1619,
+      "end_frame": 1747,
+      "start_time_sec": 53.966667,
+      "end_time_sec": 58.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1619,
+        1631,
+        1642,
+        1654,
+        1666,
+        1677,
+        1689,
+        1700,
+        1712,
+        1724,
+        1735,
+        1747
+      ],
+      "score_stats": {
+        "mean": 0.998232,
+        "max": 0.998934
+      },
+      "description": "A series of blurry images showing a large plume of smoke rising into the sky, with trees and power lines visible in the background."
+    }
+  ]
+}

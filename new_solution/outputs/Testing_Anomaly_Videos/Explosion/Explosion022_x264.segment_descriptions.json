@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion022_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion022_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3594,
+  "duration_sec": 119.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion022_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 224,
+    "aligned_to_num_frames": 3594,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 2021,
+      "end_frame": 2519,
+      "start_time_sec": 67.366667,
+      "end_time_sec": 83.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2021,
+        2066,
+        2112,
+        2157,
+        2202,
+        2247,
+        2293,
+        2338,
+        2383,
+        2428,
+        2474,
+        2519
+      ],
+      "score_stats": {
+        "mean": 0.778197,
+        "max": 0.997418
+      },
+      "description": "A man in a white shirt and red helmet is seen walking towards a machine with a red light on it. the machine appears to be a piece of equipment used for welding or cutting. the man then walks towards a machine with a yellow light on it, which is likely a different type of equipment. the scene transitions to a dark room where a fire is burning, and the camera pans to show the fire's intensity and the surrounding area."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2920,
+      "end_frame": 3096,
+      "start_time_sec": 97.333333,
+      "end_time_sec": 103.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2920,
+        2936,
+        2952,
+        2968,
+        2984,
+        3000,
+        3016,
+        3032,
+        3048,
+        3064,
+        3080,
+        3096
+      ],
+      "score_stats": {
+        "mean": 0.489834,
+        "max": 0.677457
+      },
+      "description": "The video shows a dark, blurry scene with no discernible objects or characters."
+    }
+  ]
+}

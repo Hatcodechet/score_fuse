@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting044_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting044_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 14555,
+  "duration_sec": 485.166667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting044_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 909,
+    "aligned_to_num_frames": 14555,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 2910,
+      "start_time_sec": 0.0,
+      "end_time_sec": 97.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        265,
+        529,
+        794,
+        1058,
+        1323,
+        1587,
+        1852,
+        2116,
+        2381,
+        2645,
+        2910
+      ],
+      "score_stats": {
+        "mean": 0.487119,
+        "max": 0.864891
+      },
+      "description": "A man in a black suit walked into the store and sat down on the chair."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2911,
+      "end_frame": 5821,
+      "start_time_sec": 97.033333,
+      "end_time_sec": 194.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2911,
+        3176,
+        3440,
+        3705,
+        3969,
+        4234,
+        4498,
+        4763,
+        5027,
+        5292,
+        5556,
+        5821
+      ],
+      "score_stats": {
+        "mean": 0.90202,
+        "max": 0.993018
+      },
+      "description": "A man in a brown sweater walked to the counter and talked to the man in black."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 5822,
+      "end_frame": 8732,
+      "start_time_sec": 194.066667,
+      "end_time_sec": 291.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5822,
+        6087,
+        6351,
+        6616,
+        6880,
+        7145,
+        7409,
+        7674,
+        7938,
+        8203,
+        8467,
+        8732
+      ],
+      "score_stats": {
+        "mean": 0.973956,
+        "max": 0.995472
+      },
+      "description": "The man in brown walked to the counter and looked at the computer screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 8733,
+      "end_frame": 11643,
+      "start_time_sec": 291.1,
+      "end_time_sec": 388.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        8733,
+        8998,
+        9262,
+        9527,
+        9791,
+        10056,
+        10320,
+        10585,
+        10849,
+        11114,
+        11378,
+        11643
+      ],
+      "score_stats": {
+        "mean": 0.792014,
+        "max": 0.981197
+      },
+      "description": "The man in brown walked to the counter and stood up."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 11644,
+      "end_frame": 14554,
+      "start_time_sec": 388.133333,
+      "end_time_sec": 485.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        11644,
+        11909,
+        12173,
+        12438,
+        12702,
+        12967,
+        13231,
+        13496,
+        13760,
+        14025,
+        14289,
+        14554
+      ],
+      "score_stats": {
+        "mean": 0.930619,
+        "max": 0.997341
+      },
+      "description": "The man in brown took out a black bag from the table and put it on the table."
+    }
+  ]
+}

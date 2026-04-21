@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting033_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting033_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3630,
+  "duration_sec": 121.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting033_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 226,
+    "aligned_to_num_frames": 3630,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 725,
+      "start_time_sec": 0.0,
+      "end_time_sec": 24.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        66,
+        132,
+        198,
+        264,
+        330,
+        395,
+        461,
+        527,
+        593,
+        659,
+        725
+      ],
+      "score_stats": {
+        "mean": 0.975591,
+        "max": 0.991868
+      },
+      "description": "The man in white clothes walked to the door of the house and opened the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 726,
+      "end_frame": 1451,
+      "start_time_sec": 24.2,
+      "end_time_sec": 48.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        726,
+        792,
+        858,
+        924,
+        990,
+        1056,
+        1121,
+        1187,
+        1253,
+        1319,
+        1385,
+        1451
+      ],
+      "score_stats": {
+        "mean": 0.976051,
+        "max": 0.991469
+      },
+      "description": "The man in white clothes walked to the door of the house and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1452,
+      "end_frame": 2177,
+      "start_time_sec": 48.4,
+      "end_time_sec": 72.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1452,
+        1518,
+        1584,
+        1650,
+        1716,
+        1782,
+        1847,
+        1913,
+        1979,
+        2045,
+        2111,
+        2177
+      ],
+      "score_stats": {
+        "mean": 0.992404,
+        "max": 0.999722
+      },
+      "description": "A man in a white shirt and black pants walked to the door of the house and opened it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2178,
+      "end_frame": 2903,
+      "start_time_sec": 72.6,
+      "end_time_sec": 96.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2178,
+        2244,
+        2310,
+        2376,
+        2442,
+        2508,
+        2573,
+        2639,
+        2705,
+        2771,
+        2837,
+        2903
+      ],
+      "score_stats": {
+        "mean": 0.998302,
+        "max": 0.999147
+      },
+      "description": "A man in white clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2904,
+      "end_frame": 3629,
+      "start_time_sec": 96.8,
+      "end_time_sec": 120.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2904,
+        2970,
+        3036,
+        3102,
+        3168,
+        3234,
+        3299,
+        3365,
+        3431,
+        3497,
+        3563,
+        3629
+      ],
+      "score_stats": {
+        "mean": 0.998252,
+        "max": 0.999344
+      },
+      "description": "The man in white clothes walked to the right side of the screen and walked to the right side of the screen."
+    }
+  ]
+}

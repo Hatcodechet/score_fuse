@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting028_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting028_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1357,
+  "duration_sec": 45.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting028_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 84,
+    "aligned_to_num_frames": 1357,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 339,
+      "end_frame": 775,
+      "start_time_sec": 11.3,
+      "end_time_sec": 25.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        339,
+        379,
+        418,
+        458,
+        498,
+        537,
+        577,
+        616,
+        656,
+        696,
+        735,
+        775
+      ],
+      "score_stats": {
+        "mean": 0.958293,
+        "max": 0.982423
+      },
+      "description": "The woman in green walked to the counter and took out a bag from the counter."
+    }
+  ]
+}

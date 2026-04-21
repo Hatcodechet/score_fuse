@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting028_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting028_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1898,
+  "duration_sec": 63.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting028_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 118,
+    "aligned_to_num_frames": 1898,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 378,
+      "start_time_sec": 0.0,
+      "end_time_sec": 12.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        34,
+        69,
+        103,
+        137,
+        172,
+        206,
+        241,
+        275,
+        309,
+        344,
+        378
+      ],
+      "score_stats": {
+        "mean": 0.241506,
+        "max": 0.742338
+      },
+      "description": "The man in black walked to the counter and looked at the man in red."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 379,
+      "end_frame": 758,
+      "start_time_sec": 12.633333,
+      "end_time_sec": 25.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        379,
+        413,
+        448,
+        482,
+        517,
+        551,
+        586,
+        620,
+        655,
+        689,
+        724,
+        758
+      ],
+      "score_stats": {
+        "mean": 0.958577,
+        "max": 0.999104
+      },
+      "description": "A man in black clothes walked to the counter and took out a knife from the drawer."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 759,
+      "end_frame": 1137,
+      "start_time_sec": 25.3,
+      "end_time_sec": 37.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        759,
+        793,
+        828,
+        862,
+        896,
+        931,
+        965,
+        1000,
+        1034,
+        1068,
+        1103,
+        1137
+      ],
+      "score_stats": {
+        "mean": 0.997541,
+        "max": 0.999445
+      },
+      "description": "The man in black walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1138,
+      "end_frame": 1517,
+      "start_time_sec": 37.933333,
+      "end_time_sec": 50.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1138,
+        1172,
+        1207,
+        1241,
+        1276,
+        1310,
+        1345,
+        1379,
+        1414,
+        1448,
+        1483,
+        1517
+      ],
+      "score_stats": {
+        "mean": 0.998828,
+        "max": 0.999659
+      },
+      "description": "The man in black walked to the right side of the screen and walked out of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1518,
+      "end_frame": 1897,
+      "start_time_sec": 50.6,
+      "end_time_sec": 63.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1518,
+        1552,
+        1587,
+        1621,
+        1656,
+        1690,
+        1725,
+        1759,
+        1794,
+        1828,
+        1863,
+        1897
+      ],
+      "score_stats": {
+        "mean": 0.875197,
+        "max": 0.997447
+      },
+      "description": "The man in black walked to the right side of the screen and walked out of the screen."
+    }
+  ]
+}

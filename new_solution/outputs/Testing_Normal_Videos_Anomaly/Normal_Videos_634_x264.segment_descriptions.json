@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_634_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_634_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 13459,
+  "duration_sec": 448.633333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_634_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 841,
+    "aligned_to_num_frames": 13459,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 2690,
+      "start_time_sec": 0.0,
+      "end_time_sec": 89.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        245,
+        489,
+        734,
+        978,
+        1223,
+        1467,
+        1712,
+        1956,
+        2201,
+        2445,
+        2690
+      ],
+      "score_stats": {
+        "mean": 8e-06,
+        "max": 0.001388
+      },
+      "description": "A busy street scene with multiple vehicles, including a red bus and a red car, moving along the road. the street is lined with buildings, some of which have signs in chinese characters. pedestrians are seen crossing the road, and there is a pedestrian crossing signal visible."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2691,
+      "end_frame": 5382,
+      "start_time_sec": 89.7,
+      "end_time_sec": 179.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2691,
+        2936,
+        3180,
+        3425,
+        3670,
+        3914,
+        4159,
+        4403,
+        4648,
+        4893,
+        5137,
+        5382
+      ],
+      "score_stats": {
+        "mean": 1.3e-05,
+        "max": 0.000827
+      },
+      "description": "A busy street scene with multiple vehicles, including cars and buses, moving along the road. pedestrians are seen crossing the street, and there are buildings with various signs and awnings in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 5383,
+      "end_frame": 8074,
+      "start_time_sec": 179.433333,
+      "end_time_sec": 269.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5383,
+        5628,
+        5872,
+        6117,
+        6362,
+        6606,
+        6851,
+        7095,
+        7340,
+        7585,
+        7829,
+        8074
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 1e-06
+      },
+      "description": "A bus drives past the intersection, and a white truck passes by."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 8075,
+      "end_frame": 10766,
+      "start_time_sec": 269.166667,
+      "end_time_sec": 358.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        8075,
+        8320,
+        8564,
+        8809,
+        9054,
+        9298,
+        9543,
+        9787,
+        10032,
+        10277,
+        10521,
+        10766
+      ],
+      "score_stats": {
+        "mean": 1e-05,
+        "max": 0.000748
+      },
+      "description": "A red bus drives past the camera, and a white truck passes by."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 10767,
+      "end_frame": 13458,
+      "start_time_sec": 358.9,
+      "end_time_sec": 448.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        10767,
+        11012,
+        11256,
+        11501,
+        11746,
+        11990,
+        12235,
+        12479,
+        12724,
+        12969,
+        13213,
+        13458
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 0.00045
+      },
+      "description": "A bus drives down a road, passing by a building with a red roof and a sign that reads \"chinese restaurant.\""
+    }
+  ]
+}

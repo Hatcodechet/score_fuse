@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion017_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion017_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1643,
+  "duration_sec": 54.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion017_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 102,
+    "aligned_to_num_frames": 1643,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 982,
+      "end_frame": 1498,
+      "start_time_sec": 32.733333,
+      "end_time_sec": 49.933333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        982,
+        1029,
+        1076,
+        1123,
+        1170,
+        1217,
+        1263,
+        1310,
+        1357,
+        1404,
+        1451,
+        1498
+      ],
+      "score_stats": {
+        "mean": 0.998408,
+        "max": 0.99992
+      },
+      "description": "A man in white clothes and a woman in red clothes are seen running away from the scene."
+    }
+  ]
+}

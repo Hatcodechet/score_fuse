@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_006_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_006_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 450,
+  "duration_sec": 15.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_006_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 28,
+    "aligned_to_num_frames": 450,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 353,
+      "end_frame": 449,
+      "start_time_sec": 11.766667,
+      "end_time_sec": 14.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        353,
+        362,
+        370,
+        379,
+        388,
+        397,
+        405,
+        414,
+        423,
+        432,
+        440,
+        449
+      ],
+      "score_stats": {
+        "mean": 0.013272,
+        "max": 0.045016
+      },
+      "description": "A white car drives from the bottom of the screen to the top of the screen"
+    }
+  ]
+}

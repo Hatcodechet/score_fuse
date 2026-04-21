@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_722_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_722_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8731,
+  "duration_sec": 291.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_722_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 545,
+    "aligned_to_num_frames": 8731,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        36,
+        44,
+        51,
+        58,
+        65,
+        73,
+        80
+      ],
+      "score_stats": {
+        "mean": 0.000233,
+        "max": 0.001322
+      },
+      "description": "The woman in the white shirt is sitting on the floor and looking at the computer screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 881,
+      "end_frame": 1073,
+      "start_time_sec": 29.366667,
+      "end_time_sec": 35.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        881,
+        898,
+        916,
+        933,
+        951,
+        968,
+        986,
+        1003,
+        1021,
+        1038,
+        1056,
+        1073
+      ],
+      "score_stats": {
+        "mean": 0.000653,
+        "max": 0.001395
+      },
+      "description": "The video shows a series of scenes in a classroom or office setting, where individuals are engaged in various activities. The first scene shows a group of people sitting at desks, with some of them looking at their phones. The second scene is a close-up of a computer screen displaying a white screen with black text. The third scene shows a person standing in front of a large screen displaying a presentation. The fourth scene is a close-up of a computer screen with a white screen and black text. The fifth scene shows a person sitting at a desk with papers and a computer. The sixth scene is a close-up of a computer screen with a"
+    }
+  ]
+}

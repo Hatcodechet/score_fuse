@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_210_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_210_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5408,
+  "duration_sec": 180.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_210_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 338,
+    "aligned_to_num_frames": 5408,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1080,
+      "start_time_sec": 0.0,
+      "end_time_sec": 36.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        98,
+        196,
+        295,
+        393,
+        491,
+        589,
+        687,
+        785,
+        884,
+        982,
+        1080
+      ],
+      "score_stats": {
+        "mean": 2.5e-05,
+        "max": 0.001437
+      },
+      "description": "A bustling street scene with multiple motorcycles and cars moving in different directions. pedestrians are seen walking on the sidewalks, and there are various storefronts with signs visible in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1081,
+      "end_frame": 2162,
+      "start_time_sec": 36.033333,
+      "end_time_sec": 72.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1081,
+        1179,
+        1278,
+        1376,
+        1474,
+        1572,
+        1671,
+        1769,
+        1867,
+        1965,
+        2064,
+        2162
+      ],
+      "score_stats": {
+        "mean": 1.1e-05,
+        "max": 3.3e-05
+      },
+      "description": "A busy street scene with various vehicles, including cars and motorcycles, moving in different directions. pedestrians are seen walking on the sidewalks, and there are signs and billboards visible in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2163,
+      "end_frame": 3243,
+      "start_time_sec": 72.1,
+      "end_time_sec": 108.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2163,
+        2261,
+        2359,
+        2458,
+        2556,
+        2654,
+        2752,
+        2850,
+        2948,
+        3047,
+        3145,
+        3243
+      ],
+      "score_stats": {
+        "mean": 6e-06,
+        "max": 2.1e-05
+      },
+      "description": "A white car drives down a busy street with several motorcycles and pedestrians around it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3244,
+      "end_frame": 4325,
+      "start_time_sec": 108.133333,
+      "end_time_sec": 144.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3244,
+        3342,
+        3441,
+        3539,
+        3637,
+        3735,
+        3834,
+        3932,
+        4030,
+        4128,
+        4227,
+        4325
+      ],
+      "score_stats": {
+        "mean": 0.00013,
+        "max": 0.003123
+      },
+      "description": "A busy street scene with various vehicles, including a white car with its trunk open, a red truck, and motorcycles. people are seen walking on the sidewalk, some of whom are interacting with the vehicles."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4326,
+      "end_frame": 5407,
+      "start_time_sec": 144.2,
+      "end_time_sec": 180.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4326,
+        4424,
+        4523,
+        4621,
+        4719,
+        4817,
+        4916,
+        5014,
+        5112,
+        5210,
+        5309,
+        5407
+      ],
+      "score_stats": {
+        "mean": 0.000157,
+        "max": 0.00849
+      },
+      "description": "A white car drives down the street, followed by a group of motorcyclists. the car passes by, and the motorcyclists continue riding down the road."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson022_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson022_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8640,
+  "duration_sec": 288.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson022_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 540,
+    "aligned_to_num_frames": 8640,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1696,
+      "end_frame": 1903,
+      "start_time_sec": 56.533333,
+      "end_time_sec": 63.433333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1696,
+        1715,
+        1734,
+        1752,
+        1771,
+        1790,
+        1809,
+        1828,
+        1847,
+        1865,
+        1884,
+        1903
+      ],
+      "score_stats": {
+        "mean": 0.502482,
+        "max": 0.540247
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 7552,
+      "end_frame": 8639,
+      "start_time_sec": 251.733333,
+      "end_time_sec": 287.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        7552,
+        7651,
+        7750,
+        7848,
+        7947,
+        8046,
+        8145,
+        8244,
+        8343,
+        8441,
+        8540,
+        8639
+      ],
+      "score_stats": {
+        "mean": 0.819838,
+        "max": 0.998378
+      },
+      "description": "The man in white clothes walked to the door and opened it."
+    }
+  ]
+}

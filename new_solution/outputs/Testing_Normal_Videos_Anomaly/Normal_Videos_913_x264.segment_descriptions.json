@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_913_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_913_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 609,
+  "duration_sec": 20.3,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_913_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 38,
+    "aligned_to_num_frames": 609,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 112,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        10,
+        20,
+        31,
+        41,
+        51,
+        61,
+        71,
+        81,
+        92,
+        102,
+        112
+      ],
+      "score_stats": {
+        "mean": 0.145589,
+        "max": 0.248608
+      },
+      "description": "A car drives down the road, passing by a house and a parked car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 464,
+      "end_frame": 608,
+      "start_time_sec": 15.466667,
+      "end_time_sec": 20.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        464,
+        477,
+        490,
+        503,
+        516,
+        529,
+        543,
+        556,
+        569,
+        582,
+        595,
+        608
+      ],
+      "score_stats": {
+        "mean": 0.126614,
+        "max": 0.183707
+      },
+      "description": "A view of a residential street with parked cars, a tree, and a sidewalk. the camera moves along the street, capturing the surrounding environment."
+    }
+  ]
+}

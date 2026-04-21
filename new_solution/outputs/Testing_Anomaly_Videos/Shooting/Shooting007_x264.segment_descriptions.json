@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting007_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting007_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1430,
+  "duration_sec": 47.666667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting007_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 89,
+    "aligned_to_num_frames": 1430,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 285,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        26,
+        52,
+        78,
+        104,
+        130,
+        155,
+        181,
+        207,
+        233,
+        259,
+        285
+      ],
+      "score_stats": {
+        "mean": 0.995241,
+        "max": 0.999709
+      },
+      "description": "A person in blue clothes running across the screen, then a person in black clothes running across the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 286,
+      "end_frame": 571,
+      "start_time_sec": 9.533333,
+      "end_time_sec": 19.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        286,
+        312,
+        338,
+        364,
+        390,
+        416,
+        441,
+        467,
+        493,
+        519,
+        545,
+        571
+      ],
+      "score_stats": {
+        "mean": 0.999859,
+        "max": 0.999939
+      },
+      "description": "A person in dark clothing walking across the grass, followed by another individual in a light-colored shirt. the scene then shifts to an outdoor nighttime setting where a car is parked on the street, and two people are seen walking towards it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 572,
+      "end_frame": 857,
+      "start_time_sec": 19.066667,
+      "end_time_sec": 28.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        572,
+        598,
+        624,
+        650,
+        676,
+        702,
+        727,
+        753,
+        779,
+        805,
+        831,
+        857
+      ],
+      "score_stats": {
+        "mean": 0.999902,
+        "max": 0.999939
+      },
+      "description": "A man in blue clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 858,
+      "end_frame": 1143,
+      "start_time_sec": 28.6,
+      "end_time_sec": 38.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        858,
+        884,
+        910,
+        936,
+        962,
+        988,
+        1013,
+        1039,
+        1065,
+        1091,
+        1117,
+        1143
+      ],
+      "score_stats": {
+        "mean": 0.999758,
+        "max": 0.999949
+      },
+      "description": "The man in blue clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1144,
+      "end_frame": 1429,
+      "start_time_sec": 38.133333,
+      "end_time_sec": 47.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1144,
+        1170,
+        1196,
+        1222,
+        1248,
+        1274,
+        1299,
+        1325,
+        1351,
+        1377,
+        1403,
+        1429
+      ],
+      "score_stats": {
+        "mean": 0.9976,
+        "max": 0.999279
+      },
+      "description": "The man in black walked to the right side of the road and walked to the left side of the road."
+    }
+  ]
+}

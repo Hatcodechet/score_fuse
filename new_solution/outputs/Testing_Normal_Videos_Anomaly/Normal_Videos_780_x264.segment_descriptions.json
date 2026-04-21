@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_780_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_780_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2021,
+  "duration_sec": 67.366667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_780_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 126,
+    "aligned_to_num_frames": 2021,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 403,
+      "start_time_sec": 0.0,
+      "end_time_sec": 13.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        37,
+        73,
+        110,
+        147,
+        183,
+        220,
+        256,
+        293,
+        330,
+        366,
+        403
+      ],
+      "score_stats": {
+        "mean": 2e-06,
+        "max": 8.2e-05
+      },
+      "description": "A man in a black jacket walked out of the scene and walked to the right side of the road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 404,
+      "end_frame": 807,
+      "start_time_sec": 13.466667,
+      "end_time_sec": 26.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        404,
+        441,
+        477,
+        514,
+        551,
+        587,
+        624,
+        660,
+        697,
+        734,
+        770,
+        807
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A woman in black clothes walked out of the scene and walked to the left side of the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 808,
+      "end_frame": 1211,
+      "start_time_sec": 26.933333,
+      "end_time_sec": 40.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        808,
+        845,
+        881,
+        918,
+        955,
+        991,
+        1028,
+        1064,
+        1101,
+        1138,
+        1174,
+        1211
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A person in a blue shirt and black pants is sweeping the ground with a red broom."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1212,
+      "end_frame": 1615,
+      "start_time_sec": 40.4,
+      "end_time_sec": 53.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1212,
+        1249,
+        1285,
+        1322,
+        1359,
+        1395,
+        1432,
+        1468,
+        1505,
+        1542,
+        1578,
+        1615
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A woman in a red jacket and black pants walked from the bottom of the screen to the top of the screen, and then walked to the right side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1616,
+      "end_frame": 2020,
+      "start_time_sec": 53.866667,
+      "end_time_sec": 67.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1616,
+        1653,
+        1689,
+        1726,
+        1763,
+        1800,
+        1836,
+        1873,
+        1910,
+        1947,
+        1983,
+        2020
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 4.5e-05
+      },
+      "description": "A man in a red shirt and blue hat walked to the right side of the screen, and a woman in a brown coat walked to the left side of the screen."
+    }
+  ]
+}

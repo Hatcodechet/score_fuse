@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents127_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents127_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2580,
+  "duration_sec": 86.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents127_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 161,
+    "aligned_to_num_frames": 2580,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 480,
+      "end_frame": 689,
+      "start_time_sec": 16.0,
+      "end_time_sec": 22.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        480,
+        499,
+        518,
+        537,
+        556,
+        575,
+        594,
+        613,
+        632,
+        651,
+        670,
+        689
+      ],
+      "score_stats": {
+        "mean": 0.255477,
+        "max": 0.365632
+      },
+      "description": "A pedestrian wearing a pink jacket crossed the road in front of the camera."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2195,
+      "end_frame": 2451,
+      "start_time_sec": 73.166667,
+      "end_time_sec": 81.7,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2195,
+        2218,
+        2242,
+        2265,
+        2288,
+        2311,
+        2335,
+        2358,
+        2381,
+        2404,
+        2428,
+        2451
+      ],
+      "score_stats": {
+        "mean": 0.319531,
+        "max": 0.558643
+      },
+      "description": "A red truck driving on a road, followed by a green train. the truck and train collide, causing the truck to spin around and eventually crash into a barrier."
+    }
+  ]
+}

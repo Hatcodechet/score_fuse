@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_310_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_310_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2518,
+  "duration_sec": 83.933333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_310_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 157,
+    "aligned_to_num_frames": 2518,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 2421,
+      "end_frame": 2517,
+      "start_time_sec": 80.7,
+      "end_time_sec": 83.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2421,
+        2430,
+        2438,
+        2447,
+        2456,
+        2465,
+        2473,
+        2482,
+        2491,
+        2500,
+        2508,
+        2517
+      ],
+      "score_stats": {
+        "mean": 0.020644,
+        "max": 0.079869
+      },
+      "description": "A group of people playing basketball on an outdoor court, with one player in a yellow shirt and another in a black shirt. the court is surrounded by a chain-link fence, and there are other players and spectators visible in the background."
+    }
+  ]
+}

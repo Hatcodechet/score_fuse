@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson009_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson009_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 743,
+  "duration_sec": 24.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson009_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 46,
+    "aligned_to_num_frames": 743,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 184,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        17,
+        33,
+        50,
+        67,
+        84,
+        100,
+        117,
+        134,
+        151,
+        167,
+        184
+      ],
+      "score_stats": {
+        "mean": 0.989211,
+        "max": 0.997568
+      },
+      "description": "A man in white clothes walked out of the door and walked to the back of the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 185,
+      "end_frame": 370,
+      "start_time_sec": 6.166667,
+      "end_time_sec": 12.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        185,
+        202,
+        219,
+        235,
+        252,
+        269,
+        286,
+        303,
+        320,
+        336,
+        353,
+        370
+      ],
+      "score_stats": {
+        "mean": 0.997999,
+        "max": 0.998834
+      },
+      "description": "A person wearing a white hoodie and dark pants is seen walking towards a white van parked on the side of the road. the person appears to be carrying something in their hands and is seen bending over to pick something up from the ground."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 371,
+      "end_frame": 556,
+      "start_time_sec": 12.366667,
+      "end_time_sec": 18.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        371,
+        388,
+        405,
+        421,
+        438,
+        455,
+        472,
+        489,
+        506,
+        522,
+        539,
+        556
+      ],
+      "score_stats": {
+        "mean": 0.999519,
+        "max": 0.999721
+      },
+      "description": "The man in the white helmet and protective gear is seen walking towards the white van, and then he is seen walking away from the van."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 557,
+      "end_frame": 742,
+      "start_time_sec": 18.566667,
+      "end_time_sec": 24.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        557,
+        574,
+        591,
+        607,
+        624,
+        641,
+        658,
+        675,
+        692,
+        708,
+        725,
+        742
+      ],
+      "score_stats": {
+        "mean": 0.999317,
+        "max": 0.999718
+      },
+      "description": "A person wearing a white coat and helmet is seen walking towards a white van. the person appears to be in motion, possibly running or walking quickly."
+    }
+  ]
+}

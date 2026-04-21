@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_880_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_880_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 18054,
+  "duration_sec": 601.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_880_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 1128,
+    "aligned_to_num_frames": 18054,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 3609,
+      "start_time_sec": 0.0,
+      "end_time_sec": 120.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        328,
+        656,
+        984,
+        1312,
+        1640,
+        1969,
+        2297,
+        2625,
+        2953,
+        3281,
+        3609
+      ],
+      "score_stats": {
+        "mean": 0.025736,
+        "max": 0.167625
+      },
+      "description": "The woman in blue clothes is sitting in front of the computer and typing on the keyboard."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 3610,
+      "end_frame": 7220,
+      "start_time_sec": 120.333333,
+      "end_time_sec": 240.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3610,
+        3938,
+        4266,
+        4595,
+        4923,
+        5251,
+        5579,
+        5907,
+        6235,
+        6564,
+        6892,
+        7220
+      ],
+      "score_stats": {
+        "mean": 0.017828,
+        "max": 0.140228
+      },
+      "description": "A woman in a blue dress sitting at a desk with two computers, typing on the keyboard. the room has pink walls and a shelf with various items on it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 7221,
+      "end_frame": 10831,
+      "start_time_sec": 240.7,
+      "end_time_sec": 361.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        7221,
+        7549,
+        7877,
+        8206,
+        8534,
+        8862,
+        9190,
+        9518,
+        9846,
+        10175,
+        10503,
+        10831
+      ],
+      "score_stats": {
+        "mean": 0.015123,
+        "max": 0.097488
+      },
+      "description": "The woman in blue clothes is sitting on the chair and typing on the computer."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 10832,
+      "end_frame": 14442,
+      "start_time_sec": 361.066667,
+      "end_time_sec": 481.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        10832,
+        11160,
+        11488,
+        11817,
+        12145,
+        12473,
+        12801,
+        13129,
+        13457,
+        13786,
+        14114,
+        14442
+      ],
+      "score_stats": {
+        "mean": 0.002499,
+        "max": 0.043583
+      },
+      "description": "The woman in blue clothes is sitting at the desk and typing on the computer."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 14443,
+      "end_frame": 18053,
+      "start_time_sec": 481.433333,
+      "end_time_sec": 601.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        14443,
+        14771,
+        15099,
+        15428,
+        15756,
+        16084,
+        16412,
+        16740,
+        17068,
+        17397,
+        17725,
+        18053
+      ],
+      "score_stats": {
+        "mean": 0.009088,
+        "max": 0.236297
+      },
+      "description": "The woman in blue clothes is sitting at the desk and typing on the computer."
+    }
+  ]
+}

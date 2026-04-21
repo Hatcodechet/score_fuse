@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents124_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents124_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1495,
+  "duration_sec": 49.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents124_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 93,
+    "aligned_to_num_frames": 1495,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 298,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        27,
+        54,
+        81,
+        108,
+        135,
+        163,
+        190,
+        217,
+        244,
+        271,
+        298
+      ],
+      "score_stats": {
+        "mean": 0.895798,
+        "max": 0.950035
+      },
+      "description": "A car drives past the camera, and a motorcycle passes by."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 299,
+      "end_frame": 597,
+      "start_time_sec": 9.966667,
+      "end_time_sec": 19.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        299,
+        326,
+        353,
+        380,
+        407,
+        434,
+        462,
+        489,
+        516,
+        543,
+        570,
+        597
+      ],
+      "score_stats": {
+        "mean": 0.987613,
+        "max": 0.999475
+      },
+      "description": "A person in a white shirt and black pants is seen running away from the scene, while another person in a blue shirt and black pants is standing nearby."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 598,
+      "end_frame": 896,
+      "start_time_sec": 19.933333,
+      "end_time_sec": 29.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        598,
+        625,
+        652,
+        679,
+        706,
+        733,
+        761,
+        788,
+        815,
+        842,
+        869,
+        896
+      ],
+      "score_stats": {
+        "mean": 0.99979,
+        "max": 0.999911
+      },
+      "description": "A person in white clothes running across the road, followed by another individual in dark clothes."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 897,
+      "end_frame": 1195,
+      "start_time_sec": 29.9,
+      "end_time_sec": 39.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        897,
+        924,
+        951,
+        978,
+        1005,
+        1032,
+        1060,
+        1087,
+        1114,
+        1141,
+        1168,
+        1195
+      ],
+      "score_stats": {
+        "mean": 0.999932,
+        "max": 0.99995
+      },
+      "description": "A person in white clothes walking on the roadside, passing by a motorcycle lying on the ground."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1196,
+      "end_frame": 1494,
+      "start_time_sec": 39.866667,
+      "end_time_sec": 49.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1196,
+        1223,
+        1250,
+        1277,
+        1304,
+        1331,
+        1359,
+        1386,
+        1413,
+        1440,
+        1467,
+        1494
+      ],
+      "score_stats": {
+        "mean": 0.999706,
+        "max": 0.999943
+      },
+      "description": "A person in white walked to the right side of the road"
+    }
+  ]
+}

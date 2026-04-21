@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_935_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_935_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 107994,
+  "duration_sec": 3599.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_935_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 6750,
+    "aligned_to_num_frames": 107994,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 21597,
+      "start_time_sec": 0.0,
+      "end_time_sec": 719.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        1963,
+        3927,
+        5890,
+        7853,
+        9817,
+        11780,
+        13744,
+        15707,
+        17670,
+        19634,
+        21597
+      ],
+      "score_stats": {
+        "mean": 7.3e-05,
+        "max": 0.005039
+      },
+      "description": "A man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 21598,
+      "end_frame": 43196,
+      "start_time_sec": 719.933333,
+      "end_time_sec": 1439.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        21598,
+        23561,
+        25525,
+        27488,
+        29452,
+        31415,
+        33379,
+        35342,
+        37306,
+        39269,
+        41233,
+        43196
+      ],
+      "score_stats": {
+        "mean": 2.5e-05,
+        "max": 0.004323
+      },
+      "description": "A man in black walked to the right of the screen and walked to the left of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 43197,
+      "end_frame": 64795,
+      "start_time_sec": 1439.9,
+      "end_time_sec": 2159.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        43197,
+        45160,
+        47124,
+        49087,
+        51051,
+        53014,
+        54978,
+        56941,
+        58905,
+        60868,
+        62832,
+        64795
+      ],
+      "score_stats": {
+        "mean": 3.3e-05,
+        "max": 0.007497
+      },
+      "description": "A man in black walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 64796,
+      "end_frame": 86394,
+      "start_time_sec": 2159.866667,
+      "end_time_sec": 2879.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        64796,
+        66759,
+        68723,
+        70686,
+        72650,
+        74613,
+        76577,
+        78540,
+        80504,
+        82467,
+        84431,
+        86394
+      ],
+      "score_stats": {
+        "mean": 2.8e-05,
+        "max": 0.005311
+      },
+      "description": "A man in black walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 86395,
+      "end_frame": 107993,
+      "start_time_sec": 2879.833333,
+      "end_time_sec": 3599.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        86395,
+        88358,
+        90322,
+        92285,
+        94249,
+        96212,
+        98176,
+        100139,
+        102103,
+        104066,
+        106030,
+        107993
+      ],
+      "score_stats": {
+        "mean": 0.000143,
+        "max": 0.012748
+      },
+      "description": "A man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

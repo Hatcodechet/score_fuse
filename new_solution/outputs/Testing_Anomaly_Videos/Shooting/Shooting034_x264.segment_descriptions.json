@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting034_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting034_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1409,
+  "duration_sec": 46.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting034_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 88,
+    "aligned_to_num_frames": 1409,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 864,
+      "end_frame": 1312,
+      "start_time_sec": 28.8,
+      "end_time_sec": 43.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        864,
+        905,
+        945,
+        986,
+        1027,
+        1068,
+        1108,
+        1149,
+        1190,
+        1231,
+        1271,
+        1312
+      ],
+      "score_stats": {
+        "mean": 0.908811,
+        "max": 0.990444
+      },
+      "description": "A person in dark clothing walked from the bottom of the screen to the top of the screen"
+    }
+  ]
+}

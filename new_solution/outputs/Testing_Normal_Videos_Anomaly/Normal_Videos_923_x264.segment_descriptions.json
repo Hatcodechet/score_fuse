@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_923_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_923_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 18224,
+  "duration_sec": 607.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_923_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 1139,
+    "aligned_to_num_frames": 18224,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 3643,
+      "start_time_sec": 0.0,
+      "end_time_sec": 121.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        331,
+        662,
+        994,
+        1325,
+        1656,
+        1987,
+        2318,
+        2649,
+        2981,
+        3312,
+        3643
+      ],
+      "score_stats": {
+        "mean": 0.000459,
+        "max": 0.00963
+      },
+      "description": "The man in white walked to the counter and looked at the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 3644,
+      "end_frame": 7288,
+      "start_time_sec": 121.466667,
+      "end_time_sec": 242.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3644,
+        3975,
+        4307,
+        4638,
+        4969,
+        5300,
+        5632,
+        5963,
+        6294,
+        6625,
+        6957,
+        7288
+      ],
+      "score_stats": {
+        "mean": 0.000338,
+        "max": 0.016485
+      },
+      "description": "The man in black clothes walked to the counter and took out a box of money and a box of cigarettes and put them on the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 7289,
+      "end_frame": 10933,
+      "start_time_sec": 242.966667,
+      "end_time_sec": 364.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        7289,
+        7620,
+        7952,
+        8283,
+        8614,
+        8945,
+        9277,
+        9608,
+        9939,
+        10270,
+        10602,
+        10933
+      ],
+      "score_stats": {
+        "mean": 0.000306,
+        "max": 0.015669
+      },
+      "description": "The man in black clothes walked to the counter and took out a box of money and a box of cigarettes."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 10934,
+      "end_frame": 14578,
+      "start_time_sec": 364.466667,
+      "end_time_sec": 485.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        10934,
+        11265,
+        11597,
+        11928,
+        12259,
+        12590,
+        12922,
+        13253,
+        13584,
+        13915,
+        14247,
+        14578
+      ],
+      "score_stats": {
+        "mean": 0.000331,
+        "max": 0.014286
+      },
+      "description": "The man in blue walked to the counter and took out a card."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 14579,
+      "end_frame": 18223,
+      "start_time_sec": 485.966667,
+      "end_time_sec": 607.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        14579,
+        14910,
+        15242,
+        15573,
+        15904,
+        16235,
+        16567,
+        16898,
+        17229,
+        17560,
+        17892,
+        18223
+      ],
+      "score_stats": {
+        "mean": 0.000405,
+        "max": 0.011843
+      },
+      "description": "The man in white walked to the counter and looked at the computer."
+    }
+  ]
+}

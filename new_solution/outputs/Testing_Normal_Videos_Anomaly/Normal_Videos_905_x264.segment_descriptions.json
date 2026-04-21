@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_905_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_905_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1196,
+  "duration_sec": 39.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_905_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 74,
+    "aligned_to_num_frames": 1196,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 96,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        9,
+        17,
+        26,
+        35,
+        44,
+        52,
+        61,
+        70,
+        79,
+        87,
+        96
+      ],
+      "score_stats": {
+        "mean": 0.005551,
+        "max": 0.022491
+      },
+      "description": "A black car drives from the bottom of the screen to the top of the screen, and then a red car drives from the bottom of the screen to the top of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1099,
+      "end_frame": 1195,
+      "start_time_sec": 36.633333,
+      "end_time_sec": 39.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1099,
+        1108,
+        1116,
+        1125,
+        1134,
+        1143,
+        1151,
+        1160,
+        1169,
+        1178,
+        1186,
+        1195
+      ],
+      "score_stats": {
+        "mean": 0.006344,
+        "max": 0.01953
+      },
+      "description": "A white car drives past the intersection"
+    }
+  ]
+}

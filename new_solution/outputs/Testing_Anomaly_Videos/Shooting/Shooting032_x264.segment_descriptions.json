@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting032_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting032_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 21681,
+  "duration_sec": 722.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting032_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 1356,
+    "aligned_to_num_frames": 21681,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 8170,
+      "end_frame": 9945,
+      "start_time_sec": 272.333333,
+      "end_time_sec": 331.5,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8170,
+        8331,
+        8493,
+        8654,
+        8815,
+        8977,
+        9138,
+        9300,
+        9461,
+        9622,
+        9784,
+        9945
+      ],
+      "score_stats": {
+        "mean": 0.983938,
+        "max": 0.994581
+      },
+      "description": "The man in the white shirt and black pants walked to the white car and opened the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 10504,
+      "end_frame": 12295,
+      "start_time_sec": 350.133333,
+      "end_time_sec": 409.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        10504,
+        10667,
+        10830,
+        10992,
+        11155,
+        11318,
+        11481,
+        11644,
+        11807,
+        11969,
+        12132,
+        12295
+      ],
+      "score_stats": {
+        "mean": 0.981266,
+        "max": 0.99858
+      },
+      "description": "A man in a yellow shirt and black pants walked to the right side of the screen, and then a man in a white shirt and black pants walked to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 13334,
+      "end_frame": 13702,
+      "start_time_sec": 444.466667,
+      "end_time_sec": 456.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        13334,
+        13367,
+        13401,
+        13434,
+        13468,
+        13501,
+        13535,
+        13568,
+        13602,
+        13635,
+        13669,
+        13702
+      ],
+      "score_stats": {
+        "mean": 0.97057,
+        "max": 0.992175
+      },
+      "description": "A group of people gathered around a person lying on the ground, with some standing and others sitting. the person on the ground appears to be in distress or unconscious."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 13830,
+      "end_frame": 14757,
+      "start_time_sec": 461.0,
+      "end_time_sec": 491.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        13830,
+        13914,
+        13999,
+        14083,
+        14167,
+        14251,
+        14336,
+        14420,
+        14504,
+        14588,
+        14673,
+        14757
+      ],
+      "score_stats": {
+        "mean": 0.982141,
+        "max": 0.998391
+      },
+      "description": "A group of people gathered around an individual lying on the ground, with some standing around them. the person on the ground appears to be in distress or unconscious."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 15765,
+      "end_frame": 16388,
+      "start_time_sec": 525.5,
+      "end_time_sec": 546.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        15765,
+        15822,
+        15878,
+        15935,
+        15992,
+        16048,
+        16105,
+        16161,
+        16218,
+        16275,
+        16331,
+        16388
+      ],
+      "score_stats": {
+        "mean": 0.975831,
+        "max": 0.998509
+      },
+      "description": "A person in a yellow shirt and blue jeans walked to the right side of the screen, and then walked back to the left side of the screen."
+    }
+  ]
+}

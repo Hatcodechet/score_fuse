@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion033_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion033_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3154,
+  "duration_sec": 105.133333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion033_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 197,
+    "aligned_to_num_frames": 3154,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 629,
+      "start_time_sec": 0.0,
+      "end_time_sec": 20.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        57,
+        114,
+        172,
+        229,
+        286,
+        343,
+        400,
+        457,
+        515,
+        572,
+        629
+      ],
+      "score_stats": {
+        "mean": 0.022642,
+        "max": 0.145599
+      },
+      "description": "A large tanker truck drives past the camera, passing by a building with a metal roof and a metal structure in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 630,
+      "end_frame": 1260,
+      "start_time_sec": 21.0,
+      "end_time_sec": 42.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        630,
+        687,
+        745,
+        802,
+        859,
+        916,
+        974,
+        1031,
+        1088,
+        1145,
+        1203,
+        1260
+      ],
+      "score_stats": {
+        "mean": 0.607912,
+        "max": 0.999752
+      },
+      "description": "A view of a large building with a metal roof and a parking lot in the background. the scene then shifts to a close-up of the building's roof, which appears to be damaged or damaged. smoke is visible in the background, suggesting an explosion or fire."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1261,
+      "end_frame": 1891,
+      "start_time_sec": 42.033333,
+      "end_time_sec": 63.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1261,
+        1318,
+        1376,
+        1433,
+        1490,
+        1547,
+        1605,
+        1662,
+        1719,
+        1776,
+        1834,
+        1891
+      ],
+      "score_stats": {
+        "mean": 0.976523,
+        "max": 0.999665
+      },
+      "description": "A large plume of smoke rising into the sky, indicating an explosion or fire. the scene then shifts to a view of a large industrial facility with multiple pipelines and structures, some of which are emitting smoke."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1892,
+      "end_frame": 2522,
+      "start_time_sec": 63.066667,
+      "end_time_sec": 84.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1892,
+        1949,
+        2007,
+        2064,
+        2121,
+        2178,
+        2236,
+        2293,
+        2350,
+        2407,
+        2465,
+        2522
+      ],
+      "score_stats": {
+        "mean": 0.999652,
+        "max": 0.999842
+      },
+      "description": "A large plume of smoke rising into the sky, indicating an explosion or fire. the scene is chaotic with multiple structures and pipes in the background, suggesting an industrial setting."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2523,
+      "end_frame": 3153,
+      "start_time_sec": 84.1,
+      "end_time_sec": 105.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2523,
+        2580,
+        2638,
+        2695,
+        2752,
+        2809,
+        2867,
+        2924,
+        2981,
+        3038,
+        3096,
+        3153
+      ],
+      "score_stats": {
+        "mean": 0.999275,
+        "max": 0.999798
+      },
+      "description": "A large explosion occurs in an industrial area, with thick smoke and flames rising into the sky."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary037_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary037_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1920,
+  "duration_sec": 64.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary037_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 120,
+    "aligned_to_num_frames": 1920,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 383,
+      "start_time_sec": 0.0,
+      "end_time_sec": 12.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        35,
+        70,
+        104,
+        139,
+        174,
+        209,
+        244,
+        279,
+        313,
+        348,
+        383
+      ],
+      "score_stats": {
+        "mean": 0.970267,
+        "max": 0.998339
+      },
+      "description": "The man in white clothes took the box and left the room."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 384,
+      "end_frame": 767,
+      "start_time_sec": 12.8,
+      "end_time_sec": 25.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        384,
+        419,
+        454,
+        488,
+        523,
+        558,
+        593,
+        628,
+        663,
+        697,
+        732,
+        767
+      ],
+      "score_stats": {
+        "mean": 0.996114,
+        "max": 0.999675
+      },
+      "description": "The man in white clothes took the bottle from the man in black clothes and put it on the table."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 768,
+      "end_frame": 1151,
+      "start_time_sec": 25.6,
+      "end_time_sec": 38.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        768,
+        803,
+        838,
+        872,
+        907,
+        942,
+        977,
+        1012,
+        1047,
+        1081,
+        1116,
+        1151
+      ],
+      "score_stats": {
+        "mean": 0.996462,
+        "max": 0.999677
+      },
+      "description": "The man in white clothes took out a knife and a knife from the table and put them on the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1152,
+      "end_frame": 1535,
+      "start_time_sec": 38.4,
+      "end_time_sec": 51.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1152,
+        1187,
+        1222,
+        1256,
+        1291,
+        1326,
+        1361,
+        1396,
+        1431,
+        1465,
+        1500,
+        1535
+      ],
+      "score_stats": {
+        "mean": 0.99909,
+        "max": 0.999553
+      },
+      "description": "The man in white clothes is seen opening the drawer of the cabinet, and then he is seen opening the drawer of the cabinet again."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1536,
+      "end_frame": 1919,
+      "start_time_sec": 51.2,
+      "end_time_sec": 63.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1536,
+        1571,
+        1606,
+        1640,
+        1675,
+        1710,
+        1745,
+        1780,
+        1815,
+        1849,
+        1884,
+        1919
+      ],
+      "score_stats": {
+        "mean": 0.989439,
+        "max": 0.999035
+      },
+      "description": "The man in white clothes took out a black bag from the table and put it on the table."
+    }
+  ]
+}

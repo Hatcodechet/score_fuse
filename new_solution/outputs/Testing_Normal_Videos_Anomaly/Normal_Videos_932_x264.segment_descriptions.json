@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_932_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_932_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1784,
+  "duration_sec": 59.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_932_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 111,
+    "aligned_to_num_frames": 1784,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 355,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        32,
+        65,
+        97,
+        129,
+        161,
+        194,
+        226,
+        258,
+        290,
+        323,
+        355
+      ],
+      "score_stats": {
+        "mean": 0.828262,
+        "max": 0.870604
+      },
+      "description": "The man in red walked out of the door and walked to the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 356,
+      "end_frame": 712,
+      "start_time_sec": 11.866667,
+      "end_time_sec": 23.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        356,
+        388,
+        421,
+        453,
+        485,
+        518,
+        550,
+        583,
+        615,
+        647,
+        680,
+        712
+      ],
+      "score_stats": {
+        "mean": 0.929671,
+        "max": 0.963578
+      },
+      "description": "The man in red walked out of the door and left."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 713,
+      "end_frame": 1069,
+      "start_time_sec": 23.766667,
+      "end_time_sec": 35.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        713,
+        745,
+        778,
+        810,
+        842,
+        875,
+        907,
+        940,
+        972,
+        1004,
+        1037,
+        1069
+      ],
+      "score_stats": {
+        "mean": 0.90775,
+        "max": 0.941331
+      },
+      "description": "The man in black walked out of the door and walked to the left side of the road."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1070,
+      "end_frame": 1426,
+      "start_time_sec": 35.666667,
+      "end_time_sec": 47.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1070,
+        1102,
+        1135,
+        1167,
+        1199,
+        1232,
+        1264,
+        1297,
+        1329,
+        1361,
+        1394,
+        1426
+      ],
+      "score_stats": {
+        "mean": 0.930581,
+        "max": 0.954003
+      },
+      "description": "The man in black walked to the right side of the door and opened the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1427,
+      "end_frame": 1783,
+      "start_time_sec": 47.566667,
+      "end_time_sec": 59.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1427,
+        1459,
+        1492,
+        1524,
+        1556,
+        1589,
+        1621,
+        1654,
+        1686,
+        1718,
+        1751,
+        1783
+      ],
+      "score_stats": {
+        "mean": 0.871272,
+        "max": 0.951195
+      },
+      "description": "A man in black walked out of the store and walked to the door."
+    }
+  ]
+}

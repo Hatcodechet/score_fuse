@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_903_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_903_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 790,
+  "duration_sec": 26.333333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_903_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 49,
+    "aligned_to_num_frames": 790,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        36,
+        44,
+        51,
+        58,
+        65,
+        73,
+        80
+      ],
+      "score_stats": {
+        "mean": 0.002683,
+        "max": 0.011503
+      },
+      "description": "A white car drives from the bottom of the screen to the top of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 693,
+      "end_frame": 789,
+      "start_time_sec": 23.1,
+      "end_time_sec": 26.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        693,
+        702,
+        710,
+        719,
+        728,
+        737,
+        745,
+        754,
+        763,
+        772,
+        780,
+        789
+      ],
+      "score_stats": {
+        "mean": 0.004914,
+        "max": 0.011441
+      },
+      "description": "A white car drives past the intersection, and a red car passes by on the left side of the road."
+    }
+  ]
+}

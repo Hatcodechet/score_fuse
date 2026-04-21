@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary092_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary092_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 625,
+  "duration_sec": 20.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary092_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 39,
+    "aligned_to_num_frames": 625,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 336,
+      "end_frame": 592,
+      "start_time_sec": 11.2,
+      "end_time_sec": 19.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        336,
+        359,
+        383,
+        406,
+        429,
+        452,
+        476,
+        499,
+        522,
+        545,
+        569,
+        592
+      ],
+      "score_stats": {
+        "mean": 0.957095,
+        "max": 0.967456
+      },
+      "description": "The man in blue walked to the table and sat down."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Stealing/Stealing058_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Stealing/Stealing058_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4991,
+  "duration_sec": 166.366667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Stealing/Stealing058_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 311,
+    "aligned_to_num_frames": 4991,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 997,
+      "start_time_sec": 0.0,
+      "end_time_sec": 33.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        91,
+        181,
+        272,
+        363,
+        453,
+        544,
+        634,
+        725,
+        816,
+        906,
+        997
+      ],
+      "score_stats": {
+        "mean": 0.871939,
+        "max": 0.999989
+      },
+      "description": "A white car is parked on the side of a road, and a group of people wearing dark clothing are seen approaching it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 998,
+      "end_frame": 1995,
+      "start_time_sec": 33.266667,
+      "end_time_sec": 66.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        998,
+        1089,
+        1179,
+        1270,
+        1361,
+        1451,
+        1542,
+        1632,
+        1723,
+        1814,
+        1904,
+        1995
+      ],
+      "score_stats": {
+        "mean": 0.999913,
+        "max": 0.999986
+      },
+      "description": "A group of people gathered around a white car, with one person standing outside the car and another inside. the individuals appear to be engaged in a conversation or activity related to the car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1996,
+      "end_frame": 2993,
+      "start_time_sec": 66.533333,
+      "end_time_sec": 99.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1996,
+        2087,
+        2177,
+        2268,
+        2359,
+        2449,
+        2540,
+        2630,
+        2721,
+        2812,
+        2902,
+        2993
+      ],
+      "score_stats": {
+        "mean": 0.999992,
+        "max": 0.999997
+      },
+      "description": "The man in the white shirt is holding a gun and pointing it at the man in the black shirt."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2994,
+      "end_frame": 3991,
+      "start_time_sec": 99.8,
+      "end_time_sec": 133.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2994,
+        3085,
+        3175,
+        3266,
+        3357,
+        3447,
+        3538,
+        3628,
+        3719,
+        3810,
+        3900,
+        3991
+      ],
+      "score_stats": {
+        "mean": 0.999472,
+        "max": 0.999991
+      },
+      "description": "The man in the white shirt and black pants is seen opening the door of the white car."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3992,
+      "end_frame": 4990,
+      "start_time_sec": 133.066667,
+      "end_time_sec": 166.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3992,
+        4083,
+        4173,
+        4264,
+        4355,
+        4446,
+        4536,
+        4627,
+        4718,
+        4809,
+        4899,
+        4990
+      ],
+      "score_stats": {
+        "mean": 0.822662,
+        "max": 0.998429
+      },
+      "description": "A white car with its headlights on is seen driving away from the camera, followed by another white car. the scene then shifts to a black and white image of a car driving away from the camera."
+    }
+  ]
+}

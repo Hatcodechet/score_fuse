@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Assault/Assault010_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Assault/Assault010_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 16177,
+  "duration_sec": 539.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Assault/Assault010_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 1011,
+    "aligned_to_num_frames": 16177,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 5552,
+      "end_frame": 5744,
+      "start_time_sec": 185.066667,
+      "end_time_sec": 191.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5552,
+        5569,
+        5587,
+        5604,
+        5622,
+        5639,
+        5657,
+        5674,
+        5692,
+        5709,
+        5727,
+        5744
+      ],
+      "score_stats": {
+        "mean": 0.963421,
+        "max": 0.971459
+      },
+      "description": "A man in striped pajamas and a green blanket on the floor, holding a broom. he is seen sweeping the floor, and another person wearing a striped shirt and pants walks in from the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 9312,
+      "end_frame": 10656,
+      "start_time_sec": 310.4,
+      "end_time_sec": 355.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        9312,
+        9434,
+        9556,
+        9679,
+        9801,
+        9923,
+        10045,
+        10167,
+        10289,
+        10412,
+        10534,
+        10656
+      ],
+      "score_stats": {
+        "mean": 0.98154,
+        "max": 0.997942
+      },
+      "description": "A man in striped clothes sitting on the floor, while another man in similar attire stands nearby. the man in striped clothes appears to be engaged in a conversation or interaction with the standing man."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 11168,
+      "end_frame": 12032,
+      "start_time_sec": 372.266667,
+      "end_time_sec": 401.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        11168,
+        11247,
+        11325,
+        11404,
+        11482,
+        11561,
+        11639,
+        11718,
+        11796,
+        11875,
+        11953,
+        12032
+      ],
+      "score_stats": {
+        "mean": 0.986966,
+        "max": 0.99909
+      },
+      "description": "A man in striped clothes walked to the bed and sat down."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 12304,
+      "end_frame": 13152,
+      "start_time_sec": 410.133333,
+      "end_time_sec": 438.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        12304,
+        12381,
+        12458,
+        12535,
+        12612,
+        12689,
+        12767,
+        12844,
+        12921,
+        12998,
+        13075,
+        13152
+      ],
+      "score_stats": {
+        "mean": 0.985903,
+        "max": 0.999285
+      },
+      "description": "A man in striped clothes is seen walking through the room, followed by another man in white clothes. the man in white clothes appears to be interacting with the man in striped clothes, possibly discussing or negotiating something."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 14528,
+      "end_frame": 15488,
+      "start_time_sec": 484.266667,
+      "end_time_sec": 516.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        14528,
+        14615,
+        14703,
+        14790,
+        14877,
+        14964,
+        15052,
+        15139,
+        15226,
+        15313,
+        15401,
+        15488
+      ],
+      "score_stats": {
+        "mean": 0.983133,
+        "max": 0.998275
+      },
+      "description": "A man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

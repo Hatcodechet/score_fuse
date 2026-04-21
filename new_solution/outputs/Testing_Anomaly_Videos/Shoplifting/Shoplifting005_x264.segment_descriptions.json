@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting005_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting005_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1967,
+  "duration_sec": 65.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting005_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 122,
+    "aligned_to_num_frames": 1967,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1289,
+      "end_frame": 1886,
+      "start_time_sec": 42.966667,
+      "end_time_sec": 62.866667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1289,
+        1343,
+        1398,
+        1452,
+        1506,
+        1560,
+        1615,
+        1669,
+        1723,
+        1777,
+        1832,
+        1886
+      ],
+      "score_stats": {
+        "mean": 0.709081,
+        "max": 0.860946
+      },
+      "description": "A man in a brown jacket walked out of the store and walked to the counter."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_725_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_725_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 920,
+  "duration_sec": 30.666667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_725_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 57,
+    "aligned_to_num_frames": 920,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 258,
+      "start_time_sec": 0.0,
+      "end_time_sec": 8.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        23,
+        47,
+        70,
+        94,
+        117,
+        141,
+        164,
+        188,
+        211,
+        235,
+        258
+      ],
+      "score_stats": {
+        "mean": 0.418473,
+        "max": 0.547158
+      },
+      "description": "A silver suv parked on the side of a road, with raindrops on the windshield and a blue trash can nearby. the timestamp indicates it is 11:23 am on a sunny day."
+    }
+  ]
+}

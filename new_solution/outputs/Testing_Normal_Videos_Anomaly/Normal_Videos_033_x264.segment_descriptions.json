@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_033_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_033_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1680,
+  "duration_sec": 56.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_033_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 105,
+    "aligned_to_num_frames": 1680,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 335,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        30,
+        61,
+        91,
+        122,
+        152,
+        183,
+        213,
+        244,
+        274,
+        305,
+        335
+      ],
+      "score_stats": {
+        "mean": 1e-05,
+        "max": 0.000306
+      },
+      "description": "The white car drove to the right side of the road and drove to the right side of the road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 336,
+      "end_frame": 671,
+      "start_time_sec": 11.2,
+      "end_time_sec": 22.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        336,
+        366,
+        397,
+        427,
+        458,
+        488,
+        519,
+        549,
+        580,
+        610,
+        641,
+        671
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "description": "A man in white clothes and a woman in white clothes walked out of the car and walked to the car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 672,
+      "end_frame": 1007,
+      "start_time_sec": 22.4,
+      "end_time_sec": 33.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        672,
+        702,
+        733,
+        763,
+        794,
+        824,
+        855,
+        885,
+        916,
+        946,
+        977,
+        1007
+      ],
+      "score_stats": {
+        "mean": 4e-06,
+        "max": 1.1e-05
+      },
+      "description": "The man in white shorts and the woman in white clothes walked to the right side of the road, and the man in white shorts and the woman in white clothes walked to the left side of the road."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1008,
+      "end_frame": 1343,
+      "start_time_sec": 33.6,
+      "end_time_sec": 44.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1008,
+        1038,
+        1069,
+        1099,
+        1130,
+        1160,
+        1191,
+        1221,
+        1252,
+        1282,
+        1313,
+        1343
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 1e-06
+      },
+      "description": "A white car drives into the scene from the right side of the screen, and a man wearing white shorts and a white shirt walks towards the white car."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1344,
+      "end_frame": 1679,
+      "start_time_sec": 44.8,
+      "end_time_sec": 55.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1344,
+        1374,
+        1405,
+        1435,
+        1466,
+        1496,
+        1527,
+        1557,
+        1588,
+        1618,
+        1649,
+        1679
+      ],
+      "score_stats": {
+        "mean": 7.1e-05,
+        "max": 0.001937
+      },
+      "description": "A white car drives from the bottom of the screen to the top of the screen, then returns to the bottom of the screen."
+    }
+  ]
+}

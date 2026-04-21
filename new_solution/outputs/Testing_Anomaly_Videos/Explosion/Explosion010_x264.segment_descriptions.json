@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion010_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion010_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2498,
+  "duration_sec": 83.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion010_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 156,
+    "aligned_to_num_frames": 2498,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 498,
+      "start_time_sec": 0.0,
+      "end_time_sec": 16.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        45,
+        91,
+        136,
+        181,
+        226,
+        272,
+        317,
+        362,
+        407,
+        453,
+        498
+      ],
+      "score_stats": {
+        "mean": 0.840102,
+        "max": 0.993617
+      },
+      "description": "A series of images and text overlays related to the nzherald.co.nz website, featuring a logo and a news headline about a recent explosion in the pike river area."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 499,
+      "end_frame": 998,
+      "start_time_sec": 16.633333,
+      "end_time_sec": 33.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        499,
+        544,
+        590,
+        635,
+        680,
+        726,
+        771,
+        817,
+        862,
+        907,
+        953,
+        998
+      ],
+      "score_stats": {
+        "mean": 0.854664,
+        "max": 0.987243
+      },
+      "description": "A view of a forested area with a large, dark cloud of smoke rising from the ground. the scene is dimly lit, and the smoke appears to be thick and billowing."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 999,
+      "end_frame": 1497,
+      "start_time_sec": 33.3,
+      "end_time_sec": 49.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        999,
+        1044,
+        1090,
+        1135,
+        1180,
+        1225,
+        1271,
+        1316,
+        1361,
+        1406,
+        1452,
+        1497
+      ],
+      "score_stats": {
+        "mean": 0.753247,
+        "max": 0.970199
+      },
+      "description": "A view of a forested area with a large, dark smoke plume rising into the sky. the scene then shifts to a closer view of the smoke, which appears to be emanating from a structure or vehicle."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1498,
+      "end_frame": 1997,
+      "start_time_sec": 49.933333,
+      "end_time_sec": 66.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1498,
+        1543,
+        1589,
+        1634,
+        1679,
+        1725,
+        1770,
+        1816,
+        1861,
+        1906,
+        1952,
+        1997
+      ],
+      "score_stats": {
+        "mean": 0.975461,
+        "max": 0.99256
+      },
+      "description": "A view of a forested area with a large fire burning in the distance. the fire is producing thick smoke and flames, and there are no people or animals visible in the scene."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1998,
+      "end_frame": 2497,
+      "start_time_sec": 66.6,
+      "end_time_sec": 83.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1998,
+        2043,
+        2089,
+        2134,
+        2179,
+        2225,
+        2270,
+        2316,
+        2361,
+        2406,
+        2452,
+        2497
+      ],
+      "score_stats": {
+        "mean": 0.898542,
+        "max": 0.977072
+      },
+      "description": "A view of a forested area with a large fire burning in the distance. the scene then transitions to a close-up of a blue and white logo, which appears to be a watermark or a logo for a news organization."
+    }
+  ]
+}

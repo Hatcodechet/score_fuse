@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion028_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion028_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1705,
+  "duration_sec": 56.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion028_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 106,
+    "aligned_to_num_frames": 1705,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 340,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        31,
+        62,
+        93,
+        124,
+        155,
+        185,
+        216,
+        247,
+        278,
+        309,
+        340
+      ],
+      "score_stats": {
+        "mean": 0.574104,
+        "max": 0.98515
+      },
+      "description": "A blue car driving down the street, followed by a red car. the blue car then passes by a building with a sign that reads \"parking\" and a person walking on the sidewalk."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 341,
+      "end_frame": 681,
+      "start_time_sec": 11.366667,
+      "end_time_sec": 22.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        341,
+        372,
+        403,
+        434,
+        465,
+        496,
+        526,
+        557,
+        588,
+        619,
+        650,
+        681
+      ],
+      "score_stats": {
+        "mean": 0.993967,
+        "max": 0.995924
+      },
+      "description": "A blue car driving down the street, followed by a red car. the blue car passes by the red car and continues down the street."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 682,
+      "end_frame": 1022,
+      "start_time_sec": 22.733333,
+      "end_time_sec": 34.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        682,
+        713,
+        744,
+        775,
+        806,
+        837,
+        867,
+        898,
+        929,
+        960,
+        991,
+        1022
+      ],
+      "score_stats": {
+        "mean": 0.995969,
+        "max": 0.998023
+      },
+      "description": "A person in an orange jacket walked from the bottom of the screen to the top of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1023,
+      "end_frame": 1363,
+      "start_time_sec": 34.1,
+      "end_time_sec": 45.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1023,
+        1054,
+        1085,
+        1116,
+        1147,
+        1178,
+        1208,
+        1239,
+        1270,
+        1301,
+        1332,
+        1363
+      ],
+      "score_stats": {
+        "mean": 0.995167,
+        "max": 0.999008
+      },
+      "description": "A man in an orange jacket and black pants walked out of the scene and walked to the right side of the road."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1364,
+      "end_frame": 1704,
+      "start_time_sec": 45.466667,
+      "end_time_sec": 56.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1364,
+        1395,
+        1426,
+        1457,
+        1488,
+        1519,
+        1549,
+        1580,
+        1611,
+        1642,
+        1673,
+        1704
+      ],
+      "score_stats": {
+        "mean": 0.990891,
+        "max": 0.999035
+      },
+      "description": "A man in white clothes and a woman in black clothes walked out of the scene."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_782_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_782_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5543,
+  "duration_sec": 184.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_782_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 346,
+    "aligned_to_num_frames": 5543,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1107,
+      "start_time_sec": 0.0,
+      "end_time_sec": 36.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        101,
+        201,
+        302,
+        403,
+        503,
+        604,
+        704,
+        805,
+        906,
+        1006,
+        1107
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 0.00043
+      },
+      "description": "A man in red clothes and a woman in black walked out of the door and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1108,
+      "end_frame": 2216,
+      "start_time_sec": 36.933333,
+      "end_time_sec": 73.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1108,
+        1209,
+        1309,
+        1410,
+        1511,
+        1612,
+        1712,
+        1813,
+        1914,
+        2015,
+        2115,
+        2216
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 3e-06
+      },
+      "description": "A man in black walked out of the door and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2217,
+      "end_frame": 3324,
+      "start_time_sec": 73.9,
+      "end_time_sec": 110.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2217,
+        2318,
+        2418,
+        2519,
+        2620,
+        2720,
+        2821,
+        2921,
+        3022,
+        3123,
+        3223,
+        3324
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 3e-06
+      },
+      "description": "A man in a white shirt and jeans walked out of the door and walked to the right."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3325,
+      "end_frame": 4433,
+      "start_time_sec": 110.833333,
+      "end_time_sec": 147.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3325,
+        3426,
+        3526,
+        3627,
+        3728,
+        3829,
+        3929,
+        4030,
+        4131,
+        4232,
+        4332,
+        4433
+      ],
+      "score_stats": {
+        "mean": 1.7e-05,
+        "max": 0.000668
+      },
+      "description": "A man in a red shirt and black pants walked to the right side of the screen, and a woman in a purple dress walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4434,
+      "end_frame": 5542,
+      "start_time_sec": 147.8,
+      "end_time_sec": 184.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4434,
+        4535,
+        4635,
+        4736,
+        4837,
+        4938,
+        5038,
+        5139,
+        5240,
+        5341,
+        5441,
+        5542
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 8e-06
+      },
+      "description": "A man in a brown shirt and jeans walked out of the door and walked to the right side of the room."
+    }
+  ]
+}

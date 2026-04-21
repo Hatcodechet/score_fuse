@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_896_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_896_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2303,
+  "duration_sec": 76.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_896_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 143,
+    "aligned_to_num_frames": 2303,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 434,
+      "start_time_sec": 0.0,
+      "end_time_sec": 14.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        39,
+        79,
+        118,
+        158,
+        197,
+        237,
+        276,
+        316,
+        355,
+        395,
+        434
+      ],
+      "score_stats": {
+        "mean": 0.081399,
+        "max": 0.142666
+      },
+      "description": "A silver car with its front wheels lifted off the ground, parked on the side of a road. a person wearing a black top and white pants is seen walking towards the car, and another individual wearing a black shirt and black pants is standing nearby."
+    }
+  ]
+}

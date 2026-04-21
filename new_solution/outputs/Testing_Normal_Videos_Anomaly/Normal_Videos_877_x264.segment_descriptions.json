@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_877_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_877_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 10025,
+  "duration_sec": 334.166667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_877_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 626,
+    "aligned_to_num_frames": 10025,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1633,
+      "end_frame": 1825,
+      "start_time_sec": 54.433333,
+      "end_time_sec": 60.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1633,
+        1650,
+        1668,
+        1685,
+        1703,
+        1720,
+        1738,
+        1755,
+        1773,
+        1790,
+        1808,
+        1825
+      ],
+      "score_stats": {
+        "mean": 0.139792,
+        "max": 0.18634
+      },
+      "description": "A white car drives down the street, and a person wearing a black jacket and black pants walks towards the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 6485,
+      "end_frame": 6694,
+      "start_time_sec": 216.166667,
+      "end_time_sec": 223.133333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        6485,
+        6504,
+        6523,
+        6542,
+        6561,
+        6580,
+        6599,
+        6618,
+        6637,
+        6656,
+        6675,
+        6694
+      ],
+      "score_stats": {
+        "mean": 0.144845,
+        "max": 0.197226
+      },
+      "description": "A man in a red jacket and white pants walked to the right side of the road and walked to the left side of the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 8759,
+      "end_frame": 9032,
+      "start_time_sec": 291.966667,
+      "end_time_sec": 301.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8759,
+        8784,
+        8809,
+        8833,
+        8858,
+        8883,
+        8908,
+        8933,
+        8958,
+        8982,
+        9007,
+        9032
+      ],
+      "score_stats": {
+        "mean": 0.180513,
+        "max": 0.288202
+      },
+      "description": "A group of people walking on a sidewalk, with one person carrying a bag. a white car is parked on the side of the road, and there are other cars visible in the background."
+    }
+  ]
+}

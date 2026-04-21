@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_924_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_924_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 107997,
+  "duration_sec": 3599.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_924_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 6750,
+    "aligned_to_num_frames": 107997,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 10223,
+      "end_frame": 11663,
+      "start_time_sec": 340.766667,
+      "end_time_sec": 388.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        10223,
+        10354,
+        10485,
+        10616,
+        10747,
+        10878,
+        11008,
+        11139,
+        11270,
+        11401,
+        11532,
+        11663
+      ],
+      "score_stats": {
+        "mean": 0.705611,
+        "max": 0.949137
+      },
+      "description": "The man in the gray shirt and black hat is seen eating something from a red cup, and then he is seen eating something from a red cup."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 12063,
+      "end_frame": 14543,
+      "start_time_sec": 402.1,
+      "end_time_sec": 484.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        12063,
+        12288,
+        12514,
+        12739,
+        12965,
+        13190,
+        13416,
+        13641,
+        13867,
+        14092,
+        14318,
+        14543
+      ],
+      "score_stats": {
+        "mean": 0.753418,
+        "max": 0.984604
+      },
+      "description": "The man in white clothes walked to the man in black clothes and talked to him."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 15103,
+      "end_frame": 15663,
+      "start_time_sec": 503.433333,
+      "end_time_sec": 522.1,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        15103,
+        15154,
+        15205,
+        15256,
+        15307,
+        15358,
+        15408,
+        15459,
+        15510,
+        15561,
+        15612,
+        15663
+      ],
+      "score_stats": {
+        "mean": 0.676302,
+        "max": 0.917927
+      },
+      "description": "The man in the hat walked to the table and took out a box from the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 40942,
+      "end_frame": 43454,
+      "start_time_sec": 1364.733333,
+      "end_time_sec": 1448.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        40942,
+        41170,
+        41399,
+        41627,
+        41855,
+        42084,
+        42312,
+        42541,
+        42769,
+        42997,
+        43226,
+        43454
+      ],
+      "score_stats": {
+        "mean": 0.783204,
+        "max": 0.996424
+      },
+      "description": "The man in black clothes and the man in white clothes are seen sitting on the ground, and the man in black clothes is seen picking up a box and putting it on the ground."
+    }
+  ]
+}

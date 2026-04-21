@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson011_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson011_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1266,
+  "duration_sec": 42.2,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson011_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 79,
+    "aligned_to_num_frames": 1266,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 252,
+      "start_time_sec": 0.0,
+      "end_time_sec": 8.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        23,
+        46,
+        69,
+        92,
+        115,
+        137,
+        160,
+        183,
+        206,
+        229,
+        252
+      ],
+      "score_stats": {
+        "mean": 0.977811,
+        "max": 0.998922
+      },
+      "description": "A person in a dark jacket and jeans is seen pushing a bicycle into an elevator. the person then exits the elevator and walks towards the camera."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 253,
+      "end_frame": 505,
+      "start_time_sec": 8.433333,
+      "end_time_sec": 16.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        253,
+        276,
+        299,
+        322,
+        345,
+        368,
+        390,
+        413,
+        436,
+        459,
+        482,
+        505
+      ],
+      "score_stats": {
+        "mean": 0.994286,
+        "max": 0.999085
+      },
+      "description": "A person in a dark coat and hat is seen pushing a bicycle up a flight of stairs in an elevator."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 506,
+      "end_frame": 758,
+      "start_time_sec": 16.866667,
+      "end_time_sec": 25.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        506,
+        529,
+        552,
+        575,
+        598,
+        621,
+        643,
+        666,
+        689,
+        712,
+        735,
+        758
+      ],
+      "score_stats": {
+        "mean": 0.975452,
+        "max": 0.994596
+      },
+      "description": "A man in a blue hoodie and a woman in a black jacket are seen riding a bicycle down the elevator. the man in the blue hoodie is holding the handlebars, while the woman in the black jacket is seated on the bike."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 759,
+      "end_frame": 1011,
+      "start_time_sec": 25.3,
+      "end_time_sec": 33.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        759,
+        782,
+        805,
+        828,
+        851,
+        874,
+        896,
+        919,
+        942,
+        965,
+        988,
+        1011
+      ],
+      "score_stats": {
+        "mean": 0.999246,
+        "max": 0.99981
+      },
+      "description": "A person in a dark jacket and hooded jacket is seen moving around the camera's field of view, with a blurred background suggesting movement."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1012,
+      "end_frame": 1265,
+      "start_time_sec": 33.733333,
+      "end_time_sec": 42.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1012,
+        1035,
+        1058,
+        1081,
+        1104,
+        1127,
+        1150,
+        1173,
+        1196,
+        1219,
+        1242,
+        1265
+      ],
+      "score_stats": {
+        "mean": 0.996537,
+        "max": 0.999583
+      },
+      "description": "A person in a dark jacket and gloves is seen moving quickly through a dimly lit area, possibly an elevator or a confined space. the individual appears to be in a hurry or trying to escape from something."
+    }
+  ]
+}

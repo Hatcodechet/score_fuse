@@ -5,14 +5,9 @@ Example:
     --video-root /workspace/test \
     --output-root /workspace/score_fuse/new_solution/outputs \
     --checkpoint /workspace/model_ucf.pth \
-    --holmes-model-path ppxin321/HolmesVAU-2B \
-    --score-root /path/to/precomputed_scores
-
-Checkpoint-backed scoring notes:
-  - `/workspace/model_ucf.pth` appears to require an external source tree plus
-    precomputed feature `.npy` files.
-  - If you do not have that project locally, pass `--score-root` with existing
-    score files instead.
+    --feature-root /workspace/UCFClipFeatures \
+    --scorer-source-root /workspace/VadCLIP/src \
+    --holmes-model-path ppxin321/HolmesVAU-2B
 """
 
 from __future__ import annotations
@@ -23,7 +18,12 @@ import traceback
 from pathlib import Path
 from typing import Any
 
-from anomaly_wrapper import AnomalyScoreService
+from anomaly_wrapper import (
+    DEFAULT_CHECKPOINT_PATH,
+    DEFAULT_FEATURE_ROOT,
+    DEFAULT_SCORER_SOURCE_ROOT,
+    AnomalyScoreService,
+)
 from holmes_wrapper import DEFAULT_HOLMES_MODEL, load_holmes_model, generate_segment_description
 from segment_utils import compute_segment_score_stats, propose_segments, resample_scores_to_length
 from video_utils import extract_segment_rgb_frames, find_mp4_videos, load_video_metadata
@@ -40,14 +40,19 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate one HolmesVAU description per anomaly-driven segment.")
     parser.add_argument("--video-root", type=Path, default=Path("/workspace/test"))
     parser.add_argument("--output-root", type=Path, default=Path("/workspace/score_fuse/new_solution/outputs"))
-    parser.add_argument("--checkpoint", type=Path, default=Path("/workspace/model_ucf.pth"))
+    parser.add_argument("--checkpoint", type=Path, default=DEFAULT_CHECKPOINT_PATH)
     parser.add_argument("--score-root", type=Path, default=None, help="Optional directory of precomputed .npy/.json score files.")
-    parser.add_argument("--feature-root", type=Path, default=None, help="Optional directory of feature .npy files for checkpoint scoring.")
+    parser.add_argument(
+        "--feature-root",
+        type=Path,
+        default=DEFAULT_FEATURE_ROOT,
+        help="Directory of feature .npy files for checkpoint scoring.",
+    )
     parser.add_argument(
         "--scorer-source-root",
         type=Path,
-        default=None,
-        help="Optional source root containing option.py, model.py, and utils/tools.py for the checkpoint scorer.",
+        default=DEFAULT_SCORER_SOURCE_ROOT,
+        help="Source root containing option.py/ucf_option.py, model.py, and utils/tools.py for the checkpoint scorer.",
     )
     parser.add_argument("--holmes-model-path", type=str, default=DEFAULT_HOLMES_MODEL)
     parser.add_argument("--holmes-device", type=str, default="auto")

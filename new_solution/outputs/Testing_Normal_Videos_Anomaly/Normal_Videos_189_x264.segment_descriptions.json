@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_189_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_189_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 737,
+  "duration_sec": 24.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_189_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 46,
+    "aligned_to_num_frames": 737,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 560,
+      "end_frame": 736,
+      "start_time_sec": 18.666667,
+      "end_time_sec": 24.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        560,
+        576,
+        592,
+        608,
+        624,
+        640,
+        656,
+        672,
+        688,
+        704,
+        720,
+        736
+      ],
+      "score_stats": {
+        "mean": 0.550457,
+        "max": 0.752705
+      },
+      "description": "A white truck with a ladder on top drives down the road, followed by a white car. the truck then drives past a red car and a white car."
+    }
+  ]
+}

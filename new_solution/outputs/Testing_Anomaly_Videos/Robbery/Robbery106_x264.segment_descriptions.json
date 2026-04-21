@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Robbery/Robbery106_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Robbery/Robbery106_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1197,
+  "duration_sec": 39.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Robbery/Robbery106_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 74,
+    "aligned_to_num_frames": 1197,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 339,
+      "end_frame": 744,
+      "start_time_sec": 11.3,
+      "end_time_sec": 24.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        339,
+        376,
+        413,
+        449,
+        486,
+        523,
+        560,
+        597,
+        634,
+        670,
+        707,
+        744
+      ],
+      "score_stats": {
+        "mean": 0.890765,
+        "max": 0.978575
+      },
+      "description": "A man in a blue shirt and black pants is seen talking on the phone while standing next to a silver car. a man in a light-colored shirt and dark pants approaches him and pushes him away from the car."
+    }
+  ]
+}

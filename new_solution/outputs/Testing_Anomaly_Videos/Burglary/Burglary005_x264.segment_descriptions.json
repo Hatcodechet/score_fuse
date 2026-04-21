@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary005_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary005_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 7729,
+  "duration_sec": 257.633333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary005_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 483,
+    "aligned_to_num_frames": 7729,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1544,
+      "start_time_sec": 0.0,
+      "end_time_sec": 51.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        140,
+        281,
+        421,
+        561,
+        702,
+        842,
+        983,
+        1123,
+        1263,
+        1404,
+        1544
+      ],
+      "score_stats": {
+        "mean": 0.976312,
+        "max": 0.999473
+      },
+      "description": "A person wearing a white shirt and dark pants walked to the door of a house, opened the door, and then walked back to the house."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1545,
+      "end_frame": 3090,
+      "start_time_sec": 51.5,
+      "end_time_sec": 103.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1545,
+        1685,
+        1826,
+        1966,
+        2107,
+        2247,
+        2388,
+        2528,
+        2669,
+        2809,
+        2950,
+        3090
+      ],
+      "score_stats": {
+        "mean": 0.987404,
+        "max": 0.999902
+      },
+      "description": "A person wearing a white shirt and dark pants walking up a sidewalk to a house. they are seen opening the door and then leaving the house."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3091,
+      "end_frame": 4636,
+      "start_time_sec": 103.033333,
+      "end_time_sec": 154.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3091,
+        3231,
+        3372,
+        3512,
+        3653,
+        3793,
+        3934,
+        4074,
+        4215,
+        4355,
+        4496,
+        4636
+      ],
+      "score_stats": {
+        "mean": 0.964865,
+        "max": 0.999594
+      },
+      "description": "A person in white clothes and black pants walking towards the camera, followed by another person in a white shirt and red hat. the first person is seen picking up a small object from the ground, possibly a toy or a piece of litter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4637,
+      "end_frame": 6182,
+      "start_time_sec": 154.566667,
+      "end_time_sec": 206.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4637,
+        4777,
+        4918,
+        5058,
+        5199,
+        5339,
+        5480,
+        5620,
+        5761,
+        5901,
+        6042,
+        6182
+      ],
+      "score_stats": {
+        "mean": 0.865138,
+        "max": 0.999725
+      },
+      "description": "A person wearing a white shirt and dark pants is seen running towards a house, with a small child in red clothes following behind. the child appears to be chasing the person, and the person is seen running towards a door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 6183,
+      "end_frame": 7728,
+      "start_time_sec": 206.1,
+      "end_time_sec": 257.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6183,
+        6323,
+        6464,
+        6604,
+        6745,
+        6885,
+        7026,
+        7166,
+        7307,
+        7447,
+        7588,
+        7728
+      ],
+      "score_stats": {
+        "mean": 0.92016,
+        "max": 0.997201
+      },
+      "description": "A person wearing a white shirt and dark pants walked out of the house and walked to the door."
+    }
+  ]
+}

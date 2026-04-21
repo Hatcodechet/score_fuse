@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting010_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting010_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2641,
+  "duration_sec": 88.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting010_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 165,
+    "aligned_to_num_frames": 2641,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 352,
+      "end_frame": 960,
+      "start_time_sec": 11.733333,
+      "end_time_sec": 32.0,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        352,
+        407,
+        463,
+        518,
+        573,
+        628,
+        684,
+        739,
+        794,
+        849,
+        905,
+        960
+      ],
+      "score_stats": {
+        "mean": 0.440597,
+        "max": 0.673414
+      },
+      "description": "A man in a black jacket and pants walked out of the door and walked to the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2032,
+      "end_frame": 2240,
+      "start_time_sec": 67.733333,
+      "end_time_sec": 74.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2032,
+        2051,
+        2070,
+        2089,
+        2108,
+        2127,
+        2145,
+        2164,
+        2183,
+        2202,
+        2221,
+        2240
+      ],
+      "score_stats": {
+        "mean": 0.344201,
+        "max": 0.447608
+      },
+      "description": "The man in black clothes walked to the right of the road and walked to the right of the road."
+    }
+  ]
+}

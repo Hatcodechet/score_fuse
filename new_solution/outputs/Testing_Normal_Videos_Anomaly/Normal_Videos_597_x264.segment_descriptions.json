@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_597_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_597_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2229,
+  "duration_sec": 74.3,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_597_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 139,
+    "aligned_to_num_frames": 2229,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        36,
+        44,
+        51,
+        58,
+        65,
+        73,
+        80
+      ],
+      "score_stats": {
+        "mean": 0.002568,
+        "max": 0.010417
+      },
+      "description": "A man in a pink shirt walked to the counter and took out a cup from the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1988,
+      "end_frame": 2228,
+      "start_time_sec": 66.266667,
+      "end_time_sec": 74.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1988,
+        2010,
+        2032,
+        2053,
+        2075,
+        2097,
+        2119,
+        2141,
+        2163,
+        2184,
+        2206,
+        2228
+      ],
+      "score_stats": {
+        "mean": 0.005238,
+        "max": 0.00722
+      },
+      "description": "The man in pink clothes took the man in red clothes's phone and walked to the counter."
+    }
+  ]
+}

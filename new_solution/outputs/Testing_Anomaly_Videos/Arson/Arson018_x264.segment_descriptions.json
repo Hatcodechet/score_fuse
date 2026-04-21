@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson018_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson018_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 842,
+  "duration_sec": 28.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson018_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 52,
+    "aligned_to_num_frames": 842,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 209,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        19,
+        38,
+        57,
+        76,
+        95,
+        114,
+        133,
+        152,
+        171,
+        190,
+        209
+      ],
+      "score_stats": {
+        "mean": 0.998009,
+        "max": 0.999513
+      },
+      "description": "A man in a white shirt and black pants walked to the right side of the screen and then walked back to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 210,
+      "end_frame": 420,
+      "start_time_sec": 7.0,
+      "end_time_sec": 14.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        210,
+        229,
+        248,
+        267,
+        286,
+        305,
+        325,
+        344,
+        363,
+        382,
+        401,
+        420
+      ],
+      "score_stats": {
+        "mean": 0.999593,
+        "max": 0.999654
+      },
+      "description": "A man in a white shirt and black pants walked to the back of the car and then walked to the front of the car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 421,
+      "end_frame": 630,
+      "start_time_sec": 14.033333,
+      "end_time_sec": 21.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        421,
+        440,
+        459,
+        478,
+        497,
+        516,
+        535,
+        554,
+        573,
+        592,
+        611,
+        630
+      ],
+      "score_stats": {
+        "mean": 0.999778,
+        "max": 0.999878
+      },
+      "description": "A man in white clothes walked to the back of the car and then walked to the front of the car."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 631,
+      "end_frame": 841,
+      "start_time_sec": 21.033333,
+      "end_time_sec": 28.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        631,
+        650,
+        669,
+        688,
+        707,
+        726,
+        746,
+        765,
+        784,
+        803,
+        822,
+        841
+      ],
+      "score_stats": {
+        "mean": 0.999748,
+        "max": 0.999894
+      },
+      "description": "A car driving on a road at night, with a fire burning in the distance. the car's headlights are on, and the road appears to be wet, possibly due to rain or snow."
+    }
+  ]
+}

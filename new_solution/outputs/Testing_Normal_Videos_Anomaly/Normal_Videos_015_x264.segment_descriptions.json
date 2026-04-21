@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_015_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_015_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 480,
+  "duration_sec": 16.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_015_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 30,
+    "aligned_to_num_frames": 480,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 79,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.633333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        14,
+        22,
+        29,
+        36,
+        43,
+        50,
+        57,
+        65,
+        72,
+        79
+      ],
+      "score_stats": {
+        "mean": 0.000157,
+        "max": 0.000924
+      },
+      "description": "A woman in a white top and black skirt walked to the right of the screen, and a man in a red shirt and black pants walked to the left of the screen."
+    }
+  ]
+}

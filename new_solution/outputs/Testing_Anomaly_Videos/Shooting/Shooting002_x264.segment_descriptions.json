@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting002_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting002_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1206,
+  "duration_sec": 40.2,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting002_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 75,
+    "aligned_to_num_frames": 1206,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 240,
+      "start_time_sec": 0.0,
+      "end_time_sec": 8.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        22,
+        44,
+        65,
+        87,
+        109,
+        131,
+        153,
+        175,
+        196,
+        218,
+        240
+      ],
+      "score_stats": {
+        "mean": 0.996059,
+        "max": 0.998697
+      },
+      "description": "The man in the white hat and the man in the black jacket are engaged in a conversation, and the man in the black jacket is gesturing with his hands."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 241,
+      "end_frame": 481,
+      "start_time_sec": 8.033333,
+      "end_time_sec": 16.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        241,
+        263,
+        285,
+        306,
+        328,
+        350,
+        372,
+        394,
+        416,
+        437,
+        459,
+        481
+      ],
+      "score_stats": {
+        "mean": 0.998823,
+        "max": 0.998971
+      },
+      "description": "The man in the white hat walked to the car and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 482,
+      "end_frame": 722,
+      "start_time_sec": 16.066667,
+      "end_time_sec": 24.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        482,
+        504,
+        526,
+        547,
+        569,
+        591,
+        613,
+        635,
+        657,
+        678,
+        700,
+        722
+      ],
+      "score_stats": {
+        "mean": 0.997234,
+        "max": 0.998846
+      },
+      "description": "The man in the white shirt and the man in the black shirt are talking to each other."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 723,
+      "end_frame": 963,
+      "start_time_sec": 24.1,
+      "end_time_sec": 32.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        723,
+        745,
+        767,
+        788,
+        810,
+        832,
+        854,
+        876,
+        898,
+        919,
+        941,
+        963
+      ],
+      "score_stats": {
+        "mean": 0.998833,
+        "max": 0.998951
+      },
+      "description": "The man in the black shirt and the man in the white shirt are talking to each other."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 964,
+      "end_frame": 1205,
+      "start_time_sec": 32.133333,
+      "end_time_sec": 40.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        964,
+        986,
+        1008,
+        1030,
+        1052,
+        1074,
+        1095,
+        1117,
+        1139,
+        1161,
+        1183,
+        1205
+      ],
+      "score_stats": {
+        "mean": 0.99162,
+        "max": 0.998658
+      },
+      "description": "A group of people gathered around a car, with one person holding a phone. the scene then shifts to a man walking away from the group, and the camera pans to show the surrounding area, including parked cars and a few individuals standing nearby."
+    }
+  ]
+}

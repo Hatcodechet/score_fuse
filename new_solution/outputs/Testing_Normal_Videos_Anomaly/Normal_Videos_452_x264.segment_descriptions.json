@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_452_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_452_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 443,
+  "duration_sec": 14.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_452_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 27,
+    "aligned_to_num_frames": 443,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 82,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        30,
+        37,
+        45,
+        52,
+        60,
+        67,
+        75,
+        82
+      ],
+      "score_stats": {
+        "mean": 4.3e-05,
+        "max": 0.000275
+      },
+      "description": "A bustling indoor setting, likely a shopping mall or public space, with people moving around and engaging in various activities. the crowd is diverse, with individuals of different ages and attire, some walking, others sitting or standing. there are no unusual or suspicious events occurring in the video."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 360,
+      "end_frame": 442,
+      "start_time_sec": 12.0,
+      "end_time_sec": 14.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        360,
+        367,
+        375,
+        382,
+        390,
+        397,
+        405,
+        412,
+        420,
+        427,
+        435,
+        442
+      ],
+      "score_stats": {
+        "mean": 5.3e-05,
+        "max": 0.000253
+      },
+      "description": "A bustling indoor setting, likely a shopping mall, with people walking around, sitting at tables, and engaging in various activities."
+    }
+  ]
+}

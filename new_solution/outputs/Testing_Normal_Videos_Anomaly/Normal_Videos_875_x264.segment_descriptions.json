@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_875_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_875_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2565,
+  "duration_sec": 85.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_875_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 160,
+    "aligned_to_num_frames": 2565,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 512,
+      "start_time_sec": 0.0,
+      "end_time_sec": 17.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        47,
+        93,
+        140,
+        186,
+        233,
+        279,
+        326,
+        372,
+        419,
+        465,
+        512
+      ],
+      "score_stats": {
+        "mean": 1.4e-05,
+        "max": 0.000568
+      },
+      "description": "A busy intersection with multiple lanes of traffic, including cars, trucks, and buses. the traffic lights are red, and vehicles are waiting to turn. pedestrians are seen crossing the road, and there are no unusual or suspicious events occurring in the video."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 513,
+      "end_frame": 1025,
+      "start_time_sec": 17.1,
+      "end_time_sec": 34.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        513,
+        560,
+        606,
+        653,
+        699,
+        746,
+        792,
+        839,
+        885,
+        932,
+        978,
+        1025
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 1e-06
+      },
+      "description": "A busy urban intersection with multiple lanes of traffic, including cars, buses, and trucks. the road is marked with white lines and arrows indicating traffic flow. pedestrians are seen crossing the road, and there are tall buildings in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1026,
+      "end_frame": 1538,
+      "start_time_sec": 34.2,
+      "end_time_sec": 51.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1026,
+        1073,
+        1119,
+        1166,
+        1212,
+        1259,
+        1305,
+        1352,
+        1398,
+        1445,
+        1491,
+        1538
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 2e-06
+      },
+      "description": "A bustling city street with multiple lanes of traffic, including cars and buses. the street is lined with buildings, some of which have large windows and others with more traditional architecture. there are pedestrians crossing the street, and the traffic appears to be moving at a steady pace."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1539,
+      "end_frame": 2051,
+      "start_time_sec": 51.3,
+      "end_time_sec": 68.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1539,
+        1586,
+        1632,
+        1679,
+        1725,
+        1772,
+        1818,
+        1865,
+        1911,
+        1958,
+        2004,
+        2051
+      ],
+      "score_stats": {
+        "mean": 3e-06,
+        "max": 6e-06
+      },
+      "description": "A bustling city street with multiple lanes of traffic, including cars and buses. the street is lined with trees and buildings, and there are pedestrians crossing the road."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2052,
+      "end_frame": 2564,
+      "start_time_sec": 68.4,
+      "end_time_sec": 85.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2052,
+        2099,
+        2145,
+        2192,
+        2238,
+        2285,
+        2331,
+        2378,
+        2424,
+        2471,
+        2517,
+        2564
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 0.000202
+      },
+      "description": "A busy urban intersection with multiple lanes of traffic, including cars and trucks. the road is marked with white lines and there are traffic signs indicating directions and speed limits."
+    }
+  ]
+}

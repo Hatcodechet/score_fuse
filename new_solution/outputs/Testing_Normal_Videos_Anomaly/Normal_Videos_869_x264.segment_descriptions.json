@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_869_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_869_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2401,
+  "duration_sec": 80.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_869_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 150,
+    "aligned_to_num_frames": 2401,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 479,
+      "start_time_sec": 0.0,
+      "end_time_sec": 15.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        44,
+        87,
+        131,
+        174,
+        218,
+        261,
+        305,
+        348,
+        392,
+        435,
+        479
+      ],
+      "score_stats": {
+        "mean": 8.6e-05,
+        "max": 0.002542
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 480,
+      "end_frame": 959,
+      "start_time_sec": 16.0,
+      "end_time_sec": 31.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        480,
+        524,
+        567,
+        611,
+        654,
+        698,
+        741,
+        785,
+        828,
+        872,
+        915,
+        959
+      ],
+      "score_stats": {
+        "mean": 5e-06,
+        "max": 6e-06
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 960,
+      "end_frame": 1439,
+      "start_time_sec": 32.0,
+      "end_time_sec": 47.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        960,
+        1004,
+        1047,
+        1091,
+        1134,
+        1178,
+        1221,
+        1265,
+        1308,
+        1352,
+        1395,
+        1439
+      ],
+      "score_stats": {
+        "mean": 5e-06,
+        "max": 6e-06
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1440,
+      "end_frame": 1919,
+      "start_time_sec": 48.0,
+      "end_time_sec": 63.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1440,
+        1484,
+        1527,
+        1571,
+        1614,
+        1658,
+        1701,
+        1745,
+        1788,
+        1832,
+        1875,
+        1919
+      ],
+      "score_stats": {
+        "mean": 5e-06,
+        "max": 7e-06
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1920,
+      "end_frame": 2400,
+      "start_time_sec": 64.0,
+      "end_time_sec": 80.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1920,
+        1964,
+        2007,
+        2051,
+        2095,
+        2138,
+        2182,
+        2225,
+        2269,
+        2313,
+        2356,
+        2400
+      ],
+      "score_stats": {
+        "mean": 0.010057,
+        "max": 0.242736
+      },
+      "description": "A man in a purple shirt walked to the right side of the screen and then walked back to the left side of the screen."
+    }
+  ]
+}

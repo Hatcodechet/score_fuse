@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion016_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion016_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 963,
+  "duration_sec": 32.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion016_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 60,
+    "aligned_to_num_frames": 963,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 449,
+      "end_frame": 786,
+      "start_time_sec": 14.966667,
+      "end_time_sec": 26.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        449,
+        480,
+        510,
+        541,
+        572,
+        602,
+        633,
+        663,
+        694,
+        725,
+        755,
+        786
+      ],
+      "score_stats": {
+        "mean": 0.876165,
+        "max": 0.896594
+      },
+      "description": "A view of a large, historic building with a clock tower and a large plaza in front of it. the plaza is filled with parked cars, and there is a significant amount of smoke rising from the building, suggesting an explosion or fire."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Vandalism/Vandalism015_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Vandalism/Vandalism015_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2982,
+  "duration_sec": 99.4,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Vandalism/Vandalism015_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 186,
+    "aligned_to_num_frames": 2982,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 595,
+      "start_time_sec": 0.0,
+      "end_time_sec": 19.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        54,
+        108,
+        162,
+        216,
+        270,
+        325,
+        379,
+        433,
+        487,
+        541,
+        595
+      ],
+      "score_stats": {
+        "mean": 0.981878,
+        "max": 0.997397
+      },
+      "description": "The man in black clothes walked out of the door and walked to the right side of the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 596,
+      "end_frame": 1191,
+      "start_time_sec": 19.866667,
+      "end_time_sec": 39.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        596,
+        650,
+        704,
+        758,
+        812,
+        866,
+        921,
+        975,
+        1029,
+        1083,
+        1137,
+        1191
+      ],
+      "score_stats": {
+        "mean": 0.988474,
+        "max": 0.998682
+      },
+      "description": "A man in a dark suit walked out of the store and walked to the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1192,
+      "end_frame": 1788,
+      "start_time_sec": 39.733333,
+      "end_time_sec": 59.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1192,
+        1246,
+        1300,
+        1355,
+        1409,
+        1463,
+        1517,
+        1571,
+        1625,
+        1680,
+        1734,
+        1788
+      ],
+      "score_stats": {
+        "mean": 0.991971,
+        "max": 0.996744
+      },
+      "description": "The man in gray clothes walked to the right side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1789,
+      "end_frame": 2384,
+      "start_time_sec": 59.633333,
+      "end_time_sec": 79.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1789,
+        1843,
+        1897,
+        1951,
+        2005,
+        2059,
+        2114,
+        2168,
+        2222,
+        2276,
+        2330,
+        2384
+      ],
+      "score_stats": {
+        "mean": 0.997866,
+        "max": 0.999114
+      },
+      "description": "The man in gray clothes walked to the right of the screen and walked to the right of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2385,
+      "end_frame": 2981,
+      "start_time_sec": 79.5,
+      "end_time_sec": 99.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2385,
+        2439,
+        2493,
+        2548,
+        2602,
+        2656,
+        2710,
+        2764,
+        2818,
+        2873,
+        2927,
+        2981
+      ],
+      "score_stats": {
+        "mean": 0.996831,
+        "max": 0.999453
+      },
+      "description": "The man in gray clothes walked to the right side of the screen and then walked to the left side of the screen."
+    }
+  ]
+}

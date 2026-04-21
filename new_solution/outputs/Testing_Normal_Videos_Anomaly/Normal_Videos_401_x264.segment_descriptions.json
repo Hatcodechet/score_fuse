@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_401_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_401_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1626,
+  "duration_sec": 54.2,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_401_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 101,
+    "aligned_to_num_frames": 1626,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 708,
+      "end_frame": 998,
+      "start_time_sec": 23.6,
+      "end_time_sec": 33.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        708,
+        734,
+        761,
+        787,
+        813,
+        840,
+        866,
+        893,
+        919,
+        945,
+        972,
+        998
+      ],
+      "score_stats": {
+        "mean": 0.003467,
+        "max": 0.005483
+      },
+      "description": "The man in orange clothes walked to the right side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1126,
+      "end_frame": 1368,
+      "start_time_sec": 37.533333,
+      "end_time_sec": 45.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1126,
+        1148,
+        1170,
+        1192,
+        1214,
+        1236,
+        1258,
+        1280,
+        1302,
+        1324,
+        1346,
+        1368
+      ],
+      "score_stats": {
+        "mean": 0.003355,
+        "max": 0.005828
+      },
+      "description": "A man in red walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Assault/Assault006_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Assault/Assault006_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8096,
+  "duration_sec": 269.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Assault/Assault006_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 506,
+    "aligned_to_num_frames": 8096,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1618,
+      "start_time_sec": 0.0,
+      "end_time_sec": 53.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        147,
+        294,
+        441,
+        588,
+        735,
+        883,
+        1030,
+        1177,
+        1324,
+        1471,
+        1618
+      ],
+      "score_stats": {
+        "mean": 0.9472,
+        "max": 0.999784
+      },
+      "description": "A man in white clothes and a woman in a purple top were seen running out of the room, and then a group of people, including men and women, were gathered around the table."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1619,
+      "end_frame": 3237,
+      "start_time_sec": 53.966667,
+      "end_time_sec": 107.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1619,
+        1766,
+        1913,
+        2060,
+        2207,
+        2354,
+        2502,
+        2649,
+        2796,
+        2943,
+        3090,
+        3237
+      ],
+      "score_stats": {
+        "mean": 0.998224,
+        "max": 0.999966
+      },
+      "description": "A group of people gathered in a room, with some individuals standing and others seated. the room appears to be a shop or store, as there are shelves with various items on display. the people are engaged in a physical altercation, with some pushing and shoving each other."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3238,
+      "end_frame": 4856,
+      "start_time_sec": 107.933333,
+      "end_time_sec": 161.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3238,
+        3385,
+        3532,
+        3679,
+        3826,
+        3973,
+        4121,
+        4268,
+        4415,
+        4562,
+        4709,
+        4856
+      ],
+      "score_stats": {
+        "mean": 0.994754,
+        "max": 0.999249
+      },
+      "description": "A group of people in a room, with some individuals standing and others sitting. the room has a counter with various items on it, and there are several people present."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4857,
+      "end_frame": 6475,
+      "start_time_sec": 161.9,
+      "end_time_sec": 215.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4857,
+        5004,
+        5151,
+        5298,
+        5445,
+        5592,
+        5740,
+        5887,
+        6034,
+        6181,
+        6328,
+        6475
+      ],
+      "score_stats": {
+        "mean": 0.998012,
+        "max": 0.999823
+      },
+      "description": "A group of people gathered around a counter in a store, with some individuals standing and others sitting. the counter is cluttered with various items, including what appears to be a counter top and shelves stocked with items."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 6476,
+      "end_frame": 8095,
+      "start_time_sec": 215.866667,
+      "end_time_sec": 269.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6476,
+        6623,
+        6770,
+        6918,
+        7065,
+        7212,
+        7359,
+        7506,
+        7653,
+        7801,
+        7948,
+        8095
+      ],
+      "score_stats": {
+        "mean": 0.989961,
+        "max": 0.999892
+      },
+      "description": "A group of people gathered in a room, with some individuals standing and others sitting on the floor. the room appears to be a shop or store, as there are shelves with various items on display."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_576_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_576_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 11275,
+  "duration_sec": 375.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_576_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 704,
+    "aligned_to_num_frames": 11275,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 2254,
+      "start_time_sec": 0.0,
+      "end_time_sec": 75.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        205,
+        410,
+        615,
+        820,
+        1025,
+        1229,
+        1434,
+        1639,
+        1844,
+        2049,
+        2254
+      ],
+      "score_stats": {
+        "mean": 0.005187,
+        "max": 0.046033
+      },
+      "description": "A red and white bus stopped at the side of the road, and a man in white clothes walked towards the bus."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2255,
+      "end_frame": 4509,
+      "start_time_sec": 75.166667,
+      "end_time_sec": 150.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2255,
+        2460,
+        2665,
+        2870,
+        3075,
+        3280,
+        3484,
+        3689,
+        3894,
+        4099,
+        4304,
+        4509
+      ],
+      "score_stats": {
+        "mean": 0.001338,
+        "max": 0.011156
+      },
+      "description": "A bustling street scene with various vehicles, including buses and trucks, moving along the road. pedestrians are seen walking on the sidewalk, and there are several cars parked along the side of the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 4510,
+      "end_frame": 6764,
+      "start_time_sec": 150.333333,
+      "end_time_sec": 225.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4510,
+        4715,
+        4920,
+        5125,
+        5330,
+        5535,
+        5739,
+        5944,
+        6149,
+        6354,
+        6559,
+        6764
+      ],
+      "score_stats": {
+        "mean": 0.001466,
+        "max": 0.005822
+      },
+      "description": "A busy street scene with various vehicles, including buses and cars, moving in different directions. a person on a bicycle is seen riding through the intersection, while another individual on a motorcycle passes by. the background features buildings with signs and advertisements, indicating a commercial area."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 6765,
+      "end_frame": 9019,
+      "start_time_sec": 225.5,
+      "end_time_sec": 300.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6765,
+        6970,
+        7175,
+        7380,
+        7585,
+        7790,
+        7994,
+        8199,
+        8404,
+        8609,
+        8814,
+        9019
+      ],
+      "score_stats": {
+        "mean": 0.055576,
+        "max": 0.302679
+      },
+      "description": "A bustling street scene with various vehicles, including buses and cars, moving along the road. pedestrians are seen walking on the sidewalk, and there are signs of commercial activity with shops and signs visible in the background."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 9020,
+      "end_frame": 11274,
+      "start_time_sec": 300.666667,
+      "end_time_sec": 375.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        9020,
+        9225,
+        9430,
+        9635,
+        9840,
+        10045,
+        10249,
+        10454,
+        10659,
+        10864,
+        11069,
+        11274
+      ],
+      "score_stats": {
+        "mean": 0.029988,
+        "max": 0.659728
+      },
+      "description": "A red bus with a white roof and a red front, driving down a street lined with buildings and various shops. a white car passes by on the right side of the frame, and a yellow taxi is seen driving on the left side. a person wearing a purple shirt is seen walking on the sidewalk in the foreground."
+    }
+  ]
+}

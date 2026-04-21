@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary076_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary076_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 12923,
+  "duration_sec": 430.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary076_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 807,
+    "aligned_to_num_frames": 12923,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1040,
+      "end_frame": 1617,
+      "start_time_sec": 34.666667,
+      "end_time_sec": 53.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1040,
+        1092,
+        1145,
+        1197,
+        1250,
+        1302,
+        1355,
+        1407,
+        1460,
+        1512,
+        1565,
+        1617
+      ],
+      "score_stats": {
+        "mean": 0.852924,
+        "max": 0.957085
+      },
+      "description": "A man in a black jacket and blue jeans walked to the bottom of the stairs and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 8359,
+      "end_frame": 8647,
+      "start_time_sec": 278.633333,
+      "end_time_sec": 288.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8359,
+        8385,
+        8411,
+        8438,
+        8464,
+        8490,
+        8516,
+        8542,
+        8568,
+        8595,
+        8621,
+        8647
+      ],
+      "score_stats": {
+        "mean": 0.802626,
+        "max": 0.892891
+      },
+      "description": "A man in black clothes walked out from the house and walked to the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 10376,
+      "end_frame": 10825,
+      "start_time_sec": 345.866667,
+      "end_time_sec": 360.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        10376,
+        10417,
+        10458,
+        10498,
+        10539,
+        10580,
+        10621,
+        10662,
+        10703,
+        10743,
+        10784,
+        10825
+      ],
+      "score_stats": {
+        "mean": 0.861175,
+        "max": 0.978166
+      },
+      "description": "A man in black clothes and a hat walked out from the house and walked to the road."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 11257,
+      "end_frame": 11641,
+      "start_time_sec": 375.233333,
+      "end_time_sec": 388.033333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        11257,
+        11292,
+        11327,
+        11362,
+        11397,
+        11432,
+        11466,
+        11501,
+        11536,
+        11571,
+        11606,
+        11641
+      ],
+      "score_stats": {
+        "mean": 0.837983,
+        "max": 0.949236
+      },
+      "description": "A man in black clothes walked out from the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 11673,
+      "end_frame": 12106,
+      "start_time_sec": 389.1,
+      "end_time_sec": 403.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        11673,
+        11712,
+        11752,
+        11791,
+        11830,
+        11870,
+        11909,
+        11949,
+        11988,
+        12027,
+        12067,
+        12106
+      ],
+      "score_stats": {
+        "mean": 0.862975,
+        "max": 0.964734
+      },
+      "description": "A man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_365_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_365_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 6626,
+  "duration_sec": 220.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_365_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 414,
+    "aligned_to_num_frames": 6626,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1324,
+      "start_time_sec": 0.0,
+      "end_time_sec": 44.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        120,
+        241,
+        361,
+        481,
+        602,
+        722,
+        843,
+        963,
+        1083,
+        1204,
+        1324
+      ],
+      "score_stats": {
+        "mean": 3.5e-05,
+        "max": 0.000969
+      },
+      "description": "The man in white took out a box from the table and put it on the table."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1325,
+      "end_frame": 2649,
+      "start_time_sec": 44.166667,
+      "end_time_sec": 88.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1325,
+        1445,
+        1566,
+        1686,
+        1806,
+        1927,
+        2047,
+        2168,
+        2288,
+        2408,
+        2529,
+        2649
+      ],
+      "score_stats": {
+        "mean": 3.5e-05,
+        "max": 0.000108
+      },
+      "description": "The man in white walked to the table and took out a box of paper and a pen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2650,
+      "end_frame": 3974,
+      "start_time_sec": 88.333333,
+      "end_time_sec": 132.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2650,
+        2770,
+        2891,
+        3011,
+        3131,
+        3252,
+        3372,
+        3493,
+        3613,
+        3733,
+        3854,
+        3974
+      ],
+      "score_stats": {
+        "mean": 5e-06,
+        "max": 5.2e-05
+      },
+      "description": "The man in white walked to the table and took out a white paper from the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3975,
+      "end_frame": 5299,
+      "start_time_sec": 132.5,
+      "end_time_sec": 176.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3975,
+        4095,
+        4216,
+        4336,
+        4456,
+        4577,
+        4697,
+        4818,
+        4938,
+        5058,
+        5179,
+        5299
+      ],
+      "score_stats": {
+        "mean": 2.9e-05,
+        "max": 0.000928
+      },
+      "description": "The man in white clothes walked to the table and took out a piece of paper and a pen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 5300,
+      "end_frame": 6625,
+      "start_time_sec": 176.666667,
+      "end_time_sec": 220.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5300,
+        5420,
+        5541,
+        5661,
+        5782,
+        5902,
+        6023,
+        6143,
+        6264,
+        6384,
+        6505,
+        6625
+      ],
+      "score_stats": {
+        "mean": 7.9e-05,
+        "max": 0.005477
+      },
+      "description": "The man in white clothes walked to the table and took out a black bag from the table."
+    }
+  ]
+}

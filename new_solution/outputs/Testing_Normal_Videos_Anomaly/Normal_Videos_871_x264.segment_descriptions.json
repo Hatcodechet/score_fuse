@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_871_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_871_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4358,
+  "duration_sec": 145.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_871_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 272,
+    "aligned_to_num_frames": 4358,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 870,
+      "start_time_sec": 0.0,
+      "end_time_sec": 29.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        79,
+        158,
+        237,
+        316,
+        395,
+        475,
+        554,
+        633,
+        712,
+        791,
+        870
+      ],
+      "score_stats": {
+        "mean": 0.000156,
+        "max": 0.004292
+      },
+      "description": "A man in a purple shirt walks into the frame from the right side, and then a man in a black shirt walks into the frame from the left side."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 871,
+      "end_frame": 1742,
+      "start_time_sec": 29.033333,
+      "end_time_sec": 58.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        871,
+        950,
+        1029,
+        1109,
+        1188,
+        1267,
+        1346,
+        1425,
+        1504,
+        1584,
+        1663,
+        1742
+      ],
+      "score_stats": {
+        "mean": 4e-06,
+        "max": 1.2e-05
+      },
+      "description": "A man in a purple shirt walks into the frame from the left side of the screen, and then leaves the frame from the right side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1743,
+      "end_frame": 2613,
+      "start_time_sec": 58.1,
+      "end_time_sec": 87.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1743,
+        1822,
+        1901,
+        1980,
+        2059,
+        2138,
+        2218,
+        2297,
+        2376,
+        2455,
+        2534,
+        2613
+      ],
+      "score_stats": {
+        "mean": 1.3e-05,
+        "max": 3.7e-05
+      },
+      "description": "A man in a black shirt walked out of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2614,
+      "end_frame": 3485,
+      "start_time_sec": 87.133333,
+      "end_time_sec": 116.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2614,
+        2693,
+        2772,
+        2852,
+        2931,
+        3010,
+        3089,
+        3168,
+        3247,
+        3327,
+        3406,
+        3485
+      ],
+      "score_stats": {
+        "mean": 2.7e-05,
+        "max": 0.00022
+      },
+      "description": "A man in a purple shirt walks into the frame from the right side, and then the camera pans to show a man in a green shirt standing in the center of the frame. The man in the green shirt appears to be looking around, possibly searching for something or someone."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3486,
+      "end_frame": 4357,
+      "start_time_sec": 116.2,
+      "end_time_sec": 145.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3486,
+        3565,
+        3644,
+        3724,
+        3803,
+        3882,
+        3961,
+        4040,
+        4119,
+        4199,
+        4278,
+        4357
+      ],
+      "score_stats": {
+        "mean": 0.000126,
+        "max": 0.002256
+      },
+      "description": "A man in a blue shirt walked out of the room and walked to the door."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting043_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting043_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1874,
+  "duration_sec": 62.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting043_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 117,
+    "aligned_to_num_frames": 1874,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 373,
+      "start_time_sec": 0.0,
+      "end_time_sec": 12.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        34,
+        68,
+        102,
+        136,
+        170,
+        203,
+        237,
+        271,
+        305,
+        339,
+        373
+      ],
+      "score_stats": {
+        "mean": 0.996754,
+        "max": 0.999262
+      },
+      "description": "A man in blue clothes walked to the car and opened the trunk."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 374,
+      "end_frame": 748,
+      "start_time_sec": 12.466667,
+      "end_time_sec": 24.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        374,
+        408,
+        442,
+        476,
+        510,
+        544,
+        578,
+        612,
+        646,
+        680,
+        714,
+        748
+      ],
+      "score_stats": {
+        "mean": 0.99963,
+        "max": 0.999739
+      },
+      "description": "A man in blue clothes and a woman in black clothes are standing on the right side of the video, and a man in black clothes is standing on the left side of the video."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 749,
+      "end_frame": 1123,
+      "start_time_sec": 24.966667,
+      "end_time_sec": 37.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        749,
+        783,
+        817,
+        851,
+        885,
+        919,
+        953,
+        987,
+        1021,
+        1055,
+        1089,
+        1123
+      ],
+      "score_stats": {
+        "mean": 0.999648,
+        "max": 0.99981
+      },
+      "description": "The man in red clothes took the car and drove away."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1124,
+      "end_frame": 1498,
+      "start_time_sec": 37.466667,
+      "end_time_sec": 49.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1124,
+        1158,
+        1192,
+        1226,
+        1260,
+        1294,
+        1328,
+        1362,
+        1396,
+        1430,
+        1464,
+        1498
+      ],
+      "score_stats": {
+        "mean": 0.999893,
+        "max": 0.999936
+      },
+      "description": "The man in red clothes took the black car and drove away."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1499,
+      "end_frame": 1873,
+      "start_time_sec": 49.966667,
+      "end_time_sec": 62.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1499,
+        1533,
+        1567,
+        1601,
+        1635,
+        1669,
+        1703,
+        1737,
+        1771,
+        1805,
+        1839,
+        1873
+      ],
+      "score_stats": {
+        "mean": 0.998189,
+        "max": 0.999936
+      },
+      "description": "The man in black clothes and blue jeans took the black car and drove away."
+    }
+  ]
+}

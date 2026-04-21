@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_885_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_885_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 474,
+  "duration_sec": 15.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_885_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 29,
+    "aligned_to_num_frames": 474,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 81,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.7,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        37,
+        44,
+        52,
+        59,
+        66,
+        74,
+        81
+      ],
+      "score_stats": {
+        "mean": 7.3e-05,
+        "max": 0.000474
+      },
+      "description": "The man in white clothes walked to the right side of the screen and walked to the right side of the screen."
+    }
+  ]
+}

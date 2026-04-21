@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting047_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting047_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8287,
+  "duration_sec": 276.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting047_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 517,
+    "aligned_to_num_frames": 8287,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1656,
+      "start_time_sec": 0.0,
+      "end_time_sec": 55.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        151,
+        301,
+        452,
+        602,
+        753,
+        903,
+        1054,
+        1204,
+        1355,
+        1505,
+        1656
+      ],
+      "score_stats": {
+        "mean": 0.998726,
+        "max": 0.999802
+      },
+      "description": "A person in a white shirt and blue jeans standing on a porch, looking towards the camera. the background shows a driveway with parked cars and a tree."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1657,
+      "end_frame": 3313,
+      "start_time_sec": 55.233333,
+      "end_time_sec": 110.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1657,
+        1808,
+        1958,
+        2109,
+        2259,
+        2410,
+        2560,
+        2711,
+        2861,
+        3012,
+        3162,
+        3313
+      ],
+      "score_stats": {
+        "mean": 0.997889,
+        "max": 0.999587
+      },
+      "description": "A man in a green shirt and blue jeans walks out of the house and walks to the front of the house."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3314,
+      "end_frame": 4971,
+      "start_time_sec": 110.466667,
+      "end_time_sec": 165.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3314,
+        3465,
+        3615,
+        3766,
+        3917,
+        4067,
+        4218,
+        4368,
+        4519,
+        4670,
+        4820,
+        4971
+      ],
+      "score_stats": {
+        "mean": 0.865314,
+        "max": 0.999839
+      },
+      "description": "A man in a white shirt and blue jeans walked to the car and got inside."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4972,
+      "end_frame": 6628,
+      "start_time_sec": 165.733333,
+      "end_time_sec": 220.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4972,
+        5123,
+        5273,
+        5424,
+        5574,
+        5725,
+        5875,
+        6026,
+        6176,
+        6327,
+        6477,
+        6628
+      ],
+      "score_stats": {
+        "mean": 0.960492,
+        "max": 0.992287
+      },
+      "description": "A man in a blue shirt and jeans approaches a white car parked on the side of a road. He then walks towards the car and opens the trunk."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 6629,
+      "end_frame": 8286,
+      "start_time_sec": 220.966667,
+      "end_time_sec": 276.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6629,
+        6780,
+        6930,
+        7081,
+        7232,
+        7382,
+        7533,
+        7683,
+        7834,
+        7985,
+        8135,
+        8286
+      ],
+      "score_stats": {
+        "mean": 0.814486,
+        "max": 0.978859
+      },
+      "description": "A person in a blue and white checkered shirt crawling on the ground near a white car, while another person in a white shirt stands nearby."
+    }
+  ]
+}

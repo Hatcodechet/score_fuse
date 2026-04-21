@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting026_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting026_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1403,
+  "duration_sec": 46.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting026_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 87,
+    "aligned_to_num_frames": 1403,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 279,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        25,
+        51,
+        76,
+        101,
+        127,
+        152,
+        178,
+        203,
+        228,
+        254,
+        279
+      ],
+      "score_stats": {
+        "mean": 0.997149,
+        "max": 0.998892
+      },
+      "description": "A man in a white shirt and hat walks up the steps of a house, then leaves the scene."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 280,
+      "end_frame": 560,
+      "start_time_sec": 9.333333,
+      "end_time_sec": 18.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        280,
+        305,
+        331,
+        356,
+        382,
+        407,
+        433,
+        458,
+        484,
+        509,
+        535,
+        560
+      ],
+      "score_stats": {
+        "mean": 0.999074,
+        "max": 0.999457
+      },
+      "description": "A person wearing a white shirt and dark pants walked to the right side of the screen, and then walked back to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 561,
+      "end_frame": 840,
+      "start_time_sec": 18.7,
+      "end_time_sec": 28.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        561,
+        586,
+        612,
+        637,
+        662,
+        688,
+        713,
+        739,
+        764,
+        789,
+        815,
+        840
+      ],
+      "score_stats": {
+        "mean": 0.999082,
+        "max": 0.99946
+      },
+      "description": "A person wearing a white shirt and black pants walked out of the house and walked to the road."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 841,
+      "end_frame": 1121,
+      "start_time_sec": 28.033333,
+      "end_time_sec": 37.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        841,
+        866,
+        892,
+        917,
+        943,
+        968,
+        994,
+        1019,
+        1045,
+        1070,
+        1096,
+        1121
+      ],
+      "score_stats": {
+        "mean": 0.99854,
+        "max": 0.999159
+      },
+      "description": "A person wearing a white shirt and black pants walked out from the bottom of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1122,
+      "end_frame": 1402,
+      "start_time_sec": 37.4,
+      "end_time_sec": 46.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1122,
+        1147,
+        1173,
+        1198,
+        1224,
+        1249,
+        1275,
+        1300,
+        1326,
+        1351,
+        1377,
+        1402
+      ],
+      "score_stats": {
+        "mean": 0.982861,
+        "max": 0.999164
+      },
+      "description": "A person wearing a white shirt and black pants walked out of the house and walked to the road."
+    }
+  ]
+}

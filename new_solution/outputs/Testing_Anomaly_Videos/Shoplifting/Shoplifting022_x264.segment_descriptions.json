@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting022_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting022_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2191,
+  "duration_sec": 73.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting022_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 136,
+    "aligned_to_num_frames": 2191,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 209,
+      "end_frame": 515,
+      "start_time_sec": 6.966667,
+      "end_time_sec": 17.166667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        209,
+        237,
+        265,
+        292,
+        320,
+        348,
+        376,
+        404,
+        432,
+        459,
+        487,
+        515
+      ],
+      "score_stats": {
+        "mean": 0.289563,
+        "max": 0.389091
+      },
+      "description": "The man in black clothes and the man in blue clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 837,
+      "end_frame": 1224,
+      "start_time_sec": 27.9,
+      "end_time_sec": 40.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        837,
+        872,
+        907,
+        943,
+        978,
+        1013,
+        1048,
+        1083,
+        1118,
+        1154,
+        1189,
+        1224
+      ],
+      "score_stats": {
+        "mean": 0.288125,
+        "max": 0.356002
+      },
+      "description": "The man in black walked to the right side of the screen and looked at the shelf."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2094,
+      "end_frame": 2190,
+      "start_time_sec": 69.8,
+      "end_time_sec": 73.0,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2094,
+        2103,
+        2111,
+        2120,
+        2129,
+        2138,
+        2146,
+        2155,
+        2164,
+        2173,
+        2181,
+        2190
+      ],
+      "score_stats": {
+        "mean": 0.259258,
+        "max": 0.45819
+      },
+      "description": "The man in black clothes walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_003_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_003_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2822,
+  "duration_sec": 94.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_003_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 176,
+    "aligned_to_num_frames": 2822,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 563,
+      "start_time_sec": 0.0,
+      "end_time_sec": 18.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        51,
+        102,
+        154,
+        205,
+        256,
+        307,
+        358,
+        409,
+        461,
+        512,
+        563
+      ],
+      "score_stats": {
+        "mean": 1.9e-05,
+        "max": 0.000731
+      },
+      "description": "The dog walked to the right side of the screen and then walked back to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 564,
+      "end_frame": 1127,
+      "start_time_sec": 18.8,
+      "end_time_sec": 37.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        564,
+        615,
+        666,
+        718,
+        769,
+        820,
+        871,
+        922,
+        973,
+        1025,
+        1076,
+        1127
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 2e-05
+      },
+      "description": "The dog walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1128,
+      "end_frame": 1692,
+      "start_time_sec": 37.6,
+      "end_time_sec": 56.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1128,
+        1179,
+        1231,
+        1282,
+        1333,
+        1384,
+        1436,
+        1487,
+        1538,
+        1589,
+        1641,
+        1692
+      ],
+      "score_stats": {
+        "mean": 7.2e-05,
+        "max": 0.000193
+      },
+      "description": "The dog walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1693,
+      "end_frame": 2256,
+      "start_time_sec": 56.433333,
+      "end_time_sec": 75.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1693,
+        1744,
+        1795,
+        1847,
+        1898,
+        1949,
+        2000,
+        2051,
+        2102,
+        2154,
+        2205,
+        2256
+      ],
+      "score_stats": {
+        "mean": 6.2e-05,
+        "max": 0.000117
+      },
+      "description": "The dog walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2257,
+      "end_frame": 2821,
+      "start_time_sec": 75.233333,
+      "end_time_sec": 94.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2257,
+        2308,
+        2360,
+        2411,
+        2462,
+        2513,
+        2565,
+        2616,
+        2667,
+        2718,
+        2770,
+        2821
+      ],
+      "score_stats": {
+        "mean": 0.001151,
+        "max": 0.032896
+      },
+      "description": "The dog walked to the right side of the screen and then walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion007_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion007_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 16289,
+  "duration_sec": 542.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion007_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 1018,
+    "aligned_to_num_frames": 16289,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 3256,
+      "start_time_sec": 0.0,
+      "end_time_sec": 108.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        296,
+        592,
+        888,
+        1184,
+        1480,
+        1776,
+        2072,
+        2368,
+        2664,
+        2960,
+        3256
+      ],
+      "score_stats": {
+        "mean": 0.768437,
+        "max": 0.99983
+      },
+      "description": "A person in dark clothing and a white hat is seen walking towards the camera, followed by a white car with a hose attached to it. the scene then shifts to a blurry image, possibly due to motion or low light conditions."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 3257,
+      "end_frame": 6514,
+      "start_time_sec": 108.566667,
+      "end_time_sec": 217.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3257,
+        3553,
+        3849,
+        4145,
+        4441,
+        4737,
+        5034,
+        5330,
+        5626,
+        5922,
+        6218,
+        6514
+      ],
+      "score_stats": {
+        "mean": 0.995102,
+        "max": 0.999819
+      },
+      "description": "A person in dark clothing walked out of the frame and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 6515,
+      "end_frame": 9772,
+      "start_time_sec": 217.166667,
+      "end_time_sec": 325.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6515,
+        6811,
+        7107,
+        7403,
+        7699,
+        7995,
+        8292,
+        8588,
+        8884,
+        9180,
+        9476,
+        9772
+      ],
+      "score_stats": {
+        "mean": 0.956429,
+        "max": 0.999107
+      },
+      "description": "A person in dark clothing walked out of the frame and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 9773,
+      "end_frame": 13030,
+      "start_time_sec": 325.766667,
+      "end_time_sec": 434.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        9773,
+        10069,
+        10365,
+        10661,
+        10957,
+        11253,
+        11550,
+        11846,
+        12142,
+        12438,
+        12734,
+        13030
+      ],
+      "score_stats": {
+        "mean": 0.976136,
+        "max": 0.999264
+      },
+      "description": "A person in white clothes walked to the right side of the screen and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 13031,
+      "end_frame": 16288,
+      "start_time_sec": 434.366667,
+      "end_time_sec": 542.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        13031,
+        13327,
+        13623,
+        13919,
+        14215,
+        14511,
+        14808,
+        15104,
+        15400,
+        15696,
+        15992,
+        16288
+      ],
+      "score_stats": {
+        "mean": 0.996537,
+        "max": 0.999649
+      },
+      "description": "A man in a white shirt and black pants walked out of the scene and walked to the right side of the screen."
+    }
+  ]
+}

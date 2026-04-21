@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion039_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion039_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 998,
+  "duration_sec": 33.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion039_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 62,
+    "aligned_to_num_frames": 998,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 198,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        18,
+        36,
+        54,
+        72,
+        90,
+        108,
+        126,
+        144,
+        162,
+        180,
+        198
+      ],
+      "score_stats": {
+        "mean": 0.849403,
+        "max": 0.996738
+      },
+      "description": "A green object appears on the screen, followed by a scene of a restaurant where people are eating and socializing."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 199,
+      "end_frame": 398,
+      "start_time_sec": 6.633333,
+      "end_time_sec": 13.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        199,
+        217,
+        235,
+        253,
+        271,
+        289,
+        308,
+        326,
+        344,
+        362,
+        380,
+        398
+      ],
+      "score_stats": {
+        "mean": 0.988861,
+        "max": 0.996714
+      },
+      "description": "A man in a blue shirt and pink cap is seen working at a counter in a restaurant, handling a white object."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 399,
+      "end_frame": 597,
+      "start_time_sec": 13.3,
+      "end_time_sec": 19.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        399,
+        417,
+        435,
+        453,
+        471,
+        489,
+        507,
+        525,
+        543,
+        561,
+        579,
+        597
+      ],
+      "score_stats": {
+        "mean": 0.965446,
+        "max": 0.984533
+      },
+      "description": "The man in the black shirt and pink hat is seen handling a white box on the counter, and then he walks to the counter and puts the box on the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 598,
+      "end_frame": 797,
+      "start_time_sec": 19.933333,
+      "end_time_sec": 26.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        598,
+        616,
+        634,
+        652,
+        670,
+        688,
+        707,
+        725,
+        743,
+        761,
+        779,
+        797
+      ],
+      "score_stats": {
+        "mean": 0.98187,
+        "max": 0.999632
+      },
+      "description": "A view of a kitchen area, showing various appliances and a counter. the scene then shifts to an indoor setting where people are seated at tables, eating and conversing."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 798,
+      "end_frame": 997,
+      "start_time_sec": 26.6,
+      "end_time_sec": 33.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        798,
+        816,
+        834,
+        852,
+        870,
+        888,
+        907,
+        925,
+        943,
+        961,
+        979,
+        997
+      ],
+      "score_stats": {
+        "mean": 0.997529,
+        "max": 0.999751
+      },
+      "description": "A group of people gathered around tables in a restaurant, with some individuals standing and others seated. the atmosphere appears to be lively, with people moving around and interacting with each other."
+    }
+  ]
+}

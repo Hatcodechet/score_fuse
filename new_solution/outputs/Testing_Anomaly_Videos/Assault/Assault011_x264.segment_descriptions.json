@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Assault/Assault011_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Assault/Assault011_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2288,
+  "duration_sec": 76.266667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Assault/Assault011_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 143,
+    "aligned_to_num_frames": 2288,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 272,
+      "end_frame": 399,
+      "start_time_sec": 9.066667,
+      "end_time_sec": 13.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        272,
+        284,
+        295,
+        307,
+        318,
+        330,
+        341,
+        353,
+        364,
+        376,
+        387,
+        399
+      ],
+      "score_stats": {
+        "mean": 0.806323,
+        "max": 0.820421
+      },
+      "description": "A man in blue clothes walked to the right side of the screen and then walked to the left side of the screen."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 800,
+      "end_frame": 1439,
+      "start_time_sec": 26.666667,
+      "end_time_sec": 47.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        800,
+        858,
+        916,
+        974,
+        1032,
+        1090,
+        1149,
+        1207,
+        1265,
+        1323,
+        1381,
+        1439
+      ],
+      "score_stats": {
+        "mean": 0.834717,
+        "max": 0.885203
+      },
+      "description": "A man in a green shirt walked to the right side of the screen and then walked back to the left side of the screen."
+    }
+  ]
+}

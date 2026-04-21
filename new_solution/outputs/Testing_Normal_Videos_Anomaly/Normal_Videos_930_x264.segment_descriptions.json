@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_930_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_930_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3187,
+  "duration_sec": 106.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_930_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 199,
+    "aligned_to_num_frames": 3187,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 636,
+      "start_time_sec": 0.0,
+      "end_time_sec": 21.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        58,
+        116,
+        173,
+        231,
+        289,
+        347,
+        405,
+        463,
+        520,
+        578,
+        636
+      ],
+      "score_stats": {
+        "mean": 3.5e-05,
+        "max": 0.00155
+      },
+      "description": "A man in a red shirt and black pants enters the room, and the man in the white shirt and black pants leaves the room."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 637,
+      "end_frame": 1273,
+      "start_time_sec": 21.233333,
+      "end_time_sec": 42.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        637,
+        695,
+        753,
+        810,
+        868,
+        926,
+        984,
+        1042,
+        1100,
+        1157,
+        1215,
+        1273
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 1e-06
+      },
+      "description": "A man in a red shirt is sitting at a desk in a store, looking at a computer monitor."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1274,
+      "end_frame": 1911,
+      "start_time_sec": 42.466667,
+      "end_time_sec": 63.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1274,
+        1332,
+        1390,
+        1448,
+        1506,
+        1564,
+        1621,
+        1679,
+        1737,
+        1795,
+        1853,
+        1911
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 2e-06
+      },
+      "description": "A man in a red shirt is sitting at a desk in a store, looking at a computer screen."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1912,
+      "end_frame": 2548,
+      "start_time_sec": 63.733333,
+      "end_time_sec": 84.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1912,
+        1970,
+        2028,
+        2085,
+        2143,
+        2201,
+        2259,
+        2317,
+        2375,
+        2432,
+        2490,
+        2548
+      ],
+      "score_stats": {
+        "mean": 3e-06,
+        "max": 3e-06
+      },
+      "description": "A man in a red shirt is sitting at a desk in a store, looking at a computer screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2549,
+      "end_frame": 3186,
+      "start_time_sec": 84.966667,
+      "end_time_sec": 106.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2549,
+        2607,
+        2665,
+        2723,
+        2781,
+        2839,
+        2896,
+        2954,
+        3012,
+        3070,
+        3128,
+        3186
+      ],
+      "score_stats": {
+        "mean": 2.5e-05,
+        "max": 0.000769
+      },
+      "description": "A man in a red shirt enters the room and walks to the right side of the screen."
+    }
+  ]
+}

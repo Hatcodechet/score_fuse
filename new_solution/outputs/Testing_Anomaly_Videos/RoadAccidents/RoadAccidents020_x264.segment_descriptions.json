@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents020_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents020_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1773,
+  "duration_sec": 59.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents020_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 110,
+    "aligned_to_num_frames": 1773,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 353,
+      "start_time_sec": 0.0,
+      "end_time_sec": 11.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        193,
+        225,
+        257,
+        289,
+        321,
+        353
+      ],
+      "score_stats": {
+        "mean": 0.724735,
+        "max": 0.826949
+      },
+      "description": "A man in white clothes and a helmet was riding a motorcycle on the road, and suddenly, a motorcycle appeared in front of him."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 354,
+      "end_frame": 708,
+      "start_time_sec": 11.8,
+      "end_time_sec": 23.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        354,
+        386,
+        418,
+        451,
+        483,
+        515,
+        547,
+        579,
+        611,
+        644,
+        676,
+        708
+      ],
+      "score_stats": {
+        "mean": 0.86972,
+        "max": 0.998085
+      },
+      "description": "A man in black clothes and a helmet is riding a motorcycle on the road. The road is busy with vehicles, including cars and trucks, and there are pedestrians walking on the sidewalk."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 709,
+      "end_frame": 1062,
+      "start_time_sec": 23.633333,
+      "end_time_sec": 35.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        709,
+        741,
+        773,
+        805,
+        837,
+        869,
+        902,
+        934,
+        966,
+        998,
+        1030,
+        1062
+      ],
+      "score_stats": {
+        "mean": 0.999597,
+        "max": 0.999854
+      },
+      "description": "A motorcycle was hit by a car, and the rider was injured."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1063,
+      "end_frame": 1417,
+      "start_time_sec": 35.433333,
+      "end_time_sec": 47.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1063,
+        1095,
+        1127,
+        1160,
+        1192,
+        1224,
+        1256,
+        1288,
+        1320,
+        1353,
+        1385,
+        1417
+      ],
+      "score_stats": {
+        "mean": 0.994471,
+        "max": 0.999378
+      },
+      "description": "A motorcycle is parked on the side of a road, and a person wearing a red shirt is standing nearby."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1418,
+      "end_frame": 1772,
+      "start_time_sec": 47.266667,
+      "end_time_sec": 59.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1418,
+        1450,
+        1482,
+        1515,
+        1547,
+        1579,
+        1611,
+        1643,
+        1675,
+        1708,
+        1740,
+        1772
+      ],
+      "score_stats": {
+        "mean": 0.967662,
+        "max": 0.989108
+      },
+      "description": "A group of people gathered around a motorcycle that has been knocked over on the road. the individuals appear to be concerned or concerned about the situation, with some standing close to the motorcycle and others moving around the area."
+    }
+  ]
+}

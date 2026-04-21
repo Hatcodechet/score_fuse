@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting020_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting020_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5770,
+  "duration_sec": 192.333333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting020_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 360,
+    "aligned_to_num_frames": 5770,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1153,
+      "start_time_sec": 0.0,
+      "end_time_sec": 38.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        105,
+        210,
+        314,
+        419,
+        524,
+        629,
+        734,
+        839,
+        943,
+        1048,
+        1153
+      ],
+      "score_stats": {
+        "mean": 0.959033,
+        "max": 0.993312
+      },
+      "description": "A woman in pink clothes and a man in orange clothes walked out of the store and walked to the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1154,
+      "end_frame": 2307,
+      "start_time_sec": 38.466667,
+      "end_time_sec": 76.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1154,
+        1259,
+        1364,
+        1468,
+        1573,
+        1678,
+        1783,
+        1888,
+        1993,
+        2097,
+        2202,
+        2307
+      ],
+      "score_stats": {
+        "mean": 0.935291,
+        "max": 0.997727
+      },
+      "description": "A man in a green shirt and black pants walked to the counter and took out a box from the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2308,
+      "end_frame": 3461,
+      "start_time_sec": 76.933333,
+      "end_time_sec": 115.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2308,
+        2413,
+        2518,
+        2622,
+        2727,
+        2832,
+        2937,
+        3042,
+        3147,
+        3251,
+        3356,
+        3461
+      ],
+      "score_stats": {
+        "mean": 0.975765,
+        "max": 0.998951
+      },
+      "description": "A man in a green shirt and a woman in a pink top walked out of the store and walked to the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3462,
+      "end_frame": 4615,
+      "start_time_sec": 115.4,
+      "end_time_sec": 153.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3462,
+        3567,
+        3672,
+        3776,
+        3881,
+        3986,
+        4091,
+        4196,
+        4301,
+        4405,
+        4510,
+        4615
+      ],
+      "score_stats": {
+        "mean": 0.938477,
+        "max": 0.990979
+      },
+      "description": "The man in green walked to the counter and took out a card from the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4616,
+      "end_frame": 5769,
+      "start_time_sec": 153.866667,
+      "end_time_sec": 192.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4616,
+        4721,
+        4826,
+        4930,
+        5035,
+        5140,
+        5245,
+        5350,
+        5455,
+        5559,
+        5664,
+        5769
+      ],
+      "score_stats": {
+        "mean": 0.96341,
+        "max": 0.980066
+      },
+      "description": "The woman in pink clothes walked to the counter and looked at the items on the counter."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_439_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_439_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4226,
+  "duration_sec": 140.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_439_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 264,
+    "aligned_to_num_frames": 4226,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 844,
+      "start_time_sec": 0.0,
+      "end_time_sec": 28.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        77,
+        153,
+        230,
+        307,
+        384,
+        460,
+        537,
+        614,
+        691,
+        767,
+        844
+      ],
+      "score_stats": {
+        "mean": 7.8e-05,
+        "max": 0.003246
+      },
+      "description": "The woman in red and white clothes is talking to the man in black clothes."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 845,
+      "end_frame": 1689,
+      "start_time_sec": 28.166667,
+      "end_time_sec": 56.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        845,
+        922,
+        998,
+        1075,
+        1152,
+        1229,
+        1305,
+        1382,
+        1459,
+        1536,
+        1612,
+        1689
+      ],
+      "score_stats": {
+        "mean": 0.000177,
+        "max": 0.001375
+      },
+      "description": "The man in the red shirt and black pants walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1690,
+      "end_frame": 2534,
+      "start_time_sec": 56.333333,
+      "end_time_sec": 84.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1690,
+        1767,
+        1843,
+        1920,
+        1997,
+        2074,
+        2150,
+        2227,
+        2304,
+        2381,
+        2457,
+        2534
+      ],
+      "score_stats": {
+        "mean": 0.001755,
+        "max": 0.010898
+      },
+      "description": "The man in the green uniform walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2535,
+      "end_frame": 3379,
+      "start_time_sec": 84.5,
+      "end_time_sec": 112.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2535,
+        2612,
+        2688,
+        2765,
+        2842,
+        2919,
+        2995,
+        3072,
+        3149,
+        3226,
+        3302,
+        3379
+      ],
+      "score_stats": {
+        "mean": 0.003071,
+        "max": 0.010937
+      },
+      "description": "A woman in a white shirt and blue skirt walked to the counter and looked at the items on the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3380,
+      "end_frame": 4225,
+      "start_time_sec": 112.666667,
+      "end_time_sec": 140.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3380,
+        3457,
+        3534,
+        3610,
+        3687,
+        3764,
+        3841,
+        3918,
+        3995,
+        4071,
+        4148,
+        4225
+      ],
+      "score_stats": {
+        "mean": 0.001826,
+        "max": 0.048844
+      },
+      "description": "The man in black walked to the counter and looked at the items on the counter."
+    }
+  ]
+}

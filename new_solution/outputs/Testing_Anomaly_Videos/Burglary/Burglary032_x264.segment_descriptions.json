@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary032_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary032_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 15795,
+  "duration_sec": 526.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary032_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 987,
+    "aligned_to_num_frames": 15795,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 3158,
+      "start_time_sec": 0.0,
+      "end_time_sec": 105.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        287,
+        574,
+        861,
+        1148,
+        1435,
+        1723,
+        2010,
+        2297,
+        2584,
+        2871,
+        3158
+      ],
+      "score_stats": {
+        "mean": 0.975317,
+        "max": 0.99875
+      },
+      "description": "The man in white clothes walked to the right side of the room and walked to the left side of the room."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 3159,
+      "end_frame": 6317,
+      "start_time_sec": 105.3,
+      "end_time_sec": 210.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3159,
+        3446,
+        3733,
+        4020,
+        4307,
+        4594,
+        4882,
+        5169,
+        5456,
+        5743,
+        6030,
+        6317
+      ],
+      "score_stats": {
+        "mean": 0.988414,
+        "max": 0.999505
+      },
+      "description": "The man in white clothes walked to the right side of the room and walked to the left side of the room."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 6318,
+      "end_frame": 9476,
+      "start_time_sec": 210.6,
+      "end_time_sec": 315.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6318,
+        6605,
+        6892,
+        7179,
+        7466,
+        7753,
+        8041,
+        8328,
+        8615,
+        8902,
+        9189,
+        9476
+      ],
+      "score_stats": {
+        "mean": 0.975922,
+        "max": 0.997179
+      },
+      "description": "The man in white clothes walked to the right side of the room and walked to the left side of the room."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 9477,
+      "end_frame": 12635,
+      "start_time_sec": 315.9,
+      "end_time_sec": 421.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        9477,
+        9764,
+        10051,
+        10338,
+        10625,
+        10912,
+        11200,
+        11487,
+        11774,
+        12061,
+        12348,
+        12635
+      ],
+      "score_stats": {
+        "mean": 0.98669,
+        "max": 0.999459
+      },
+      "description": "The man in the white shirt walked to the right side of the room and walked to the left side of the room."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 12636,
+      "end_frame": 15794,
+      "start_time_sec": 421.2,
+      "end_time_sec": 526.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        12636,
+        12923,
+        13210,
+        13497,
+        13784,
+        14071,
+        14359,
+        14646,
+        14933,
+        15220,
+        15507,
+        15794
+      ],
+      "score_stats": {
+        "mean": 0.965182,
+        "max": 0.998641
+      },
+      "description": "The man in white walked to the left side of the room and walked to the right side of the room."
+    }
+  ]
+}

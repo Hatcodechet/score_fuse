@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Robbery/Robbery137_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Robbery/Robbery137_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2193,
+  "duration_sec": 73.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Robbery/Robbery137_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 137,
+    "aligned_to_num_frames": 2193,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 437,
+      "start_time_sec": 0.0,
+      "end_time_sec": 14.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        40,
+        79,
+        119,
+        159,
+        199,
+        238,
+        278,
+        318,
+        358,
+        397,
+        437
+      ],
+      "score_stats": {
+        "mean": 0.964552,
+        "max": 0.987834
+      },
+      "description": "The man in black clothes walked to the counter and looked at the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 438,
+      "end_frame": 876,
+      "start_time_sec": 14.6,
+      "end_time_sec": 29.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        438,
+        478,
+        518,
+        557,
+        597,
+        637,
+        677,
+        717,
+        757,
+        796,
+        836,
+        876
+      ],
+      "score_stats": {
+        "mean": 0.998376,
+        "max": 0.999742
+      },
+      "description": "The man in black clothes walked to the counter and put the bag on the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 877,
+      "end_frame": 1314,
+      "start_time_sec": 29.233333,
+      "end_time_sec": 43.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        877,
+        917,
+        956,
+        996,
+        1036,
+        1076,
+        1115,
+        1155,
+        1195,
+        1235,
+        1274,
+        1314
+      ],
+      "score_stats": {
+        "mean": 0.999168,
+        "max": 0.99994
+      },
+      "description": "The man in black clothes took out a black bag from the counter and put it on the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1315,
+      "end_frame": 1753,
+      "start_time_sec": 43.833333,
+      "end_time_sec": 58.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1315,
+        1355,
+        1395,
+        1434,
+        1474,
+        1514,
+        1554,
+        1594,
+        1634,
+        1673,
+        1713,
+        1753
+      ],
+      "score_stats": {
+        "mean": 0.999928,
+        "max": 0.999962
+      },
+      "description": "The man in black put the money in his pocket and walked to the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1754,
+      "end_frame": 2192,
+      "start_time_sec": 58.466667,
+      "end_time_sec": 73.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1754,
+        1794,
+        1834,
+        1873,
+        1913,
+        1953,
+        1993,
+        2033,
+        2073,
+        2112,
+        2152,
+        2192
+      ],
+      "score_stats": {
+        "mean": 0.531396,
+        "max": 0.999642
+      },
+      "description": "The man in black walked to the counter and took out a box of cigarettes."
+    }
+  ]
+}

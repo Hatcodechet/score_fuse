@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Robbery/Robbery048_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Robbery/Robbery048_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1409,
+  "duration_sec": 46.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Robbery/Robbery048_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 88,
+    "aligned_to_num_frames": 1409,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 280,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        25,
+        51,
+        76,
+        102,
+        127,
+        153,
+        178,
+        204,
+        229,
+        255,
+        280
+      ],
+      "score_stats": {
+        "mean": 0.912835,
+        "max": 0.936731
+      },
+      "description": "The man in the red and white striped shirt walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 281,
+      "end_frame": 562,
+      "start_time_sec": 9.366667,
+      "end_time_sec": 18.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        281,
+        307,
+        332,
+        358,
+        383,
+        409,
+        434,
+        460,
+        485,
+        511,
+        536,
+        562
+      ],
+      "score_stats": {
+        "mean": 0.986879,
+        "max": 0.999879
+      },
+      "description": "The man in the red and white striped shirt walked to the door and opened it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 563,
+      "end_frame": 844,
+      "start_time_sec": 18.766667,
+      "end_time_sec": 28.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        563,
+        589,
+        614,
+        640,
+        665,
+        691,
+        716,
+        742,
+        767,
+        793,
+        818,
+        844
+      ],
+      "score_stats": {
+        "mean": 0.999717,
+        "max": 0.999887
+      },
+      "description": "The man in the red and white striped shirt walked to the door and opened it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 845,
+      "end_frame": 1126,
+      "start_time_sec": 28.166667,
+      "end_time_sec": 37.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        845,
+        871,
+        896,
+        922,
+        947,
+        973,
+        998,
+        1024,
+        1049,
+        1075,
+        1100,
+        1126
+      ],
+      "score_stats": {
+        "mean": 0.999241,
+        "max": 0.999576
+      },
+      "description": "The man in the striped shirt walked to the door and opened it, and the man in the white shirt came out of the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1127,
+      "end_frame": 1408,
+      "start_time_sec": 37.566667,
+      "end_time_sec": 46.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1127,
+        1153,
+        1178,
+        1204,
+        1229,
+        1255,
+        1280,
+        1306,
+        1331,
+        1357,
+        1382,
+        1408
+      ],
+      "score_stats": {
+        "mean": 0.988962,
+        "max": 0.998162
+      },
+      "description": "The man in the white shirt walked to the door and opened it."
+    }
+  ]
+}

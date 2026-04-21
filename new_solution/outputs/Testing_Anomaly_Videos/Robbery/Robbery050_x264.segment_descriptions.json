@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Robbery/Robbery050_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Robbery/Robbery050_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1701,
+  "duration_sec": 56.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Robbery/Robbery050_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 106,
+    "aligned_to_num_frames": 1701,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 497,
+      "end_frame": 978,
+      "start_time_sec": 16.566667,
+      "end_time_sec": 32.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        497,
+        541,
+        584,
+        628,
+        672,
+        716,
+        759,
+        803,
+        847,
+        891,
+        934,
+        978
+      ],
+      "score_stats": {
+        "mean": 0.06619,
+        "max": 0.10758
+      },
+      "description": "A white car parked on a brick driveway, with two men standing beside it. one man is wearing a red shirt and black pants, while the other is dressed in a blue shirt and black pants. they appear to be engaged in a conversation or interaction with the car."
+    }
+  ]
+}

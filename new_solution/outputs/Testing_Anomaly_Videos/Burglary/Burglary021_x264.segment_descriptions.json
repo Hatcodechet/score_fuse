@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary021_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary021_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1537,
+  "duration_sec": 51.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary021_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 96,
+    "aligned_to_num_frames": 1537,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 306,
+      "start_time_sec": 0.0,
+      "end_time_sec": 10.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        28,
+        56,
+        83,
+        111,
+        139,
+        167,
+        195,
+        223,
+        250,
+        278,
+        306
+      ],
+      "score_stats": {
+        "mean": 0.994569,
+        "max": 0.998445
+      },
+      "description": "A white truck with a red tail light and a logo on the side is seen driving into a garage. the truck is parked and the driver is getting out of the vehicle."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 307,
+      "end_frame": 613,
+      "start_time_sec": 10.233333,
+      "end_time_sec": 20.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        307,
+        335,
+        363,
+        390,
+        418,
+        446,
+        474,
+        502,
+        530,
+        557,
+        585,
+        613
+      ],
+      "score_stats": {
+        "mean": 0.997359,
+        "max": 0.998595
+      },
+      "description": "The truck is parked in the garage, and the driver is opening the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 614,
+      "end_frame": 921,
+      "start_time_sec": 20.466667,
+      "end_time_sec": 30.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        614,
+        642,
+        670,
+        698,
+        726,
+        754,
+        781,
+        809,
+        837,
+        865,
+        893,
+        921
+      ],
+      "score_stats": {
+        "mean": 0.998016,
+        "max": 0.998966
+      },
+      "description": "A man in a white shirt and black pants entered the truck and opened the door."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 922,
+      "end_frame": 1228,
+      "start_time_sec": 30.733333,
+      "end_time_sec": 40.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        922,
+        950,
+        978,
+        1005,
+        1033,
+        1061,
+        1089,
+        1117,
+        1145,
+        1172,
+        1200,
+        1228
+      ],
+      "score_stats": {
+        "mean": 0.999112,
+        "max": 0.999349
+      },
+      "description": "The man in the white shirt and black pants took the motorcycle and left the room."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1229,
+      "end_frame": 1536,
+      "start_time_sec": 40.966667,
+      "end_time_sec": 51.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1229,
+        1257,
+        1285,
+        1313,
+        1341,
+        1369,
+        1396,
+        1424,
+        1452,
+        1480,
+        1508,
+        1536
+      ],
+      "score_stats": {
+        "mean": 0.996825,
+        "max": 0.999335
+      },
+      "description": "The man in the suit walked to the motorcycle and opened the door."
+    }
+  ]
+}

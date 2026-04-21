@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents125_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents125_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1771,
+  "duration_sec": 59.033333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents125_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 110,
+    "aligned_to_num_frames": 1771,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 450,
+      "end_frame": 676,
+      "start_time_sec": 15.0,
+      "end_time_sec": 22.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        450,
+        471,
+        491,
+        512,
+        532,
+        553,
+        573,
+        594,
+        614,
+        635,
+        655,
+        676
+      ],
+      "score_stats": {
+        "mean": 0.444892,
+        "max": 0.716214
+      },
+      "description": "A car driving on the road, suddenly crashes into a large object on the side of the road, causing a large cloud of dust to rise."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1642,
+      "end_frame": 1770,
+      "start_time_sec": 54.733333,
+      "end_time_sec": 59.0,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1642,
+        1654,
+        1665,
+        1677,
+        1689,
+        1700,
+        1712,
+        1723,
+        1735,
+        1747,
+        1758,
+        1770
+      ],
+      "score_stats": {
+        "mean": 0.486199,
+        "max": 0.795205
+      },
+      "description": "A car driving on the road, passing by a construction site with a large cylindrical object on the road."
+    }
+  ]
+}

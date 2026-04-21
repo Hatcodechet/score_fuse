@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson010_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson010_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3159,
+  "duration_sec": 105.3,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson010_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 197,
+    "aligned_to_num_frames": 3159,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 630,
+      "start_time_sec": 0.0,
+      "end_time_sec": 21.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        57,
+        115,
+        172,
+        229,
+        286,
+        344,
+        401,
+        458,
+        515,
+        573,
+        630
+      ],
+      "score_stats": {
+        "mean": 0.787123,
+        "max": 0.989624
+      },
+      "description": "A police car with the word \"police\" on its side, followed by a black screen displaying the location and date of an incident. the scene then shifts to a nighttime street where a white van is parked, and a person in dark clothing is seen walking towards the van."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 631,
+      "end_frame": 1262,
+      "start_time_sec": 21.033333,
+      "end_time_sec": 42.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        631,
+        688,
+        746,
+        803,
+        860,
+        918,
+        975,
+        1033,
+        1090,
+        1147,
+        1205,
+        1262
+      ],
+      "score_stats": {
+        "mean": 0.982271,
+        "max": 0.996718
+      },
+      "description": "A man in black clothes and a helmet walked to the white car and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1263,
+      "end_frame": 1894,
+      "start_time_sec": 42.1,
+      "end_time_sec": 63.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1263,
+        1320,
+        1378,
+        1435,
+        1492,
+        1550,
+        1607,
+        1665,
+        1722,
+        1779,
+        1837,
+        1894
+      ],
+      "score_stats": {
+        "mean": 0.724878,
+        "max": 0.970833
+      },
+      "description": "A white van and a white car parked on the side of a road at night. a person wearing a helmet and a dark jacket is seen walking towards the van, and another person wearing a helmet and a dark jacket is seen running away from the camera."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1895,
+      "end_frame": 2526,
+      "start_time_sec": 63.166667,
+      "end_time_sec": 84.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1895,
+        1952,
+        2010,
+        2067,
+        2124,
+        2182,
+        2239,
+        2297,
+        2354,
+        2411,
+        2469,
+        2526
+      ],
+      "score_stats": {
+        "mean": 0.9836,
+        "max": 0.990115
+      },
+      "description": "A man in black clothes and a helmet walked to the white van and opened the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2527,
+      "end_frame": 3158,
+      "start_time_sec": 84.233333,
+      "end_time_sec": 105.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2527,
+        2584,
+        2642,
+        2699,
+        2756,
+        2814,
+        2871,
+        2929,
+        2986,
+        3043,
+        3101,
+        3158
+      ],
+      "score_stats": {
+        "mean": 0.712802,
+        "max": 0.966273
+      },
+      "description": "A white van and a white car parked on the side of a road at night. the van has its headlights on, and the car is stationary. the scene then shifts to a different location where a person is seen walking on a dimly lit path."
+    }
+  ]
+}

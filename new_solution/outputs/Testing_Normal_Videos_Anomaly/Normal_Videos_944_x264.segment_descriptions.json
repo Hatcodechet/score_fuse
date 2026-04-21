@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_944_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_944_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 7170,
+  "duration_sec": 239.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_944_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 448,
+    "aligned_to_num_frames": 7170,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1433,
+      "start_time_sec": 0.0,
+      "end_time_sec": 47.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        130,
+        261,
+        391,
+        521,
+        651,
+        782,
+        912,
+        1042,
+        1172,
+        1303,
+        1433
+      ],
+      "score_stats": {
+        "mean": 1.4e-05,
+        "max": 0.001473
+      },
+      "description": "A group of people in a conference room, engaged in conversations and activities. the room is well-lit with overhead lighting, and there are various pieces of equipment and displays visible in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1434,
+      "end_frame": 2867,
+      "start_time_sec": 47.8,
+      "end_time_sec": 95.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1434,
+        1564,
+        1695,
+        1825,
+        1955,
+        2085,
+        2216,
+        2346,
+        2476,
+        2606,
+        2737,
+        2867
+      ],
+      "score_stats": {
+        "mean": 0.0,
+        "max": 1e-06
+      },
+      "description": "A group of people in a conference room, engaged in conversations and activities. the room is well-lit with overhead lighting, and there are various pieces of equipment and displays visible in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2868,
+      "end_frame": 4301,
+      "start_time_sec": 95.6,
+      "end_time_sec": 143.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2868,
+        2998,
+        3129,
+        3259,
+        3389,
+        3519,
+        3650,
+        3780,
+        3910,
+        4040,
+        4171,
+        4301
+      ],
+      "score_stats": {
+        "mean": 1.2e-05,
+        "max": 0.000509
+      },
+      "description": "A group of people seated around a table in an indoor setting, possibly at an exhibition or conference. the individuals are engaged in conversation, with some looking at their phones or the table. the room has a modern design with white walls and a red accent."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4302,
+      "end_frame": 5735,
+      "start_time_sec": 143.4,
+      "end_time_sec": 191.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4302,
+        4432,
+        4563,
+        4693,
+        4823,
+        4953,
+        5084,
+        5214,
+        5344,
+        5474,
+        5605,
+        5735
+      ],
+      "score_stats": {
+        "mean": 9e-06,
+        "max": 3.3e-05
+      },
+      "description": "A group of people seated around a table in an indoor setting, possibly at an exhibition or conference. the individuals are engaged in conversation, with one person gesturing with their hands while speaking. the room has a modern design with white walls and a red accent."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 5736,
+      "end_frame": 7169,
+      "start_time_sec": 191.2,
+      "end_time_sec": 238.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5736,
+        5866,
+        5997,
+        6127,
+        6257,
+        6387,
+        6518,
+        6648,
+        6778,
+        6908,
+        7039,
+        7169
+      ],
+      "score_stats": {
+        "mean": 0.002936,
+        "max": 0.237938
+      },
+      "description": "A man in a white shirt and glasses is talking to a woman in a grey top and black skirt. The man is gesturing with his hands while speaking, and the woman appears to be listening attentively."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_902_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_902_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1384,
+  "duration_sec": 46.133333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_902_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 86,
+    "aligned_to_num_frames": 1384,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1239,
+      "end_frame": 1383,
+      "start_time_sec": 41.3,
+      "end_time_sec": 46.1,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1239,
+        1252,
+        1265,
+        1278,
+        1291,
+        1304,
+        1318,
+        1331,
+        1344,
+        1357,
+        1370,
+        1383
+      ],
+      "score_stats": {
+        "mean": 0.14311,
+        "max": 0.253554
+      },
+      "description": "A large green garbage truck with a blue and white sign on its side, driving on a road with other vehicles and a gas station in the background."
+    }
+  ]
+}

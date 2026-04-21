@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_884_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_884_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 9029,
+  "duration_sec": 300.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_884_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 564,
+    "aligned_to_num_frames": 9029,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 992,
+      "end_frame": 2497,
+      "start_time_sec": 33.066667,
+      "end_time_sec": 83.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        992,
+        1129,
+        1266,
+        1402,
+        1539,
+        1676,
+        1813,
+        1950,
+        2087,
+        2223,
+        2360,
+        2497
+      ],
+      "score_stats": {
+        "mean": 0.818052,
+        "max": 0.955845
+      },
+      "description": "The man in blue clothes walked to the counter and took out a box of candy."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2593,
+      "end_frame": 2881,
+      "start_time_sec": 86.433333,
+      "end_time_sec": 96.033333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2593,
+        2619,
+        2645,
+        2672,
+        2698,
+        2724,
+        2750,
+        2776,
+        2802,
+        2829,
+        2855,
+        2881
+      ],
+      "score_stats": {
+        "mean": 0.635634,
+        "max": 0.738116
+      },
+      "description": "The woman in black clothes walked to the counter and took out a box of flowers from the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3489,
+      "end_frame": 3778,
+      "start_time_sec": 116.3,
+      "end_time_sec": 125.933333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        3489,
+        3515,
+        3542,
+        3568,
+        3594,
+        3620,
+        3647,
+        3673,
+        3699,
+        3725,
+        3752,
+        3778
+      ],
+      "score_stats": {
+        "mean": 0.670404,
+        "max": 0.83238
+      },
+      "description": "The woman in the black coat walked to the counter and took out a box of flowers."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4818,
+      "end_frame": 5298,
+      "start_time_sec": 160.6,
+      "end_time_sec": 176.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4818,
+        4862,
+        4905,
+        4949,
+        4993,
+        5036,
+        5080,
+        5123,
+        5167,
+        5211,
+        5254,
+        5298
+      ],
+      "score_stats": {
+        "mean": 0.678054,
+        "max": 0.755604
+      },
+      "description": "The woman in the blue shirt walked to the counter and took out a box of flowers from the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 8900,
+      "end_frame": 9028,
+      "start_time_sec": 296.666667,
+      "end_time_sec": 300.933333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        8900,
+        8912,
+        8923,
+        8935,
+        8947,
+        8958,
+        8970,
+        8981,
+        8993,
+        9005,
+        9016,
+        9028
+      ],
+      "score_stats": {
+        "mean": 0.603507,
+        "max": 0.737855
+      },
+      "description": "The man in black clothes walked to the right side of the screen and walked out of the screen."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arrest/Arrest024_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arrest/Arrest024_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3629,
+  "duration_sec": 120.966667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arrest/Arrest024_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 226,
+    "aligned_to_num_frames": 3629,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 724,
+      "start_time_sec": 0.0,
+      "end_time_sec": 24.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        66,
+        132,
+        197,
+        263,
+        329,
+        395,
+        461,
+        527,
+        592,
+        658,
+        724
+      ],
+      "score_stats": {
+        "mean": 0.998636,
+        "max": 0.999972
+      },
+      "description": "A busy street with multiple lanes of traffic, including cars and a motorcycle. the weather appears to be overcast, and the street is wet, suggesting recent rain."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 725,
+      "end_frame": 1450,
+      "start_time_sec": 24.166667,
+      "end_time_sec": 48.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        725,
+        791,
+        857,
+        923,
+        989,
+        1055,
+        1120,
+        1186,
+        1252,
+        1318,
+        1384,
+        1450
+      ],
+      "score_stats": {
+        "mean": 0.999751,
+        "max": 0.99992
+      },
+      "description": "A white car driving on a road, suddenly veering off the road and crashing into a barrier. the car's front end is damaged, and the driver is visible inside."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1451,
+      "end_frame": 2176,
+      "start_time_sec": 48.366667,
+      "end_time_sec": 72.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1451,
+        1517,
+        1583,
+        1649,
+        1715,
+        1781,
+        1846,
+        1912,
+        1978,
+        2044,
+        2110,
+        2176
+      ],
+      "score_stats": {
+        "mean": 0.999913,
+        "max": 0.99997
+      },
+      "description": "A white car with its doors open is seen on the side of a road, surrounded by other vehicles. a person wearing dark clothing is seen running towards the car, seemingly attempting to assist or intervene."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2177,
+      "end_frame": 2902,
+      "start_time_sec": 72.566667,
+      "end_time_sec": 96.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2177,
+        2243,
+        2309,
+        2375,
+        2441,
+        2507,
+        2572,
+        2638,
+        2704,
+        2770,
+        2836,
+        2902
+      ],
+      "score_stats": {
+        "mean": 0.999975,
+        "max": 0.999996
+      },
+      "description": "A white car is overturned on the road, and a person is seen standing nearby."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2903,
+      "end_frame": 3628,
+      "start_time_sec": 96.766667,
+      "end_time_sec": 120.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2903,
+        2969,
+        3035,
+        3101,
+        3167,
+        3233,
+        3298,
+        3364,
+        3430,
+        3496,
+        3562,
+        3628
+      ],
+      "score_stats": {
+        "mean": 0.999975,
+        "max": 0.999995
+      },
+      "description": "A white car with its front end crushed and the hood open, lying on the road. there are several other vehicles nearby, including a black car and a white car with its front end damaged. people are seen walking around the scene, some of whom appear to be inspecting the wreckage."
+    }
+  ]
+}

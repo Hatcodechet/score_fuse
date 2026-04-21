@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_890_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_890_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3579,
+  "duration_sec": 119.3,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_890_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 223,
+    "aligned_to_num_frames": 3579,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 714,
+      "start_time_sec": 0.0,
+      "end_time_sec": 23.8,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        65,
+        130,
+        195,
+        260,
+        325,
+        389,
+        454,
+        519,
+        584,
+        649,
+        714
+      ],
+      "score_stats": {
+        "mean": 0.00192,
+        "max": 0.034655
+      },
+      "description": "A bustling indoor setting, likely a trade show or exhibition, with various stalls and booths. people are seen walking around, browsing items, and interacting with vendors. the background includes a large banner with the text \"stretch lids\" and other text that is not clearly legible."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 715,
+      "end_frame": 1430,
+      "start_time_sec": 23.833333,
+      "end_time_sec": 47.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        715,
+        780,
+        845,
+        910,
+        975,
+        1040,
+        1105,
+        1170,
+        1235,
+        1300,
+        1365,
+        1430
+      ],
+      "score_stats": {
+        "mean": 0.001303,
+        "max": 0.002271
+      },
+      "description": "A person in a white shirt and black pants is seen walking towards the right side of the screen, while another person in a black shirt and blue jeans is standing near the center of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1431,
+      "end_frame": 2146,
+      "start_time_sec": 47.7,
+      "end_time_sec": 71.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1431,
+        1496,
+        1561,
+        1626,
+        1691,
+        1756,
+        1821,
+        1886,
+        1951,
+        2016,
+        2081,
+        2146
+      ],
+      "score_stats": {
+        "mean": 0.003232,
+        "max": 0.010293
+      },
+      "description": "A man in a white shirt and black pants is pushing a stroller with a child inside."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2147,
+      "end_frame": 2862,
+      "start_time_sec": 71.566667,
+      "end_time_sec": 95.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2147,
+        2212,
+        2277,
+        2342,
+        2407,
+        2472,
+        2537,
+        2602,
+        2667,
+        2732,
+        2797,
+        2862
+      ],
+      "score_stats": {
+        "mean": 0.00097,
+        "max": 0.001327
+      },
+      "description": "A person in a white shirt and black pants is seen walking towards the right side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2863,
+      "end_frame": 3578,
+      "start_time_sec": 95.433333,
+      "end_time_sec": 119.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2863,
+        2928,
+        2993,
+        3058,
+        3123,
+        3188,
+        3253,
+        3318,
+        3383,
+        3448,
+        3513,
+        3578
+      ],
+      "score_stats": {
+        "mean": 0.004252,
+        "max": 0.108031
+      },
+      "description": "A person in a white shirt and black pants walked to the right side of the screen, and then walked back to the left side of the screen."
+    }
+  ]
+}

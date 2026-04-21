@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents001_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents001_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1366,
+  "duration_sec": 45.533333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents001_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 85,
+    "aligned_to_num_frames": 1366,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 272,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.066667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        25,
+        49,
+        74,
+        99,
+        124,
+        148,
+        173,
+        198,
+        223,
+        247,
+        272
+      ],
+      "score_stats": {
+        "mean": 0.980496,
+        "max": 0.994584
+      },
+      "description": "A person in black clothes is seen running away from the camera, and a car is seen driving away from the camera."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 273,
+      "end_frame": 545,
+      "start_time_sec": 9.1,
+      "end_time_sec": 18.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        273,
+        298,
+        322,
+        347,
+        372,
+        397,
+        421,
+        446,
+        471,
+        496,
+        520,
+        545
+      ],
+      "score_stats": {
+        "mean": 0.997252,
+        "max": 0.997858
+      },
+      "description": "A person in blue clothes is seen running away from the camera, and a black car is parked on the road in the background."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 546,
+      "end_frame": 818,
+      "start_time_sec": 18.2,
+      "end_time_sec": 27.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        546,
+        571,
+        595,
+        620,
+        645,
+        670,
+        694,
+        719,
+        744,
+        769,
+        793,
+        818
+      ],
+      "score_stats": {
+        "mean": 0.998735,
+        "max": 0.999445
+      },
+      "description": "The man in blue clothes walked to the bottom of the stairs and walked to the bottom of the stairs."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 819,
+      "end_frame": 1091,
+      "start_time_sec": 27.3,
+      "end_time_sec": 36.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        819,
+        844,
+        868,
+        893,
+        918,
+        943,
+        967,
+        992,
+        1017,
+        1042,
+        1066,
+        1091
+      ],
+      "score_stats": {
+        "mean": 0.999712,
+        "max": 0.999896
+      },
+      "description": "The man in blue clothes walked to the bottom of the screen and walked to the bottom of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1092,
+      "end_frame": 1365,
+      "start_time_sec": 36.4,
+      "end_time_sec": 45.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1092,
+        1117,
+        1142,
+        1166,
+        1191,
+        1216,
+        1241,
+        1266,
+        1291,
+        1315,
+        1340,
+        1365
+      ],
+      "score_stats": {
+        "mean": 0.999693,
+        "max": 0.999924
+      },
+      "description": "The man in black clothes walked to the bottom of the stairs and walked to the bottom of the stairs."
+    }
+  ]
+}

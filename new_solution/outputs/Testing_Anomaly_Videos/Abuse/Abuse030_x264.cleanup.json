@@ -1,0 +1,168 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Abuse/Abuse030_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Abuse/Abuse030_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1544,
+  "duration_sec": 51.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Abuse/Abuse030_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 96,
+    "aligned_to_num_frames": 1544,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 307,
+      "start_time_sec": 0.0,
+      "end_time_sec": 10.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        28,
+        56,
+        84,
+        112,
+        140,
+        167,
+        195,
+        223,
+        251,
+        279,
+        307
+      ],
+      "score_stats": {
+        "mean": 0.996809,
+        "max": 0.999452
+      },
+      "description": "A white van drives past the camera, and a black dog runs across the road.",
+      "cleaned_description": "A white"
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 308,
+      "end_frame": 616,
+      "start_time_sec": 10.266667,
+      "end_time_sec": 20.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        308,
+        336,
+        364,
+        392,
+        420,
+        448,
+        476,
+        504,
+        532,
+        560,
+        588,
+        616
+      ],
+      "score_stats": {
+        "mean": 0.999319,
+        "max": 0.999614
+      },
+      "description": "A white van drives past the camera, and a person wearing a black jacket walks towards the camera.",
+      "cleaned_description": "A person walks"
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 617,
+      "end_frame": 925,
+      "start_time_sec": 20.566667,
+      "end_time_sec": 30.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        617,
+        645,
+        673,
+        701,
+        729,
+        757,
+        785,
+        813,
+        841,
+        869,
+        897,
+        925
+      ],
+      "score_stats": {
+        "mean": 0.979662,
+        "max": 0.997341
+      },
+      "description": "A white van drives past the camera, and a person wearing a blue shirt walks towards the camera.",
+      "cleaned_description": "A person wearing"
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 926,
+      "end_frame": 1234,
+      "start_time_sec": 30.866667,
+      "end_time_sec": 41.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        926,
+        954,
+        982,
+        1010,
+        1038,
+        1066,
+        1094,
+        1122,
+        1150,
+        1178,
+        1206,
+        1234
+      ],
+      "score_stats": {
+        "mean": 0.991938,
+        "max": 0.999318
+      },
+      "description": "A white van drives past the camera, and a person wearing a blue jacket walks out of the frame.",
+      "cleaned_description": "A"
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1235,
+      "end_frame": 1543,
+      "start_time_sec": 41.166667,
+      "end_time_sec": 51.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1235,
+        1263,
+        1291,
+        1319,
+        1347,
+        1375,
+        1403,
+        1431,
+        1459,
+        1487,
+        1515,
+        1543
+      ],
+      "score_stats": {
+        "mean": 0.994925,
+        "max": 0.999367
+      },
+      "description": "A person in dark clothing walked out from the bottom of the screen and walked to the right side of the screen.",
+      "cleaned_description": "A person in"
+    }
+  ],
+  "cleaned_descriptions": [
+    "A white",
+    "A person walks",
+    "A person wearing",
+    "A",
+    "A person in"
+  ]
+}

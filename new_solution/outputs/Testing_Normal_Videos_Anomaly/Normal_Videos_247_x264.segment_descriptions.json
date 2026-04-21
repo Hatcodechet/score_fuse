@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_247_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_247_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8211,
+  "duration_sec": 273.7,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_247_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 513,
+    "aligned_to_num_frames": 8211,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1641,
+      "start_time_sec": 0.0,
+      "end_time_sec": 54.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        149,
+        298,
+        448,
+        597,
+        746,
+        895,
+        1044,
+        1193,
+        1343,
+        1492,
+        1641
+      ],
+      "score_stats": {
+        "mean": 0.000126,
+        "max": 0.003606
+      },
+      "description": "The man in blue clothes took out a box of cigarettes and put it on the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1642,
+      "end_frame": 3283,
+      "start_time_sec": 54.733333,
+      "end_time_sec": 109.433333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1642,
+        1791,
+        1940,
+        2090,
+        2239,
+        2388,
+        2537,
+        2686,
+        2835,
+        2985,
+        3134,
+        3283
+      ],
+      "score_stats": {
+        "mean": 6.4e-05,
+        "max": 0.000659
+      },
+      "description": "The man in blue walked to the counter and put the money in the drawer."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 3284,
+      "end_frame": 4925,
+      "start_time_sec": 109.466667,
+      "end_time_sec": 164.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3284,
+        3433,
+        3582,
+        3732,
+        3881,
+        4030,
+        4179,
+        4328,
+        4477,
+        4627,
+        4776,
+        4925
+      ],
+      "score_stats": {
+        "mean": 0.000326,
+        "max": 0.004518
+      },
+      "description": "The man in blue walked to the counter and took out a box of cigarettes."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 4926,
+      "end_frame": 6567,
+      "start_time_sec": 164.2,
+      "end_time_sec": 218.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4926,
+        5075,
+        5224,
+        5374,
+        5523,
+        5672,
+        5821,
+        5970,
+        6119,
+        6269,
+        6418,
+        6567
+      ],
+      "score_stats": {
+        "mean": 0.000274,
+        "max": 0.001464
+      },
+      "description": "The man in the blue shirt is talking to the man in the yellow vest."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 6568,
+      "end_frame": 8210,
+      "start_time_sec": 218.933333,
+      "end_time_sec": 273.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        6568,
+        6717,
+        6867,
+        7016,
+        7165,
+        7314,
+        7464,
+        7613,
+        7762,
+        7911,
+        8061,
+        8210
+      ],
+      "score_stats": {
+        "mean": 0.000559,
+        "max": 0.012409
+      },
+      "description": "The man in blue walked to the counter and took out a box of candy."
+    }
+  ]
+}

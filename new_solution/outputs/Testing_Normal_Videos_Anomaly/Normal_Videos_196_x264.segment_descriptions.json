@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_196_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_196_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2004,
+  "duration_sec": 66.8,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_196_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 125,
+    "aligned_to_num_frames": 2004,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 399,
+      "start_time_sec": 0.0,
+      "end_time_sec": 13.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        36,
+        73,
+        109,
+        145,
+        181,
+        218,
+        254,
+        290,
+        326,
+        363,
+        399
+      ],
+      "score_stats": {
+        "mean": 0.000217,
+        "max": 0.004568
+      },
+      "description": "The man in the red shirt walked to the table and sat down."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 800,
+      "start_time_sec": 13.333333,
+      "end_time_sec": 26.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        400,
+        436,
+        473,
+        509,
+        545,
+        582,
+        618,
+        655,
+        691,
+        727,
+        764,
+        800
+      ],
+      "score_stats": {
+        "mean": 4.3e-05,
+        "max": 9.4e-05
+      },
+      "description": "The man in the white shirt walked to the table and looked at the documents on the table."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 801,
+      "end_frame": 1201,
+      "start_time_sec": 26.7,
+      "end_time_sec": 40.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        801,
+        837,
+        874,
+        910,
+        946,
+        983,
+        1019,
+        1056,
+        1092,
+        1128,
+        1165,
+        1201
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 1e-06
+      },
+      "description": "The man in the red shirt walked to the right side of the table and looked at the table."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1202,
+      "end_frame": 1602,
+      "start_time_sec": 40.066667,
+      "end_time_sec": 53.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1202,
+        1238,
+        1275,
+        1311,
+        1347,
+        1384,
+        1420,
+        1457,
+        1493,
+        1529,
+        1566,
+        1602
+      ],
+      "score_stats": {
+        "mean": 1e-06,
+        "max": 1e-06
+      },
+      "description": "The man in the black shirt walked to the right side of the screen and walked to the right side of the screen."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1603,
+      "end_frame": 2003,
+      "start_time_sec": 53.433333,
+      "end_time_sec": 66.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1603,
+        1639,
+        1676,
+        1712,
+        1748,
+        1785,
+        1821,
+        1858,
+        1894,
+        1930,
+        1967,
+        2003
+      ],
+      "score_stats": {
+        "mean": 1.6e-05,
+        "max": 0.00037
+      },
+      "description": "The man in the black shirt walked to the right side of the screen and walked to the left side of the screen."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion029_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion029_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2410,
+  "duration_sec": 80.333333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion029_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 150,
+    "aligned_to_num_frames": 2410,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 48,
+      "end_frame": 337,
+      "start_time_sec": 1.6,
+      "end_time_sec": 11.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        48,
+        74,
+        101,
+        127,
+        153,
+        179,
+        206,
+        232,
+        258,
+        284,
+        311,
+        337
+      ],
+      "score_stats": {
+        "mean": 0.983975,
+        "max": 0.994192
+      },
+      "description": "A person in white clothes is seen opening the trunk of a black car, and then the car is driven away."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1510,
+      "end_frame": 1767,
+      "start_time_sec": 50.333333,
+      "end_time_sec": 58.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1510,
+        1533,
+        1557,
+        1580,
+        1603,
+        1627,
+        1650,
+        1674,
+        1697,
+        1720,
+        1744,
+        1767
+      ],
+      "score_stats": {
+        "mean": 0.982615,
+        "max": 0.989398
+      },
+      "description": "The man in black clothes is seen opening the door of the car and then getting into the car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1944,
+      "end_frame": 2072,
+      "start_time_sec": 64.8,
+      "end_time_sec": 69.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1944,
+        1956,
+        1967,
+        1979,
+        1991,
+        2002,
+        2014,
+        2025,
+        2037,
+        2049,
+        2060,
+        2072
+      ],
+      "score_stats": {
+        "mean": 0.979927,
+        "max": 0.982043
+      },
+      "description": "A person in a white shirt and dark pants is seen walking towards a vehicle that is on fire. the individual appears to be attempting to extinguish the fire with a fire extinguisher."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2136,
+      "end_frame": 2409,
+      "start_time_sec": 71.2,
+      "end_time_sec": 80.3,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2136,
+        2161,
+        2186,
+        2210,
+        2235,
+        2260,
+        2285,
+        2310,
+        2335,
+        2359,
+        2384,
+        2409
+      ],
+      "score_stats": {
+        "mean": 0.987896,
+        "max": 0.995735
+      },
+      "description": "The woman in white clothes walked to the right side of the screen and then walked to the left side of the screen."
+    }
+  ]
+}

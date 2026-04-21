@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Fighting/Fighting018_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Fighting/Fighting018_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1389,
+  "duration_sec": 46.3,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Fighting/Fighting018_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 86,
+    "aligned_to_num_frames": 1389,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 276,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        25,
+        50,
+        75,
+        100,
+        125,
+        151,
+        176,
+        201,
+        226,
+        251,
+        276
+      ],
+      "score_stats": {
+        "mean": 0.996597,
+        "max": 0.999976
+      },
+      "description": "A person in a white shirt and dark pants walking through a corridor, followed by another individual in a black shirt and dark pants. the corridor is dimly lit with fluorescent lights, and there are other people visible in the background."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 277,
+      "end_frame": 554,
+      "start_time_sec": 9.233333,
+      "end_time_sec": 18.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        277,
+        302,
+        327,
+        353,
+        378,
+        403,
+        428,
+        453,
+        478,
+        504,
+        529,
+        554
+      ],
+      "score_stats": {
+        "mean": 0.99998,
+        "max": 0.999993
+      },
+      "description": "A man in white clothes and a woman in a white dress walked out of the door and walked to the left side of the screen."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 555,
+      "end_frame": 832,
+      "start_time_sec": 18.5,
+      "end_time_sec": 27.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        555,
+        580,
+        605,
+        631,
+        656,
+        681,
+        706,
+        731,
+        756,
+        782,
+        807,
+        832
+      ],
+      "score_stats": {
+        "mean": 0.999907,
+        "max": 0.999947
+      },
+      "description": "A person lying on the ground in a dimly lit corridor, with other individuals walking past them."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 833,
+      "end_frame": 1110,
+      "start_time_sec": 27.766667,
+      "end_time_sec": 37.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        833,
+        858,
+        883,
+        909,
+        934,
+        959,
+        984,
+        1009,
+        1034,
+        1060,
+        1085,
+        1110
+      ],
+      "score_stats": {
+        "mean": 0.999484,
+        "max": 0.999943
+      },
+      "description": "A man in black clothes lying on the ground in a dimly lit corridor, with a woman walking past him. the man appears to be injured or unconscious, and the woman seems to be concerned about him."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1111,
+      "end_frame": 1388,
+      "start_time_sec": 37.033333,
+      "end_time_sec": 46.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1111,
+        1136,
+        1161,
+        1187,
+        1212,
+        1237,
+        1262,
+        1287,
+        1312,
+        1338,
+        1363,
+        1388
+      ],
+      "score_stats": {
+        "mean": 0.953124,
+        "max": 0.995813
+      },
+      "description": "A black screen with the word \"subscribe\" in red neon letters. it then transitions to a black screen with the text \"mixed martial arts\" in yellow neon letters. the scene shifts to a white screen with a black and white illustration of two individuals engaged in a martial arts fight. the text \"martial arts\" is displayed in yellow neon letters."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting037_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting037_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 305,
+  "duration_sec": 10.166667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting037_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 19,
+    "aligned_to_num_frames": 305,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 100,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        9,
+        18,
+        27,
+        36,
+        45,
+        55,
+        64,
+        73,
+        82,
+        91,
+        100
+      ],
+      "score_stats": {
+        "mean": 0.975984,
+        "max": 0.991949
+      },
+      "description": "A car driving on a road, with its headlights on, and another car following behind."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 101,
+      "end_frame": 202,
+      "start_time_sec": 3.366667,
+      "end_time_sec": 6.733333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        101,
+        110,
+        119,
+        129,
+        138,
+        147,
+        156,
+        165,
+        174,
+        184,
+        193,
+        202
+      ],
+      "score_stats": {
+        "mean": 0.99311,
+        "max": 0.993792
+      },
+      "description": "The two cars are driving in the same direction, and the driver of the black car turns left and drives past the black car."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 203,
+      "end_frame": 304,
+      "start_time_sec": 6.766667,
+      "end_time_sec": 10.133333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        203,
+        212,
+        221,
+        231,
+        240,
+        249,
+        258,
+        267,
+        276,
+        286,
+        295,
+        304
+      ],
+      "score_stats": {
+        "mean": 0.974673,
+        "max": 0.991339
+      },
+      "description": "A black car with its front end facing the camera, followed by a black car with its rear end facing the camera."
+    }
+  ]
+}

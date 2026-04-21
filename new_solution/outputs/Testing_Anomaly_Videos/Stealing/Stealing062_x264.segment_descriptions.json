@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Stealing/Stealing062_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Stealing/Stealing062_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1560,
+  "duration_sec": 52.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Stealing/Stealing062_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 97,
+    "aligned_to_num_frames": 1560,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 311,
+      "start_time_sec": 0.0,
+      "end_time_sec": 10.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        28,
+        57,
+        85,
+        113,
+        141,
+        170,
+        198,
+        226,
+        254,
+        283,
+        311
+      ],
+      "score_stats": {
+        "mean": 0.964037,
+        "max": 0.985728
+      },
+      "description": "A man in blue walked to the white car and opened the door."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 312,
+      "end_frame": 623,
+      "start_time_sec": 10.4,
+      "end_time_sec": 20.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        312,
+        340,
+        369,
+        397,
+        425,
+        453,
+        482,
+        510,
+        538,
+        566,
+        595,
+        623
+      ],
+      "score_stats": {
+        "mean": 0.993275,
+        "max": 0.997863
+      },
+      "description": "The man in purple clothes walked to the back of the white car and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 624,
+      "end_frame": 935,
+      "start_time_sec": 20.8,
+      "end_time_sec": 31.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        624,
+        652,
+        681,
+        709,
+        737,
+        765,
+        794,
+        822,
+        850,
+        878,
+        907,
+        935
+      ],
+      "score_stats": {
+        "mean": 0.998822,
+        "max": 0.999213
+      },
+      "description": "The man in purple clothes walked to the back of the white car and opened the door."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 936,
+      "end_frame": 1247,
+      "start_time_sec": 31.2,
+      "end_time_sec": 41.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        936,
+        964,
+        993,
+        1021,
+        1049,
+        1077,
+        1106,
+        1134,
+        1162,
+        1190,
+        1219,
+        1247
+      ],
+      "score_stats": {
+        "mean": 0.994371,
+        "max": 0.998536
+      },
+      "description": "A man in purple clothes walked to the back of the white car and opened the trunk."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1248,
+      "end_frame": 1559,
+      "start_time_sec": 41.6,
+      "end_time_sec": 51.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1248,
+        1276,
+        1305,
+        1333,
+        1361,
+        1389,
+        1418,
+        1446,
+        1474,
+        1502,
+        1531,
+        1559
+      ],
+      "score_stats": {
+        "mean": 0.960932,
+        "max": 0.989745
+      },
+      "description": "The man in purple clothes walked to the back of the white car and opened the door."
+    }
+  ]
+}

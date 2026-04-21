@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_603_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_603_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3277,
+  "duration_sec": 109.233333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_603_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 204,
+    "aligned_to_num_frames": 3277,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 3100,
+      "end_frame": 3276,
+      "start_time_sec": 103.333333,
+      "end_time_sec": 109.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        3100,
+        3116,
+        3132,
+        3148,
+        3164,
+        3180,
+        3196,
+        3212,
+        3228,
+        3244,
+        3260,
+        3276
+      ],
+      "score_stats": {
+        "mean": 0.004614,
+        "max": 0.00736
+      },
+      "description": "A white car drives into the gas station, and the camera captures the scene from a distance."
+    }
+  ]
+}

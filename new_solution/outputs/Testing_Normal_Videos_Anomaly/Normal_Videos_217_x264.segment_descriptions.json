@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_217_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_217_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1817,
+  "duration_sec": 60.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_217_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 113,
+    "aligned_to_num_frames": 1817,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 225,
+      "start_time_sec": 0.0,
+      "end_time_sec": 7.5,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        20,
+        41,
+        61,
+        82,
+        102,
+        123,
+        143,
+        164,
+        184,
+        205,
+        225
+      ],
+      "score_stats": {
+        "mean": 0.132208,
+        "max": 0.190118
+      },
+      "description": "A man in a white hat and black pants walked to the gas station, and a woman in a light-colored coat and dark pants walked to the gas station."
+    }
+  ]
+}

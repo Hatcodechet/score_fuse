@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion025_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion025_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 505,
+  "duration_sec": 16.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion025_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 31,
+    "aligned_to_num_frames": 505,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 81,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.7,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        37,
+        44,
+        52,
+        59,
+        66,
+        74,
+        81
+      ],
+      "score_stats": {
+        "mean": 0.000969,
+        "max": 0.004809
+      },
+      "description": "The man in black clothes walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 423,
+      "end_frame": 504,
+      "start_time_sec": 14.1,
+      "end_time_sec": 16.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        423,
+        430,
+        438,
+        445,
+        452,
+        460,
+        467,
+        475,
+        482,
+        489,
+        497,
+        504
+      ],
+      "score_stats": {
+        "mean": 0.001521,
+        "max": 0.003151
+      },
+      "description": "A black and white image of a building's exterior, showing a sign that reads \"the windmill.\" the scene transitions to a black screen, and then returns to the original image."
+    }
+  ]
+}

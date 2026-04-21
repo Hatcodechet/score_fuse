@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting011_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting011_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4003,
+  "duration_sec": 133.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting011_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 250,
+    "aligned_to_num_frames": 4003,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 799,
+      "start_time_sec": 0.0,
+      "end_time_sec": 26.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        73,
+        145,
+        218,
+        291,
+        363,
+        436,
+        508,
+        581,
+        654,
+        726,
+        799
+      ],
+      "score_stats": {
+        "mean": 0.989737,
+        "max": 0.999745
+      },
+      "description": "The man in white clothes and helmet walked to the door and opened it."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 800,
+      "end_frame": 1600,
+      "start_time_sec": 26.666667,
+      "end_time_sec": 53.333333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        800,
+        873,
+        945,
+        1018,
+        1091,
+        1164,
+        1236,
+        1309,
+        1382,
+        1455,
+        1527,
+        1600
+      ],
+      "score_stats": {
+        "mean": 0.99943,
+        "max": 0.999767
+      },
+      "description": "The man in black clothes and the man in white clothes are engaged in a physical altercation, with the man in black clothes throwing a punch at the man in white clothes."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1601,
+      "end_frame": 2400,
+      "start_time_sec": 53.366667,
+      "end_time_sec": 80.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1601,
+        1674,
+        1746,
+        1819,
+        1892,
+        1964,
+        2037,
+        2109,
+        2182,
+        2255,
+        2327,
+        2400
+      ],
+      "score_stats": {
+        "mean": 0.999622,
+        "max": 0.999979
+      },
+      "description": "A man in a blue shirt and black pants walked into the room, and a man in a black shirt and black pants walked out of the room."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2401,
+      "end_frame": 3201,
+      "start_time_sec": 80.033333,
+      "end_time_sec": 106.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2401,
+        2474,
+        2546,
+        2619,
+        2692,
+        2765,
+        2837,
+        2910,
+        2983,
+        3056,
+        3128,
+        3201
+      ],
+      "score_stats": {
+        "mean": 0.999966,
+        "max": 0.999981
+      },
+      "description": "A man in a white shirt and cap was lying on the floor, and a man in a blue shirt and cap was standing over him. The man in the white shirt was holding a gun and pointing it at the man in the blue shirt."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3202,
+      "end_frame": 4002,
+      "start_time_sec": 106.733333,
+      "end_time_sec": 133.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3202,
+        3275,
+        3347,
+        3420,
+        3493,
+        3566,
+        3638,
+        3711,
+        3784,
+        3857,
+        3929,
+        4002
+      ],
+      "score_stats": {
+        "mean": 0.999528,
+        "max": 0.999912
+      },
+      "description": "The man in blue clothes walked to the man in white clothes and took out a gun."
+    }
+  ]
+}

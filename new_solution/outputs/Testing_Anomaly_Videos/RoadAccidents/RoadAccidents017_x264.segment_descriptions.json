@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents017_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents017_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 243,
+  "duration_sec": 8.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents017_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 15,
+    "aligned_to_num_frames": 243,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_sec": 0.0,
+      "end_time_sec": 2.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        7,
+        15,
+        22,
+        29,
+        36,
+        44,
+        51,
+        58,
+        65,
+        73,
+        80
+      ],
+      "score_stats": {
+        "mean": 0.102348,
+        "max": 0.171668
+      },
+      "description": "A group of people crossing the road, with one person in the center appearing to be in distress or falling."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 113,
+      "end_frame": 242,
+      "start_time_sec": 3.766667,
+      "end_time_sec": 8.066667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        113,
+        125,
+        136,
+        148,
+        160,
+        172,
+        183,
+        195,
+        207,
+        219,
+        230,
+        242
+      ],
+      "score_stats": {
+        "mean": 0.121192,
+        "max": 0.147386
+      },
+      "description": "A car driving on a road, with other vehicles and pedestrians visible in the background."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_801_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_801_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 2744,
+  "duration_sec": 91.466667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_801_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 171,
+    "aligned_to_num_frames": 2744,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 96,
+      "start_time_sec": 0.0,
+      "end_time_sec": 3.2,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        9,
+        17,
+        26,
+        35,
+        44,
+        52,
+        61,
+        70,
+        79,
+        87,
+        96
+      ],
+      "score_stats": {
+        "mean": 0.006321,
+        "max": 0.022777
+      },
+      "description": "The man in the brown shirt took the money from the woman in the blue shirt and put it in his pocket."
+    }
+  ]
+}

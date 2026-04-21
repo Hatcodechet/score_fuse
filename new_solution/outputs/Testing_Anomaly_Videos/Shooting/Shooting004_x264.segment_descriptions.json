@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting004_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting004_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1793,
+  "duration_sec": 59.766667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting004_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 112,
+    "aligned_to_num_frames": 1793,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 16,
+      "end_frame": 432,
+      "start_time_sec": 0.533333,
+      "end_time_sec": 14.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        16,
+        54,
+        92,
+        129,
+        167,
+        205,
+        243,
+        281,
+        319,
+        356,
+        394,
+        432
+      ],
+      "score_stats": {
+        "mean": 0.969552,
+        "max": 0.985362
+      },
+      "description": "A black screen with white text warning about the presence of violent acts in the video. the scene then shifts to an outdoor setting where a green car is seen driving on a road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 480,
+      "end_frame": 704,
+      "start_time_sec": 16.0,
+      "end_time_sec": 23.466667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        480,
+        500,
+        521,
+        541,
+        561,
+        582,
+        602,
+        623,
+        643,
+        663,
+        684,
+        704
+      ],
+      "score_stats": {
+        "mean": 0.961751,
+        "max": 0.966185
+      },
+      "description": "A man in a black shirt and purple pants running towards a green car on the road. the man appears to be in a hurry or trying to escape from something."
+    }
+  ]
+}

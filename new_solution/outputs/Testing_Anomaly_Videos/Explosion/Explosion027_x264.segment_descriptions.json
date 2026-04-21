@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Explosion/Explosion027_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Explosion/Explosion027_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 776,
+  "duration_sec": 25.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Explosion/Explosion027_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 48,
+    "aligned_to_num_frames": 776,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 258,
+      "end_frame": 436,
+      "start_time_sec": 8.6,
+      "end_time_sec": 14.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        258,
+        274,
+        290,
+        307,
+        323,
+        339,
+        355,
+        371,
+        387,
+        404,
+        420,
+        436
+      ],
+      "score_stats": {
+        "mean": 0.9302,
+        "max": 0.954392
+      },
+      "description": "The man in black clothes walked to the table and picked up the black box."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 533,
+      "end_frame": 743,
+      "start_time_sec": 17.766667,
+      "end_time_sec": 24.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        533,
+        552,
+        571,
+        590,
+        609,
+        628,
+        648,
+        667,
+        686,
+        705,
+        724,
+        743
+      ],
+      "score_stats": {
+        "mean": 0.932709,
+        "max": 0.952419
+      },
+      "description": "The man in black walked to the counter and took out a white paper from the counter."
+    }
+  ]
+}

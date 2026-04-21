@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson007_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson007_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 6252,
+  "duration_sec": 208.4,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson007_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 390,
+    "aligned_to_num_frames": 6252,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1249,
+      "start_time_sec": 0.0,
+      "end_time_sec": 41.633333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        114,
+        227,
+        341,
+        454,
+        568,
+        681,
+        795,
+        908,
+        1022,
+        1135,
+        1249
+      ],
+      "score_stats": {
+        "mean": 0.981795,
+        "max": 0.99873
+      },
+      "description": "A person is seen walking from the bottom of the screen towards the top, and then the camera shifts to show a street with lights and decorations."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1250,
+      "end_frame": 2499,
+      "start_time_sec": 41.666667,
+      "end_time_sec": 83.3,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1250,
+        1364,
+        1477,
+        1591,
+        1704,
+        1818,
+        1931,
+        2045,
+        2158,
+        2272,
+        2385,
+        2499
+      ],
+      "score_stats": {
+        "mean": 0.930353,
+        "max": 0.970796
+      },
+      "description": "The man in black clothes walked to the right of the road and walked to the right of the road."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2500,
+      "end_frame": 3750,
+      "start_time_sec": 83.333333,
+      "end_time_sec": 125.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2500,
+        2614,
+        2727,
+        2841,
+        2955,
+        3068,
+        3182,
+        3295,
+        3409,
+        3523,
+        3636,
+        3750
+      ],
+      "score_stats": {
+        "mean": 0.985256,
+        "max": 0.996663
+      },
+      "description": "A person in a white shirt and black pants walks out of the house and leaves the scene."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3751,
+      "end_frame": 5000,
+      "start_time_sec": 125.033333,
+      "end_time_sec": 166.666667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3751,
+        3865,
+        3978,
+        4092,
+        4205,
+        4319,
+        4432,
+        4546,
+        4659,
+        4773,
+        4886,
+        5000
+      ],
+      "score_stats": {
+        "mean": 0.715551,
+        "max": 0.902241
+      },
+      "description": "The man in white clothes walked to the front door and opened it."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 5001,
+      "end_frame": 6251,
+      "start_time_sec": 166.7,
+      "end_time_sec": 208.366667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        5001,
+        5115,
+        5228,
+        5342,
+        5456,
+        5569,
+        5683,
+        5796,
+        5910,
+        6024,
+        6137,
+        6251
+      ],
+      "score_stats": {
+        "mean": 0.592659,
+        "max": 0.99534
+      },
+      "description": "A person wearing a white shirt and black pants walked out of the house and walked to the front of the house."
+    }
+  ]
+}

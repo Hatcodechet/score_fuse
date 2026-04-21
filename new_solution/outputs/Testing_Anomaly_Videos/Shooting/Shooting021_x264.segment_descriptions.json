@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shooting/Shooting021_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shooting/Shooting021_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1275,
+  "duration_sec": 42.5,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shooting/Shooting021_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 79,
+    "aligned_to_num_frames": 1275,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 254,
+      "start_time_sec": 0.0,
+      "end_time_sec": 8.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        23,
+        46,
+        69,
+        92,
+        115,
+        139,
+        162,
+        185,
+        208,
+        231,
+        254
+      ],
+      "score_stats": {
+        "mean": 0.894633,
+        "max": 0.926233
+      },
+      "description": "A white car enters the garage from the right side, and the camera operator moves to the left side of the garage to follow the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 255,
+      "end_frame": 509,
+      "start_time_sec": 8.5,
+      "end_time_sec": 16.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        255,
+        278,
+        301,
+        324,
+        347,
+        370,
+        394,
+        417,
+        440,
+        463,
+        486,
+        509
+      ],
+      "score_stats": {
+        "mean": 0.94882,
+        "max": 0.996378
+      },
+      "description": "A white car parked in a garage, with a person wearing a green shirt and white pants approaching the car. the person appears to be opening the car door and then running away from the camera."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 510,
+      "end_frame": 764,
+      "start_time_sec": 17.0,
+      "end_time_sec": 25.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        510,
+        533,
+        556,
+        579,
+        602,
+        625,
+        649,
+        672,
+        695,
+        718,
+        741,
+        764
+      ],
+      "score_stats": {
+        "mean": 0.994832,
+        "max": 0.997278
+      },
+      "description": "The man in blue clothes took the white car and drove away."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 765,
+      "end_frame": 1019,
+      "start_time_sec": 25.5,
+      "end_time_sec": 33.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        765,
+        788,
+        811,
+        834,
+        857,
+        880,
+        904,
+        927,
+        950,
+        973,
+        996,
+        1019
+      ],
+      "score_stats": {
+        "mean": 0.988559,
+        "max": 0.99008
+      },
+      "description": "The man in blue clothes walked to the car and opened the door."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1020,
+      "end_frame": 1274,
+      "start_time_sec": 34.0,
+      "end_time_sec": 42.466667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1020,
+        1043,
+        1066,
+        1089,
+        1112,
+        1135,
+        1159,
+        1182,
+        1205,
+        1228,
+        1251,
+        1274
+      ],
+      "score_stats": {
+        "mean": 0.936429,
+        "max": 0.987141
+      },
+      "description": "The car is parked in the garage, and the camera is recording the event."
+    }
+  ]
+}

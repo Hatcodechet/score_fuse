@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary061_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary061_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 8990,
+  "duration_sec": 299.666667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary061_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 561,
+    "aligned_to_num_frames": 8990,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 4118,
+      "end_frame": 5320,
+      "start_time_sec": 137.266667,
+      "end_time_sec": 177.333333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4118,
+        4227,
+        4337,
+        4446,
+        4555,
+        4664,
+        4774,
+        4883,
+        4992,
+        5101,
+        5211,
+        5320
+      ],
+      "score_stats": {
+        "mean": 0.951276,
+        "max": 0.995141
+      },
+      "description": "The man in the blue shirt walked to the counter and took out a black bag from the counter."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 5352,
+      "end_frame": 5993,
+      "start_time_sec": 178.4,
+      "end_time_sec": 199.766667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5352,
+        5410,
+        5469,
+        5527,
+        5585,
+        5643,
+        5702,
+        5760,
+        5818,
+        5876,
+        5935,
+        5993
+      ],
+      "score_stats": {
+        "mean": 0.912432,
+        "max": 0.956531
+      },
+      "description": "The man in gray walked to the counter and took out a white paper from the counter."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 6025,
+      "end_frame": 6329,
+      "start_time_sec": 200.833333,
+      "end_time_sec": 210.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        6025,
+        6053,
+        6080,
+        6108,
+        6136,
+        6163,
+        6191,
+        6218,
+        6246,
+        6274,
+        6301,
+        6329
+      ],
+      "score_stats": {
+        "mean": 0.877803,
+        "max": 0.885808
+      },
+      "description": "The man in black clothes walked to the counter and took out a white paper and a black paper and put them on the counter."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 7275,
+      "end_frame": 7675,
+      "start_time_sec": 242.5,
+      "end_time_sec": 255.833333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        7275,
+        7311,
+        7348,
+        7384,
+        7420,
+        7457,
+        7493,
+        7530,
+        7566,
+        7602,
+        7639,
+        7675
+      ],
+      "score_stats": {
+        "mean": 0.879804,
+        "max": 0.890178
+      },
+      "description": "The man in black clothes walked to the counter and took out a white paper and a black paper and put them on the counter."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 7900,
+      "end_frame": 8092,
+      "start_time_sec": 263.333333,
+      "end_time_sec": 269.733333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        7900,
+        7917,
+        7935,
+        7952,
+        7970,
+        7987,
+        8005,
+        8022,
+        8040,
+        8057,
+        8075,
+        8092
+      ],
+      "score_stats": {
+        "mean": 0.876171,
+        "max": 0.889292
+      },
+      "description": "The man in black clothes walked to the counter and took out a white paper and a black paper."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/RoadAccidents/RoadAccidents122_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/RoadAccidents/RoadAccidents122_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 647,
+  "duration_sec": 21.566667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/RoadAccidents/RoadAccidents122_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 40,
+    "aligned_to_num_frames": 647,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 388,
+      "end_frame": 646,
+      "start_time_sec": 12.933333,
+      "end_time_sec": 21.533333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        388,
+        411,
+        435,
+        458,
+        482,
+        505,
+        529,
+        552,
+        576,
+        599,
+        623,
+        646
+      ],
+      "score_stats": {
+        "mean": 0.624487,
+        "max": 0.677439
+      },
+      "description": "The man in black clothes walked to the right side of the road and walked to the right side of the road."
+    }
+  ]
+}

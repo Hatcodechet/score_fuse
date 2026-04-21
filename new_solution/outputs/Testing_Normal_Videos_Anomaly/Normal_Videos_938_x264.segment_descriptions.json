@@ -1,0 +1,75 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_938_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_938_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4827,
+  "duration_sec": 160.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_938_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 301,
+    "aligned_to_num_frames": 4827,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 4041,
+      "end_frame": 4201,
+      "start_time_sec": 134.7,
+      "end_time_sec": 140.033333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4041,
+        4056,
+        4070,
+        4085,
+        4099,
+        4114,
+        4128,
+        4143,
+        4157,
+        4172,
+        4186,
+        4201
+      ],
+      "score_stats": {
+        "mean": 0.012456,
+        "max": 0.042215
+      },
+      "description": "A man in white clothes and a woman in white clothes walked to the counter and looked at the items on the shelf."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 4730,
+      "end_frame": 4826,
+      "start_time_sec": 157.666667,
+      "end_time_sec": 160.866667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4730,
+        4739,
+        4747,
+        4756,
+        4765,
+        4774,
+        4782,
+        4791,
+        4800,
+        4809,
+        4817,
+        4826
+      ],
+      "score_stats": {
+        "mean": 0.014417,
+        "max": 0.041219
+      },
+      "description": "The woman in white walked to the counter and talked to the man in white."
+    }
+  ]
+}

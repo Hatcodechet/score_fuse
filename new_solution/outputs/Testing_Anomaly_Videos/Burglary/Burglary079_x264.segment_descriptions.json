@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Burglary/Burglary079_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Burglary/Burglary079_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 14853,
+  "duration_sec": 495.1,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Burglary/Burglary079_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 928,
+    "aligned_to_num_frames": 14853,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 848,
+      "end_frame": 1008,
+      "start_time_sec": 28.266667,
+      "end_time_sec": 33.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        848,
+        863,
+        877,
+        892,
+        906,
+        921,
+        935,
+        950,
+        964,
+        979,
+        993,
+        1008
+      ],
+      "score_stats": {
+        "mean": 0.926239,
+        "max": 0.930933
+      },
+      "description": "The car turns left and drives away from the camera."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 5249,
+      "end_frame": 5489,
+      "start_time_sec": 174.966667,
+      "end_time_sec": 182.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5249,
+        5271,
+        5293,
+        5314,
+        5336,
+        5358,
+        5380,
+        5402,
+        5424,
+        5445,
+        5467,
+        5489
+      ],
+      "score_stats": {
+        "mean": 0.927419,
+        "max": 0.935595
+      },
+      "description": "The man in black clothes walked to the car and opened the trunk."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 5665,
+      "end_frame": 5937,
+      "start_time_sec": 188.833333,
+      "end_time_sec": 197.9,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        5665,
+        5690,
+        5714,
+        5739,
+        5764,
+        5789,
+        5813,
+        5838,
+        5863,
+        5888,
+        5912,
+        5937
+      ],
+      "score_stats": {
+        "mean": 0.933958,
+        "max": 0.958158
+      },
+      "description": "A man in dark clothing walked to the right side of the road and walked to the left side of the road."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 7554,
+      "end_frame": 10787,
+      "start_time_sec": 251.8,
+      "end_time_sec": 359.566667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        7554,
+        7848,
+        8142,
+        8436,
+        8730,
+        9024,
+        9317,
+        9611,
+        9905,
+        10199,
+        10493,
+        10787
+      ],
+      "score_stats": {
+        "mean": 0.991361,
+        "max": 0.999775
+      },
+      "description": "A group of people wearing dark clothing and hats gathered around a car parked on the side of a road. they appear to be engaged in some form of activity, possibly related to the car or the surrounding area."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 13268,
+      "end_frame": 13556,
+      "start_time_sec": 442.266667,
+      "end_time_sec": 451.866667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        13268,
+        13294,
+        13320,
+        13347,
+        13373,
+        13399,
+        13425,
+        13451,
+        13477,
+        13504,
+        13530,
+        13556
+      ],
+      "score_stats": {
+        "mean": 0.935648,
+        "max": 0.970341
+      },
+      "description": "A man in white clothes and a woman in a white dress walked out of the door and walked to the car."
+    }
+  ]
+}

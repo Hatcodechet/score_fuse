@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Vandalism/Vandalism028_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Vandalism/Vandalism028_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4495,
+  "duration_sec": 149.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Vandalism/Vandalism028_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 280,
+    "aligned_to_num_frames": 4495,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 1509,
+      "end_frame": 2263,
+      "start_time_sec": 50.3,
+      "end_time_sec": 75.433333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1509,
+        1578,
+        1646,
+        1715,
+        1783,
+        1852,
+        1920,
+        1989,
+        2057,
+        2126,
+        2194,
+        2263
+      ],
+      "score_stats": {
+        "mean": 0.929078,
+        "max": 0.986722
+      },
+      "description": "A person wearing a white shirt and black pants walked out of the door and walked to the car."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 2375,
+      "end_frame": 2857,
+      "start_time_sec": 79.166667,
+      "end_time_sec": 95.233333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        2375,
+        2419,
+        2463,
+        2506,
+        2550,
+        2594,
+        2638,
+        2682,
+        2726,
+        2769,
+        2813,
+        2857
+      ],
+      "score_stats": {
+        "mean": 0.904883,
+        "max": 0.969139
+      },
+      "description": "The man in white clothes walked to the car and opened the door."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 4382,
+      "end_frame": 4494,
+      "start_time_sec": 146.066667,
+      "end_time_sec": 149.8,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        4382,
+        4392,
+        4402,
+        4413,
+        4423,
+        4433,
+        4443,
+        4453,
+        4463,
+        4474,
+        4484,
+        4494
+      ],
+      "score_stats": {
+        "mean": 0.832982,
+        "max": 0.925382
+      },
+      "description": "The man in white clothes walked to the door and opened it."
+    }
+  ]
+}

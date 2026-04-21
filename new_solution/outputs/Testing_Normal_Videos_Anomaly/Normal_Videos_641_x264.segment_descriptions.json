@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_641_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_641_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 3600,
+  "duration_sec": 120.0,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_641_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 225,
+    "aligned_to_num_frames": 3600,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 3120,
+      "end_frame": 3359,
+      "start_time_sec": 104.0,
+      "end_time_sec": 111.966667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        3120,
+        3142,
+        3163,
+        3185,
+        3207,
+        3229,
+        3250,
+        3272,
+        3294,
+        3316,
+        3337,
+        3359
+      ],
+      "score_stats": {
+        "mean": 0.020382,
+        "max": 0.039358
+      },
+      "description": "A woman in black walked to the right side of the screen and then walked to the left side of the screen."
+    }
+  ]
+}

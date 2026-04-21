@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Stealing/Stealing079_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Stealing/Stealing079_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 5846,
+  "duration_sec": 194.866667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Stealing/Stealing079_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 365,
+    "aligned_to_num_frames": 5846,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1168,
+      "start_time_sec": 0.0,
+      "end_time_sec": 38.933333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        106,
+        212,
+        319,
+        425,
+        531,
+        637,
+        743,
+        849,
+        956,
+        1062,
+        1168
+      ],
+      "score_stats": {
+        "mean": 0.791996,
+        "max": 0.89761
+      },
+      "description": "A black motorcycle drives through the gate, and the camera pans to the left."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1169,
+      "end_frame": 2337,
+      "start_time_sec": 38.966667,
+      "end_time_sec": 77.9,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1169,
+        1275,
+        1381,
+        1488,
+        1594,
+        1700,
+        1806,
+        1912,
+        2018,
+        2125,
+        2231,
+        2337
+      ],
+      "score_stats": {
+        "mean": 0.779399,
+        "max": 0.927767
+      },
+      "description": "The man in white clothes walked to the gate and opened it."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2338,
+      "end_frame": 3506,
+      "start_time_sec": 77.933333,
+      "end_time_sec": 116.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2338,
+        2444,
+        2550,
+        2657,
+        2763,
+        2869,
+        2975,
+        3081,
+        3187,
+        3294,
+        3400,
+        3506
+      ],
+      "score_stats": {
+        "mean": 0.957901,
+        "max": 0.996365
+      },
+      "description": "A person wearing a helmet and a white shirt enters the gate and walks towards the camera."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3507,
+      "end_frame": 4675,
+      "start_time_sec": 116.9,
+      "end_time_sec": 155.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3507,
+        3613,
+        3719,
+        3826,
+        3932,
+        4038,
+        4144,
+        4250,
+        4356,
+        4463,
+        4569,
+        4675
+      ],
+      "score_stats": {
+        "mean": 0.994044,
+        "max": 0.999278
+      },
+      "description": "A man in white clothes and a helmet approaches the gate, opens it, and then leaves the scene."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4676,
+      "end_frame": 5845,
+      "start_time_sec": 155.866667,
+      "end_time_sec": 194.833333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        4676,
+        4782,
+        4889,
+        4995,
+        5101,
+        5207,
+        5314,
+        5420,
+        5526,
+        5632,
+        5739,
+        5845
+      ],
+      "score_stats": {
+        "mean": 0.996737,
+        "max": 0.999203
+      },
+      "description": "A man in white clothes and a helmet is seen pushing a black bicycle to the gate, then walks to the right side of the gate and opens it."
+    }
+  ]
+}

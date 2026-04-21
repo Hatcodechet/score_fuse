@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Arson/Arson035_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Arson/Arson035_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1437,
+  "duration_sec": 47.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Arson/Arson035_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 89,
+    "aligned_to_num_frames": 1437,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 286,
+      "start_time_sec": 0.0,
+      "end_time_sec": 9.533333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        26,
+        52,
+        78,
+        104,
+        130,
+        156,
+        182,
+        208,
+        234,
+        260,
+        286
+      ],
+      "score_stats": {
+        "mean": 0.514624,
+        "max": 0.867558
+      },
+      "description": "A black screen with the text \"live leak\" and the logo of \"greater manchester police\" in the upper left corner. it then transitions to a black screen with white text that reads \"arson\" and \"ashworth street\" followed by the date \"5th february 2014.\" the scene shifts to a nighttime street view with a white van driving down the road."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 287,
+      "end_frame": 573,
+      "start_time_sec": 9.566667,
+      "end_time_sec": 19.1,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        287,
+        313,
+        339,
+        365,
+        391,
+        417,
+        443,
+        469,
+        495,
+        521,
+        547,
+        573
+      ],
+      "score_stats": {
+        "mean": 0.977067,
+        "max": 0.997773
+      },
+      "description": "A man in a white shirt and black pants walked out of the door and walked to the roadside."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 574,
+      "end_frame": 861,
+      "start_time_sec": 19.133333,
+      "end_time_sec": 28.7,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        574,
+        600,
+        626,
+        652,
+        678,
+        704,
+        731,
+        757,
+        783,
+        809,
+        835,
+        861
+      ],
+      "score_stats": {
+        "mean": 0.998752,
+        "max": 0.99912
+      },
+      "description": "A white van drives down a street, and a man in a black jacket approaches the van. The van then drives away, and the man in the black jacket follows it."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 862,
+      "end_frame": 1148,
+      "start_time_sec": 28.733333,
+      "end_time_sec": 38.266667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        862,
+        888,
+        914,
+        940,
+        966,
+        992,
+        1018,
+        1044,
+        1070,
+        1096,
+        1122,
+        1148
+      ],
+      "score_stats": {
+        "mean": 0.998891,
+        "max": 0.999133
+      },
+      "description": "A black car drives past the camera, and a white car drives past the camera."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1149,
+      "end_frame": 1436,
+      "start_time_sec": 38.3,
+      "end_time_sec": 47.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1149,
+        1175,
+        1201,
+        1227,
+        1253,
+        1279,
+        1306,
+        1332,
+        1358,
+        1384,
+        1410,
+        1436
+      ],
+      "score_stats": {
+        "mean": 0.65916,
+        "max": 0.998092
+      },
+      "description": "A black car drives past the camera, and then a white car drives past."
+    }
+  ]
+}

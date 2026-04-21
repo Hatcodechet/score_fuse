@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Vandalism/Vandalism007_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Vandalism/Vandalism007_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1146,
+  "duration_sec": 38.2,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Vandalism/Vandalism007_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 71,
+    "aligned_to_num_frames": 1146,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 228,
+      "start_time_sec": 0.0,
+      "end_time_sec": 7.6,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        21,
+        41,
+        62,
+        83,
+        104,
+        124,
+        145,
+        166,
+        187,
+        207,
+        228
+      ],
+      "score_stats": {
+        "mean": 0.692987,
+        "max": 0.787401
+      },
+      "description": "A person in white clothes is seen walking across the road, and a car drives by."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 229,
+      "end_frame": 457,
+      "start_time_sec": 7.633333,
+      "end_time_sec": 15.233333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        229,
+        250,
+        270,
+        291,
+        312,
+        333,
+        353,
+        374,
+        395,
+        416,
+        436,
+        457
+      ],
+      "score_stats": {
+        "mean": 0.769816,
+        "max": 0.978775
+      },
+      "description": "A man in white clothes walked to the road and walked to the road"
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 458,
+      "end_frame": 686,
+      "start_time_sec": 15.266667,
+      "end_time_sec": 22.866667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        458,
+        479,
+        499,
+        520,
+        541,
+        562,
+        582,
+        603,
+        624,
+        645,
+        665,
+        686
+      ],
+      "score_stats": {
+        "mean": 0.99273,
+        "max": 0.99542
+      },
+      "description": "A man in a dark jacket walked out of the house and walked to the road"
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 687,
+      "end_frame": 915,
+      "start_time_sec": 22.9,
+      "end_time_sec": 30.5,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        687,
+        708,
+        728,
+        749,
+        770,
+        791,
+        811,
+        832,
+        853,
+        874,
+        894,
+        915
+      ],
+      "score_stats": {
+        "mean": 0.99565,
+        "max": 0.997903
+      },
+      "description": "A man in a black shirt and black pants walked out of the house and walked to the road"
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 916,
+      "end_frame": 1145,
+      "start_time_sec": 30.533333,
+      "end_time_sec": 38.166667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        916,
+        937,
+        958,
+        978,
+        999,
+        1020,
+        1041,
+        1062,
+        1083,
+        1103,
+        1124,
+        1145
+      ],
+      "score_stats": {
+        "mean": 0.998834,
+        "max": 0.999615
+      },
+      "description": "The man in the white shirt and black pants walked to the right side of the road and walked to the left side of the road."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "video_path": "/workspace/test/Testing_Anomaly_Videos/Shoplifting/Shoplifting016_x264.mp4",
+  "relative_video_path": "Testing_Anomaly_Videos/Shoplifting/Shoplifting016_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1483,
+  "duration_sec": 49.433333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Shoplifting/Shoplifting016_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 92,
+    "aligned_to_num_frames": 1483,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 193,
+      "start_time_sec": 0.0,
+      "end_time_sec": 6.433333,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        18,
+        35,
+        53,
+        70,
+        88,
+        105,
+        123,
+        140,
+        158,
+        175,
+        193
+      ],
+      "score_stats": {
+        "mean": 0.82947,
+        "max": 0.87539
+      },
+      "description": "The woman in the pink top and black skirt walked to the right side of the video and then turned around and walked back to the left side of the video."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 612,
+      "end_frame": 918,
+      "start_time_sec": 20.4,
+      "end_time_sec": 30.6,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        612,
+        640,
+        668,
+        695,
+        723,
+        751,
+        779,
+        807,
+        835,
+        862,
+        890,
+        918
+      ],
+      "score_stats": {
+        "mean": 0.839847,
+        "max": 0.868822
+      },
+      "description": "The woman in the pink dress walked to the left side of the room and then walked to the right side of the room."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1370,
+      "end_frame": 1482,
+      "start_time_sec": 45.666667,
+      "end_time_sec": 49.4,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        1370,
+        1380,
+        1390,
+        1401,
+        1411,
+        1421,
+        1431,
+        1441,
+        1451,
+        1462,
+        1472,
+        1482
+      ],
+      "score_stats": {
+        "mean": 0.841745,
+        "max": 0.958839
+      },
+      "description": "The man in black clothes walked to the right side of the room and left."
+    }
+  ]
+}

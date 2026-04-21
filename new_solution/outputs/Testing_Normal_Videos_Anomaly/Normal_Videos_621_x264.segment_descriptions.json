@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_621_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_621_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4802,
+  "duration_sec": 160.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_621_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 300,
+    "aligned_to_num_frames": 4802,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 959,
+      "start_time_sec": 0.0,
+      "end_time_sec": 31.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        87,
+        174,
+        262,
+        349,
+        436,
+        523,
+        610,
+        697,
+        785,
+        872,
+        959
+      ],
+      "score_stats": {
+        "mean": 0.000196,
+        "max": 0.009812
+      },
+      "description": "A man in a red shirt and black pants is seen pumping gas at a gas station."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 960,
+      "end_frame": 1919,
+      "start_time_sec": 32.0,
+      "end_time_sec": 63.966667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        960,
+        1047,
+        1134,
+        1222,
+        1309,
+        1396,
+        1483,
+        1570,
+        1657,
+        1745,
+        1832,
+        1919
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 1.6e-05
+      },
+      "description": "A man in a black shirt and jeans is seen pumping gas from a gas pump, with a silver car and a blue car parked nearby."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1920,
+      "end_frame": 2880,
+      "start_time_sec": 64.0,
+      "end_time_sec": 96.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1920,
+        2007,
+        2095,
+        2182,
+        2269,
+        2356,
+        2444,
+        2531,
+        2618,
+        2705,
+        2793,
+        2880
+      ],
+      "score_stats": {
+        "mean": 4e-06,
+        "max": 7e-06
+      },
+      "description": "A man in a black shirt and jeans is seen pumping gas from a gas pump. He is standing next to two cars, one black and one gray, and appears to be engaged in the process of filling up the cars."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2881,
+      "end_frame": 3840,
+      "start_time_sec": 96.033333,
+      "end_time_sec": 128.0,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2881,
+        2968,
+        3055,
+        3143,
+        3230,
+        3317,
+        3404,
+        3491,
+        3578,
+        3666,
+        3753,
+        3840
+      ],
+      "score_stats": {
+        "mean": 4e-06,
+        "max": 1.4e-05
+      },
+      "description": "A man in a black shirt and jeans is seen pumping gas from a blue pump to a black car."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3841,
+      "end_frame": 4801,
+      "start_time_sec": 128.033333,
+      "end_time_sec": 160.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3841,
+        3928,
+        4016,
+        4103,
+        4190,
+        4277,
+        4365,
+        4452,
+        4539,
+        4626,
+        4714,
+        4801
+      ],
+      "score_stats": {
+        "mean": 0.000252,
+        "max": 0.004842
+      },
+      "description": "A man in a purple shirt and blue jeans is seen pumping gas from a gas pump. The man then walks away from the pump, and the video ends."
+    }
+  ]
+}

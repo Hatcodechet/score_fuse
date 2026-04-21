@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_417_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_417_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1077,
+  "duration_sec": 35.9,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Normal_Videos_event/Normal_Videos_417_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 67,
+    "aligned_to_num_frames": 1077,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 321,
+      "end_frame": 530,
+      "start_time_sec": 10.7,
+      "end_time_sec": 17.666667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        321,
+        340,
+        359,
+        378,
+        397,
+        416,
+        435,
+        454,
+        473,
+        492,
+        511,
+        530
+      ],
+      "score_stats": {
+        "mean": 0.014862,
+        "max": 0.02866
+      },
+      "description": "A man in a light-colored shirt standing in front of a counter, interacting with a man wearing a dark jacket who is seated at a computer. the man in the light-colored shirt appears to be speaking or gesturing towards the man in the dark jacket, who is looking at the computer screen."
+    }
+  ]
+}

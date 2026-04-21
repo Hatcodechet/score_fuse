@@ -1,0 +1,156 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_027_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_027_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 4922,
+  "duration_sec": 164.066667,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_027_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 307,
+    "aligned_to_num_frames": 4922,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 983,
+      "start_time_sec": 0.0,
+      "end_time_sec": 32.766667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        0,
+        89,
+        179,
+        268,
+        357,
+        447,
+        536,
+        626,
+        715,
+        804,
+        894,
+        983
+      ],
+      "score_stats": {
+        "mean": 0.00027,
+        "max": 0.010962
+      },
+      "description": "The man in the blue hat walked to the left side of the room and walked to the right side of the room."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 984,
+      "end_frame": 1967,
+      "start_time_sec": 32.8,
+      "end_time_sec": 65.566667,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        984,
+        1073,
+        1163,
+        1252,
+        1341,
+        1431,
+        1520,
+        1610,
+        1699,
+        1788,
+        1878,
+        1967
+      ],
+      "score_stats": {
+        "mean": 7e-06,
+        "max": 1.2e-05
+      },
+      "description": "The man in white is sitting at the desk and typing on the computer."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1968,
+      "end_frame": 2952,
+      "start_time_sec": 65.6,
+      "end_time_sec": 98.4,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        1968,
+        2057,
+        2147,
+        2236,
+        2326,
+        2415,
+        2505,
+        2594,
+        2684,
+        2773,
+        2863,
+        2952
+      ],
+      "score_stats": {
+        "mean": 9e-06,
+        "max": 1.7e-05
+      },
+      "description": "The man in the white shirt is sitting at the desk and typing on the computer."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2953,
+      "end_frame": 3936,
+      "start_time_sec": 98.433333,
+      "end_time_sec": 131.2,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        2953,
+        3042,
+        3132,
+        3221,
+        3310,
+        3400,
+        3489,
+        3579,
+        3668,
+        3757,
+        3847,
+        3936
+      ],
+      "score_stats": {
+        "mean": 1.6e-05,
+        "max": 3.4e-05
+      },
+      "description": "The man in white clothes is sitting on the chair and typing on the computer."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3937,
+      "end_frame": 4921,
+      "start_time_sec": 131.233333,
+      "end_time_sec": 164.033333,
+      "segment_type": "uniform",
+      "sampled_frame_indices": [
+        3937,
+        4026,
+        4116,
+        4205,
+        4295,
+        4384,
+        4474,
+        4563,
+        4653,
+        4742,
+        4832,
+        4921
+      ],
+      "score_stats": {
+        "mean": 0.000298,
+        "max": 0.00618
+      },
+      "description": "The man in white clothes walked to the door and left."
+    }
+  ]
+}

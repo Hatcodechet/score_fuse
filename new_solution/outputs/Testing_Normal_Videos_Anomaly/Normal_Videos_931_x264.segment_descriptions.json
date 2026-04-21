@@ -1,0 +1,48 @@
+{
+  "video_path": "/workspace/test/Testing_Normal_Videos_Anomaly/Normal_Videos_931_x264.mp4",
+  "relative_video_path": "Testing_Normal_Videos_Anomaly/Normal_Videos_931_x264.mp4",
+  "fps": 30.0,
+  "num_frames": 1765,
+  "duration_sec": 58.833333,
+  "score_source": "checkpoint_feature_scorer",
+  "score_metadata": {
+    "checkpoint_path": "/workspace/model_ucf.pth",
+    "feature_path": "/workspace/UCFClipFeatures/Testing_Normal_Videos_Anomaly/Normal_Videos_931_x264__0.npy",
+    "feature_root": "/workspace/UCFClipFeatures"
+  },
+  "score_alignment": {
+    "original_score_length": 110,
+    "aligned_to_num_frames": 1765,
+    "resampled": true
+  },
+  "prompt": "Describe the key action happening in this short video segment.\nFocus on visible actions, interactions, and any unusual or suspicious behavior.\nBe concise, specific, and avoid hallucinating details that are not clearly visible.",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 128,
+      "start_time_sec": 0.0,
+      "end_time_sec": 4.266667,
+      "segment_type": "event",
+      "sampled_frame_indices": [
+        0,
+        12,
+        23,
+        35,
+        47,
+        58,
+        70,
+        81,
+        93,
+        105,
+        116,
+        128
+      ],
+      "score_stats": {
+        "mean": 0.099965,
+        "max": 0.191737
+      },
+      "description": "The man in red clothes walked to the gas station and walked to the gas station"
+    }
+  ]
+}
